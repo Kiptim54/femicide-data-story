@@ -1,6 +1,8 @@
 import "./App.css";
 import { Scrollama, Step } from "react-scrollama";
 import { ReactNode, useState } from "react";
+import BarChart from "./components/BarChart";
+import DataIntroduction from "./components/DataIntroduction";
 
 type TOnStepCallback = {
   element: ReactNode; // The DOM node of the step that was triggered
@@ -8,6 +10,18 @@ type TOnStepCallback = {
   direction: "up" | "down"; // 'up' or 'down'
   entry: IntersectionObserverEntry; // The IntersectionObserverEntry for the step
 };
+
+const components: { component: ReactNode }[] = [
+  {
+    component: <DataIntroduction />,
+  },
+  {
+    component: <BarChart />,
+  },
+  {
+    component: <DataIntroduction />,
+  },
+];
 function App() {
   const [currentStepIndex, setCurrentStepIndex] = useState<number | null>(null);
 
@@ -47,7 +61,7 @@ function App() {
       >
         {[1, 2, 3].map((step) => (
           <Step data={step} key={step}>
-            <div className={`h-screen flex justify-center items-center`}>
+            <div className={`min-h-screen flex justify-center items-center`}>
               <div
                 className={`bg-white p-16 text-black  w-3/4 m-auto md:w-[60%] rounded  ${
                   currentStepIndex === step
@@ -55,22 +69,7 @@ function App() {
                     : "opacity-20"
                 }`}
               >
-                <p className="text-lg">
-                  Beth Muthoni, a 41 year old woman, was found brutally murdered
-                  on January 18 2025 at Thiririka Shrine in Gatundu South,
-                  Kiambu. She had visited the facility for prayers.
-                  <br />
-                  <br />
-                  Beth Muthoni, a 41 year old woman, was found brutally murdered
-                  on January 18 2025 at Thiririka Shrine in Gatundu South,
-                  Kiambu. She had visited the facility for prayers. Beth
-                  Muthoni, a 41 year old woman, was found brutally murdered on
-                  January 18 2024 at Thiririka Shrine in Gatundu South, Kiambu.
-                  She had visited the facility for prayers.
-                  <br />
-                  <br />
-                  -Daily Nation (Link)
-                </p>
+                {components[step - 1].component}
               </div>
             </div>
           </Step>
