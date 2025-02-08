@@ -1,0 +1,660 @@
+name,Age,Location,Date of Murder,Suspect Relationship,Time to Verdict,source
+Margaret Kamanga,Unknown,Kanduyi Constituency,31-Jul-23,Husband,unknown,https://www.the-star.co.ke/news/2023-08-01-bungoma-church-leader-kills-wife-ditches-body-and-flees/
+Cynthia Chelagat,22,Nakuru County,19-Feb-18,Ex-boyfriend,Over 4 year(s),https://www.standardmedia.co.ke/article/2001270371/egerton-university-student-stabbed-by-boyfriend-over-alleged-love-triangle
+Nancy Wanza,19,Nairobi County,30-Dec-15,Boyfriend,unknown,https://nairobinews.nation.africa/umoja-teen-gangster-charged-murder-high-school-lover/
+Wanjiku Njambi,Unknown,Maragua Town,19-Aug-23,Husband,unknown,https://nation.africa/kenya/counties/muranga/maragua-man-arrested-on-suspicion-of-killing-wife-over-bhang-4343978
+Phylis Ngina Gachohi,Unknown,Kiambu County,27-Aug-23,Ex-husband,unknown,https://nairobinews.nation.africa/police-launch-manhunt-for-suspect-who-stabbed-his-ex-wife-to-death/
+Maureen,20,Nakuru,18-Jan-16,Stranger/Unknown Relationship,unknown,https://nairobinews.nation.africa/is-there-a-serial-killer-preying-on-nakuru-sex-workers/
+Unnamed,9,Unknown,14-May-23,Friend/Known to victim,unknown,https://www.k24tv.co.ke/news/man-arrested-for-defilement-and-murder-108314/
+Brenda Bosibori,17,Naivasha,2-Jul-23,Boyfriend,unknown,https://www.the-star.co.ke/news/realtime/2023-07-04-form-four-student-confesses-to-murder-of-17-year-old-girl-in-naivasha/
+Winfred Opha,Unknown,Imenti South,9-Jul-23,Boyfriend,unknown,https://nation.africa/kenya/counties/meru/party-ends-tragically-as-student-stabbed-to-death-by-jealous-boyfriend-4298576
+Charity Mukami,24,Nairobi County,22-Dec-15,Boyfriend,Over 4 year(s),https://www.standardmedia.co.ke/entertainment/county-nairobi/article/2000186672/man-accused-of-stabbing-girlfriend-in-nyayo-estate-could-have-been-secretly-married-to-another-woman
+Eunice Syokau,Unknown,Machakos County,22-Jul-23,boyfriend,unknown,http://www.the-star.co.ke/news/news/2023-07-27-man-arrested-for-stabbing-girlfriend-to-death-in-machakos
+AMM,Unknown,Nairobi County,9-Jun-15,husband,Over 7 year(s),http://www.the-star.co.ke/counties/counties/nairobi/2023-06-27-man-who-strangled-wife-for-hiv-infection-jailed-20-years
+Unnamed,Unknown,Kisumu County,24-Apr-23,Husband,unknown,http://www.the-star.co.ke/counties/counties/nyanza/2023-05-24-kisumu-man-arrested-for-killing-wife-after-domestic-quarrel
+Josephine Karimi,24,Embu.,29-Jun-23,Friend/Known to victim,unknown,https://nation.africa/kenya/counties/embu/police-probe-rape-in-gruesome-murder-of-woman-inside-embu-catholic-church-centre-4294566
+Rosemary Mugere,52,Kiambu,11-Jul-23,Stranger/Unknown Relationship,unknown,https://www.the-star.co.ke/news/2023-07-11-police-probe-rape-murder-of-bar-attendant-in-kiambu/
+Ann Njoki Irungu,37,Kirinyaga County,2-Jul-23,Husband,unknown,https://www.the-star.co.ke/counties/central/2023-07-04-kirinyaga-man-surrenders-to-police-after-killing-wife-over-beans/
+Unnamed,Unknown,Meru County,25-Mar-23,husband,unknown,http://www.the-star.co.ke/news/2023-03-26-pastor-kills-wife-and-son-5-before-escaping-to-meru
+Stacy Chemutai,Unknown,Uasin Gishu County,1-May-23,boyfriend,unknown,http://www.the-star.co.ke/counties/counties/rift-valley/2023-05-21-suspect-in-murder-of-varsity-student-in-eldoret-to-be-arraigned
+Unnamed,28,Nairobi County,5-Mar-23,Boyfriend,unknown,http://citizen.digital/news/police-officer-dies-by-suicide-after-shooting-killing-two-women-in-langata-n315551
+Yvonne Akinyi,20,Unknown,28-Jun-23,Stranger/Unknown Relationship,unknown,https://www.k24tv.co.ke/news/migori-police-investigating-murder-of-20-year-old-woman-107551/
+Milca Mwangi,48,Homa Bay County,19-Mar-23,husband,unknown,http://www.the-star.co.ke/counties/nyanza/2023-03-20-man-arrested-after-lover-dies-during-intercourse-in-mbita
+Millicent Ouma,26,Kisumu County,28-Nov-16,Husband,unknown,https://www.standardmedia.co.ke/article/2000225210/kisumu-man-kills-wife-and-hangs-himself-after-domestic-row
+Unnamed,28,Kisii County.,18-Jun-23,Husband,unknown,https://www.the-star.co.ke/news/realtime/2023-06-22-man-batters-wife-to-death-over-sh4000-shopping-money-in-kisii/
+Naneu Muthoni,31,Nairobi County,12-Nov-22,Boyfriend,unknown,http://www.the-star.co.ke/news/2023-01-03-in-courts-today-case-against-man-in-girlfriends-murder-starts
+Sarah Owino,Unknown,Siaya County,8-Sep-22,husband,Less than a year,http://www.the-star.co.ke/counties/nyanza/2023-01-09-fisherman-handed-three-years-probation-for-killing-wife
+Doreen,33,Unknown,30-May-23,Boyfriend,unknown,https://www.the-star.co.ke/counties/nairobi/2023-06-01-man-stabs-and-kills-girlfriend-during-fight-in-kamulu/
+Shauline Akot,Unknown,Kericho County.,7-Jun-23,Boyfriend,unknown,https://www.the-star.co.ke/news/realtime/2023-06-07-police-officer-kills-lover-turns-gun-on-self-in-kericho/
+Unnamed,Unknown,Kericho County,7-Jun-23,Boyfriend,unknown,https://nation.africa/kenya/counties/kericho/shock-as-policeman-kills-girlfriend-turns-gun-on-himself-4261616
+Alice Kamunde,68,Kisii County,28-Dec-22,husband,unknown,http://www.the-star.co.ke/news/realtime/2022-12-29-kisii-granny-68-butchered-in-alleged-family-feud
+Judy Wangui,44,Unknown,29-May-23,Husband,unknown,https://www.k24tv.co.ke/news/nyeri-58-year-old-man-hangs-self-after-killing-his-wife-104298/?utm_source=website&utm_medium=also%20read&utm_campaign=also%20read&utm_term=also%20read
+Unnamed,42,Nairobi,22-Jun-23,Husband,unknown,https://www.the-star.co.ke/news/2023-06-22-buruburu-man-arrested-after-stabbing-wife-to-death/
+Unnamed,30,Nakuru County,13-Dec-22,husband,unknown,http://www.the-star.co.ke/news/2022-12-14-manhunt-launched-for-man-who-allegedly-killed-wife-son-in-nakuru
+Mary Kwamboka,28,Homa Bay County,3-Dec-22,Boyfriend,unknown,http://www.the-star.co.ke/counties/nyanza/2022-12-05-man-escapes-after-killing-woman-in-suspected-love-triangle
+Sheila Jepkemboi Kirwa,32,Uasin Gishu,13-Jun-23,Boyfriend,unknown,https://nation.africa/kenya/counties/uasin-gishu/relief-for-turbo-family-as-murdered-woman-s-missing-head-found-4284232
+Emaily Masinza,30,Mombasa County,6-Dec-22,husband,unknown,http://citizen.digital/news/police-officer-allegedly-shoots-wife-to-death-in-mombasa-n311284
+Phylis Wanjira Muriuki,40,Kirinyaga County,3-Nov-22,husband,unknown,http://www.the-star.co.ke/counties/central/2022-11-03-man-kills-self-wife-and-son-in-suspected-domestic-row
+Wangethi Chege,Unknown,Nairobi County,22-Nov-22,Friend/Known to victim,unknown,http://www.the-star.co.ke/news/realtime/2022-11-22-man-surrenders-to-police-after-killing-woman-in-kasarani
+Ann Kambura,21,Tharaka Nithi County,24-May-23,Stranger/Unknown Relationship,unknown,https://nation.africa/kenya/counties/tharaka-nithi-/visit-to-hair-salon-ends-in-rape-murder-of-kiriri-varsity-first-year-student-4245368
+Unnamed,32,Unknown,2-May-23,Husband,unknown,https://nation.africa/kenya/counties/kericho/kericho-pastor-accused-of-killing-wife-in-bizarre-attack-4221774
+Mary Njeri,90,Muranga County,29-Sep-22,Stranger/Unknown Relationship,unknown,http://www.the-star.co.ke/counties/central/2022-10-05-body-of-elderly-woman-found-dumped-in-thicket-in-kigumo
+Joyce Wangari,32,Kiambu County,16-Nov-16,Husband,unknown,https://www.standardmedia.co.ke/article/2000205541/man-stabs-wife-to-death-attempts-to-kill-self
+Unnamed,Unknown,Kiambu County,28-Oct-22,husband,unknown,http://www.the-star.co.ke/counties/central/2022-10-30-man-hangs-self-after-allegedly-killing-wife-injuring-daughter
+Adah Nyambura,20,Narok,30-Apr-23,Stranger/Unknown Relationship,unknown,https://nation.africa/kenya/counties/meru/maasai-mara-varsity-student-raped-murdered-after-bash--4223894
+Veronicah Wanjiru,Unknown,Nakuru County,13-Oct-22,husband,unknown,http://www.the-star.co.ke/news/2022-10-13-man-kills-wife-in-mai-mahiu-for-refusing-to-take-him-back
+Mercy Dache,Unknown,Kisumu County,22-May-23,Husband,unknown,https://www.the-star.co.ke/counties/nyanza/2023-05-24-kisumu-man-arrested-for-killing-wife-after-domestic-quarrel/
+Unnamed,Unknown,Meru County,8-Jul-22,husband,unknown,http://www.the-star.co.ke/counties/eastern/2022-07-08-police-hunt-for-man-who-killed-wife-in-meru
+Nasimiyu,22,Garissa County,9-Sep-22,husband,unknown,http://www.the-star.co.ke/counties/nairobi/2022-09-12-man-surrenders-to-cops-after-killing-pregnant-wife
+Unnamed,9,Unknown,24-Apr-23,Stranger/Unknown Relationship,unknown,https://www.the-star.co.ke/news/realtime/2023-04-25-girl-defiled-murdered-in-bizarre-incident-in-kasarani/
+June Jerop Kangogo,36,Nairobi.,21-Mar-23,Boyfriend,unknown,https://nation.africa/kenya/counties/nairobi/the-coffee-date-that-turned-deadly-for-kenyatta-university-student-june-jerop-4185322
+Pamela Asesa,26,Nairobi County,12-Jul-22,Friend/Known to victim,unknown,http://www.the-star.co.ke/news/2022-07-21-two-arrested-in-umoja-for-killing-woman-stuffing-clothe-in-her-mouth
+Lucy Wanjiru,44,Muranga,11-May-23,Boyfriend,unknown,https://www.the-star.co.ke/news/2023-05-11-man-39-stabs-lover-to-death-in-muranga/
+Unnamed,24,Unknown,8-Jul-22,husband,unknown,http://citizen.digital/news/man-kills-24-year-old-wife-commits-suicide-in-uasin-gishu-n301458
+Gertrude Wayua Mutiso,22,Unknown,20-Apr-23,Boyfriend,unknown,https://nation.africa/kenya/counties/kajiado/-kitengela-man-brutally-murders-lover-inside-pizza-shop-4208710
+Unnamed,30,Nandi County,23-May-22,Boyfriend,unknown,http://www.the-star.co.ke/counties/rift-valley/2022-05-23-nandi-man-arrested-for-allegedly-killing-wife-burying-her-secretly
+Anna Kambua,Unknown,Mombasa County,26-Feb-23,Husband,unknown,https://nation.africa/kenya/counties/mombasa/man-who-stabbed-wife-to-death-pleads-guilty-to-manslaughter-4184408
+Maggy,Unknown,Nairobi County,29-Jun-22,Boyfriend,unknown,http://www.the-star.co.ke/news/2022-06-30-man-stabs-girlfriend-and-wife-stabs-husband
+Risper Ndunge,27,Unknown,17-Apr-23,Husband,unknown,https://nation.africa/kenya/news/-how-i-murdered-risper-ndunge-and-stashed-her-body-into-a-suitcase--4210146
+Unnamed,25,Nairobi County,9-Jun-22,Boyfriend,unknown,http://www.the-star.co.ke/news/2022-06-09-woman-falls-to-death-after-fight-with-boyfriend-in-city-estate
+Margaret Wanjiru,10,Muranga County,3-Oct-16,Stranger/Unknown Relationship,unknown,https://www.the-star.co.ke/news/2016-10-03-10-year-old-girl-murdered-after-rape-body-dumped-in-borehole/
+Diana Githomi,Unknown,Nakuru County,6-Dec-20,Friend/Known to victim,unknown,http://www.standardmedia.co.ke/rift-valley/article/2001445873/woman-links-partner-to-death-of-egerton-university-student
+Nancy Chelimo,43,Trans Nzoia County,3-Mar-23,Husband,unknown,https://nation.africa/kenya/counties/trans-nzoia/woman-succumbs-to-injuries-after-younger-lover-burned-her-bottoms-over-trust-issues-4145942
+Unnamed,39,Unknown,24-Mar-23,Husband,unknown,https://www.k24tv.co.ke/news/man-surrenders-to-police-after-strangling-wife-in-kitui-98761/
+Lydia Cheruiyot,30,West Pokot County,20-May-22,Boyfriend,unknown,http://www.standardmedia.co.ke/rift-valley/article/2001445958/teacher-found-dead-in-her-house-angry-villagers-lynch-lover
+Faith Njambi,26,Kajiado County,30-Apr-22,Ex-husband,unknown,http://www.standardmedia.co.ke/central/article/2001444754/woman-who-died-in-scuffle-with-husband-buried
+Irene Chelagat,22,Kericho County,4-May-22,Boyfriend,unknown,http://www.the-star.co.ke/news/2022-05-05-form-three-student-stabs-lover-to-death-in-kericho
+Unnamed,25,Kisumu County,6-May-22,husband,unknown,http://www.the-star.co.ke/news/2022-05-07-man-held-for-beating-wife-to-death-in-muhoroni
+Lucy Wanjiku Maina,35,Nairobi,16-Mar-23,Husband,unknown,https://nation.africa/kenya/counties/nairobi/kasarani-stabbing-love-then-murder-and-a-suicide-attempt-4162104
+Winnie Chepkurui,41,Nakuru,7-Mar-23,Husband,unknown,https://nation.africa/kenya/counties/nakuru/-dad-called-to-say-he-killed-mum-then-went-underground--4149720
+Rhoda Machuma Chepchumba,28,Nairobi,5-Mar-23,Husband,unknown,https://nation.africa/kenya/counties/nairobi/shock-murder-suicide-in-lang-ata-as-policeman-kills-girlfriend-neighbour-and-self-4147458
+Vera Kanario,36,Imenti South,25-Mar-23,Husband,unknown,https://nation.africa/kenya/counties/meru/you-re-the-devil-what-house-help-told-man-hours-after-he-killed-wife-child-4177282
+Joyce Nginya,44,County,2-Mar-23,Boyfriend,unknown,https://nation.africa/kenya/counties/kirinyaga/man-suspected-of-killing-girlfriend-burying-her-under-bed-4144662
+Lydia Khachiti,22,Kakakmega County,25-Apr-22,husband,unknown,http://www.standardmedia.co.ke/western/article/2001444071/22-year-old-woman-killed-in-love-triangle
+Vanitah Nikesh,27,Nairobi County,3-Apr-22,husband,unknown,http://www.the-star.co.ke/news/2022-04-24-man-detained-as-police-probe-death-of-wife-in-langata
+Caroline Akinyi,24,Ugenya Sub-County,11-Feb-23,Husband,unknown,https://nation.africa/kenya/counties/siaya/ugenya-man-turns-himself-in-after-killing-wife-4122126
+Risper Jelimo,42,Nandi County,7-Apr-22,husband,unknown,http://www.standardmedia.co.ke/rift-valley/article/2001442629/man-accused-of-killing-wife-three-children-in-nandi
+Damaris Muthee,Unknown,Elgeyo Marakwet County,16-Apr-22,Boyfriend,unknown,http://www.standardmedia.co.ke/national/article/2001443597/kenyan-born-female-athlete-found-dead-in-iten-six-months-after-tirops-murder
+Unnamed,32,Mombasa,3-Feb-23,Stranger/Unknown Relationship,unknown,https://nairobinews.nation.africa/man-on-the-run-after-allegedly-killing-sex-worker-over-payment-disagreement/
+Rose Cherono,53,Kapsabet,14-Feb-23,Husband,unknown,https://www.the-star.co.ke/news/2023-02-28-kapsabet-man-arrested-over-wifes-murder-on-valentines-day/
+Unnamed,38,Bomet,6-Jan-23,Stranger/Unknown Relationship,unknown,https://www.the-star.co.ke/news/realtime/2023-01-10-woman-found-dead-in-suspected-rape-case-in-sotik/
+Snorine Ambrose,Unknown,Nairobi County,2-Mar-22,ex-boyfriend,unknown,http://www.standardmedia.co.ke/nairobi/article/2001439311/man-stabs-ex-girlfriend-three-times-in-the-neck-in-kayole
+Rahab Gathoni,Unknown,Nairobi County,1-Apr-22,husband,unknown,http://www.standardmedia.co.ke/counties/article/2001442052/man-who-killed-wife-and-her-friend-with-poisoned-food-arrested
+Maureen Moraa Kiriago,27,Migori County,20-Feb-22,husband,unknown,http://www.standardmedia.co.ke/nyanza/article/2001438092/police-officer-sprays-16-bullets-on-expectant-wife-kills-self
+Christine Chelegat,13,Nanyuki,11-Jan-23,Stranger/Unknown Relationship,unknown,https://nation.africa/kenya/counties/laikipia/did-nanyuki-man-burn-to-death-minor-after-defiling-her--4082224
+Faith Yatichi,Unknown,Nairobi County,3-Oct-21,husband,unknown,http://www.standardmedia.co.ke/national/article/2001434982/man-charged-with-killing-wife-over-suspicion-of-affair-released-on-bond
+Unnamed,Unknown,Nairobi,9-Jan-23,boyfriend,unknown,https://www.the-star.co.ke/news/realtime/2023-01-09-woman-found-dead-man-with-critical-injuries-after-fight-in-kayole/
+Esther Wambui,18,Kiambu County,18-Jan-22,Stranger/Unknown Relationship,unknown,http://www.standardmedia.co.ke/central/article/2001434747/juja-revenge-message-written-on-body-of-woman-found-stashed-in-suitcase
+Lucy Atieno,46,Migori County,10-Jan-22,husband,unknown,http://www.standardmedia.co.ke/nyanza/article/2001434014/man-woman-found-dead-in-new-house
+Rose Wekesa,Unknown,Nairobi County,Unknown,Husband,unknown,https://www.the-star.co.ke/news/2016-08-25-man-detained-at-kilimani-police-station-over-alleged-murder-of-wife/
+Alice Njeri,32,Nakuru County,8-Jan-22,husband,unknown,http://www.standardmedia.co.ke/rift-valley/article/2001433798/man-sets-house-on-fire-killing-woman-and-three-children
+Margaret Kobilo,Unknown,Uasin Gishu County,15-Dec-14,Friend/Known to victim,Over 7 year(s),http://www.standardmedia.co.ke/rift-valley/article/2001432659/woman-sentenced-to-10-years-in-jail-for-killing-neighbour
+Unnamed,6,Unknown,12-Jan-23,Stranger/Unknown Relationship,unknown,https://nation.africa/kenya/counties/kajiado/shock-as-mutilated-body-of-grade-6-girl-found-stashed-in-a-gunny-bag-4085006
+Unnamed,Unknown,Nakuru County,4-Jan-22,Boyfriend,unknown,http://www.the-star.co.ke/news/2022-01-05-shock-as-murdered-womans-head-found-in-mans-house-hands-on-road
+Beatrice Gatwiri,18,Meru County.,15-Jan-23,boyfriend,unknown,https://nation.africa/kenya/news/fatal-attraction-did-love-gone-sour-lead-to-woman-s-beheading--4091008
+Risper Chizi,26,Kilifi,28-Jan-23,Husband,unknown,https://nation.africa/kenya/counties/kilifi/a-missing-husband-dead-pregnant-wife-and-claims-of-denied-conjugal-rights-4104684
+Marion Ajwang',31,Kisumu,15-Jan-23,Husband,unknown,https://nation.africa/kenya/counties/kisumu/a-missing-husband-woman-s-body-dumped-on-the-hills-and-form-one-boy-in-limbo-4096908
+Eznas Ipale,Unknown,Mombasa,6-Jan-23,Husband,unknown,https://nation.africa/kenya/counties/mombasa/mombasa-man-detained-for-10-days-over-wife-s-murder-4085212
+Charity Wangui,37,Kirinyaga County,19-Dec-21,husband,unknown,http://www.standardmedia.co.ke/central/article/2001432374/kirinyaga-woman-hacked-to-death-body-set-ablaze-in-domestic-row
+Sarah Chebet,Unknown,Bungoma County,25-Oct-18,Stranger/Unknown Relationship,unknown,https://www.standardmedia.co.ke/article/2001300833/woman-killed-after-receiving-strange-phone-call-at-night
+Unnamed,Unknown,Nakuru County,16-Dec-21,Boyfriend,unknown,http://www.standardmedia.co.ke/rift-valley/article/2001432042/man-kills-girlfriend-in-domestic-dispute
+Rosemary Nyaga,39,Embu County,10-Jun-21,Boyfriend,Less than a year,http://www.standardmedia.co.ke/eastern/article/2001431422/23-year-old-embu-man-who-killed-girlfriend-jailed-for-seven-years
+Adhiambo,Unknown,Kisumu County,14-Dec-18,husband,unknown,https://www.standardmedia.co.ke/article/2000179328/n-a
+Rose Atieno,54,Kakamega County,3-Jan-23,husband,unknown,https://www.citizen.digital/wananchi-reporting/man-hacks-wife-to-death-in-kakamega-over-alleged-infidelity-n313459
+Carol Imbatu,Unknown,Nairobi County,7-Dec-21,Boyfriend,unknown,http://www.the-star.co.ke/news/2021-12-07-cop-kills-6-including-wife-before-turning-gun-on-self-in-kabete
+Faith Chepngeno,Unknown,Kericho County,17-Mar-14,husband,Over 4 year(s),https://www.standardmedia.co.ke/article/2001304457/man-gets-life-imprisonment-for-killing-wife
+Hilda Kosgei,Unknown,Uasin Gishu County,19-Nov-21,ex-boyfriend,unknown,http://www.the-star.co.ke/counties/rift-valley/2021-12-07-man-arraigned-for-murdering-ex-girlfriend-and-strangling-child
+Sharon Mmbone,Unknown,Nakuru County,5-Oct-18,Boyfriend,unknown,https://www.standardmedia.co.ke/counties/article/2000193238/man-murders-girlfriend-beaten-to-death-by-irate-crowd-in-njoro
+Millicent Muthoni,38,Kirinyaga County,28-Nov-21,husband,unknown,http://www.standardmedia.co.ke/central/article/2001430588/kirinyaga-man-kills-wife-four-children
+Edinas Nyainda,22,Kiambu County,25-Jul-16,Boyfriend,unknown,https://nairobinews.nation.africa/fresh-ku-graduate-killed-threatening-dump-boyfriend/
+Millicent Wanjiru,27,Muranga County,21-Nov-21,Boyfriend,unknown,http://www.standardmedia.co.ke/central/article/2001429977/jealous-20-year-old-man-kills-girlfriend-27-in-bar
+Elvinah Moracha,17,Kisii County,23-Sep-18,husband,unknown,https://www.standardmedia.co.ke/article/2001296864/17-years-old-form-four-female-candidate-murdered-in-cold-blood
+Jessica Moraa,Unknown,Kisii County,10-Dec-19,husband,Over 1 year(s),http://www.standardmedia.co.ke/nyanza/article/2001429462/man-who-killed-his-wife-sentenced-to-40-years-in-prison
+Kate Mitchell,Unknown,Nairobi County,19-Nov-21,Stranger/Unknown Relationship,unknown,http://www.standardmedia.co.ke/nairobi/article/2001429910/murdered-bbc-scribe-had-kept-off-addis-on-safety-fears
+Mary Chesang,28,Uain Gishu County,18-Aug-18,husband,unknown,https://www.standardmedia.co.ke/article/2001292445/man-kills-28-year-old-wife-over-romantic-text
+Unnamed,Unknown,Nairobi County,15-Aug-18,Stranger/Unknown Relationship,unknown,https://www.standardmedia.co.ke/article/2001292148/man-killed-wife-raped-in-chokaa-area-nairobi
+Caroline Nabwire,Unknown,Busia County,19-Sep-20,Boyfriend,unknown,http://www.standardmedia.co.ke/western/article/2001429169/phone-gift-leads-to-conviction-of-man-who-killed-buried-lover-in-shallow-grave
+Unnamed,33,Bungoma County,13-Jul-18,husband,unknown,https://www.the-star.co.ke/news/2018-07-14-bungoma-man-murders-buries-wife-in-shallow-grave-behind-their-house/
+Caroline Koech,Unknown,Kericho County,12-Nov-20,husband,Less than a year,http://www.standardmedia.co.ke/rift-valley/article/2001428575/man-who-confessed-to-killing-wife-jailed-for-five-years
+Linda Wanjiku Irungu,Unknown,Nairobi County,11-Dec-14,Boyfriend,Over 3 year(s),https://www.standardmedia.co.ke/nairobi/article/2001290307/man-sentenced-to-20-years-for-killing-city-lawyer
+Diana Ondieki,23,Kisii County,21-Jul-18,Boyfriend,unknown,https://www.citizen.digital/news/kisii-man-arrested-over-girlfriends-murder-207584
+Nancy Muthoni,46,Embu County,8-Nov-21,husband,unknown,http://www.standardmedia.co.ke/central/article/2001428750/70-year-old-man-to-be-arraigned-for-stabbing-wife-to-death
+Njeri Kamande,Unknown,Nakuru County,5-Oct-21,husband,unknown,http://www.standardmedia.co.ke/rift-valley/article/2001427019/nakuru-man-charged-with-wifes-gruesome-murder
+Agnes Tirop,25,Elgeyo Marakwet County,13-Oct-21,husband,unknown,http://www.theeastafrican.co.ke/tea/sports/husband-murder-kenyan-athlete-agnes-tirop-arraigned-3587190
+Cheryl Akinyi,12,Kisumu County,21-Jun-18,Friend/Known to victim,unknown,https://www.standardmedia.co.ke/article/2001292878/family-seeking-justice-for-daughter-who-was-defiled-and-murdered
+Faith Nyatichi,Unknown,Nairobi County,3-Oct-21,husband,unknown,http://www.the-star.co.ke/news/2021-10-14-kangemi-man-pleads-guilty-to-killing-wife
+Mary Chesang,Unknown,Uasin Gishu County,Unknown,husband,unknown,http://www.standardmedia.co.ke/rift-valley/article/2001425636/court-issues-seven-arrest-warrants-for-man-accused-of-killing-his-partner
+Naomi Warunji,93,Embu County,14-Jun-18,Stranger/Unknown Relationship,unknown,https://www.the-star.co.ke/counties/north-eastern/2018-06-14-elderly-woman-raped-killed-in-embu-west/
+Mary Njeri Kamande,20,Nakuru County,6-Oct-21,husband,unknown,http://www.standardmedia.co.ke/rift-valley/article/2001425451/man-jumps-from-apartments-fourth-floor-after-allegedly-killing-wife
+Unnamed,Unknown,Nakuru County,14-May-18,husband,unknown,https://www.citizen.digital/news/man-stabs-wife-child-to-death-in-nakuru-200364
+Ann Gathoni,35,Nairobi County,6-May-18,Boyfriend,unknown,https://www.the-star.co.ke/news/2018-05-08-heinous-woman-three-children-strangled-to-death-in-marurui/
+Merciline Awino,21,Kisumu County,29-Sep-21,Friend/Known to victim,unknown,http://www.standardmedia.co.ke/nyanza/article/2001424900/woman-stabs-another-for-snatching-her-boyfriend
+Unnamed,Unknown,Nairobi County,28-Sep-21,husband,unknown,http://www.standardmedia.co.ke/nairobi/article/2001424731/woman-dies-husband-in-critical-condition-after-domestic-fight-in-embakasi
+Rose Njoki,Unknown,Kiambu County,5-Jun-16,Family Member,unknown,https://nairobinews.nation.africa/kiambu-man-kills-mother-buries-body-garage/
+Unnamed,25,Bomet County,2-Oct-21,husband,unknown,http://citizentv.co.ke/news/man-kills-wife-attempts-suicide-after-quarrel-over-loan-in-bomet-13101723
+Unnamed,18,Nyandarua County,25-Apr-18,Stranger/Unknown Relationship,unknown,https://www.the-star.co.ke/news/2018-04-26-student-raped-killed-and-body-dumped-in-kipipiri-forest/
+Monicah Katunge Katee,Unknown,Nairobi County,14-Sep-21,Boyfriend,unknown,http://www.the-star.co.ke/counties/nairobi/2021-09-15-love-triangle-man-flees-after-actress-lover-killed-in-mukuru
+Jane Njoki,26,Nakuru County,14-Mar-18,husband,unknown,https://www.standardmedia.co.ke/article/2001271700/officer-charged-with-killing-his-wife-daughter
+Carol Nduta,24,Laikipia County,1-Mar-18,Stranger/Unknown Relationship,unknown,https://www.standardmedia.co.ke/article/2001272082/24-year-old-waitress-mysteriously-killed-and-dumped-in-hotel-s-borehole
+Priscilla Wangeci,Unknown,Kajiado County,11-Feb-18,Stranger/Unknown Relationship,unknown,https://www.the-star.co.ke/news/2018-02-19-rongai-teacher-found-murdered-in-her-in-laws-home/
+Martha Waithera,33,Nakuru County,30-Aug-21,Boyfriend,unknown,http://www.the-star.co.ke/news/2021-08-31-woman-murdered-by-lover-body-left-in-house-with-her-kids
+Jackline Akinyi,20,Siaya County,24-Aug-21,Boyfriend,unknown,http://citizentv.co.ke/news/form-4-girl-strangled-to-death-by-her-boyfriend-in-siaya-13097814
+Esther Nyaga,34,Kiambu County,8-Aug-21,Ex-husband,unknown,http://www.standardmedia.co.ke/central/article/2001421764/i-did-not-kill-wife-by-stabbing-her-17-times-juja-man-tells-court
+Esther Wanjiku,21,Nyeri County,31-Jan-18,husband,unknown,https://nairobinews.nation.africa/man-kills-wife-child-sets-ablaze/
+Ann Makau,Unknown,Makueni County,28-Jul-21,Ex-husband,unknown,http://www.standardmedia.co.ke/eastern/article/2001419405/man-kills-estranged-wife-before-hanging-self
+Rosemary Kanina,Unknown,Kiambu County,16-Jan-18,husband,unknown,https://www.citizen.digital/news/man-kills-wife-children-before-setting-house-on-fire-188193
+Mary Nyambura,29,Nakuru County,23-Aug-21,Boyfriend,unknown,http://www.the-star.co.ke/news/2021-08-23-njoro-cop-storms-hospital-shoots-dead-girlfriend-before-killing-self
+Philomena Njeri,30,Kiambu County,2-Aug-21,husband,unknown,http://www.standardmedia.co.ke/central/article/2001419943/kiambu-man-wife-found-dead-in-their-house-with-gunshot-wounds
+Unnamed,Unknown,Nakuru County,31-Jul-21,husband,unknown,http://citizentv.co.ke/news/husband-stabs-wife-and-her-lover-to-death-in-kuresoi-south-13003281
+Ann Njeri,33,Kajiado County,23-Jul-21,husband,unknown,http://www.the-star.co.ke/news/2021-07-28-womans-decomposing-body-found-under-her-bed
+Jane Wangari,Unknown,Nakuru County,31-May-21,husband,unknown,http://www.the-star.co.ke/news/2021-06-01-scorned-naivasha-husband-stabs-wife-over-15-times
+Unnamed,Unknown,Busia County,24-Jun-21,husband,unknown,http://citizentv.co.ke/news/police-officer-kills-wife-turns-gun-on-himself-in-busia-12089030
+Unnamed,23,Elgeyo Marakwet County,20-May-21,husband,unknown,http://www.standardmedia.co.ke/rift-valley/article/2001413513/man-arrested-for-killing-wife-chopping-off-her-neck-and-legs
+Unnamed,Unknown,Kakamega County,2-Jun-21,Stranger/Unknown Relationship,unknown,http://www.standardmedia.co.ke/western/article/2001414642/third-year-masinde-muliro-university-student-raped-murdered
+Diana Wekesa,20,Uasin Gishu County,26-May-21,husband,unknown,http://www.the-star.co.ke/counties/rift-valley/2021-05-27-reunion-turns-tragic-as-man-slits-wifes-throat-kills-himself
+Margaret Ngina,81,Kiambu County,9-Jun-21,Friend/Known to victim,unknown,http://www.the-star.co.ke/counties/central/2021-06-10-limuru-granny-killed-body-dumped-in-cow-shed
+Joyce Mwende,30,Kitui County,18-May-21,Boyfriend,unknown,http://www.standardmedia.co.ke/eastern/article/2001413453/mother-of-two-shot-dead-alongside-son-by-lover-was-a-great-cook
+Ann Njeri,32,Nakuru County,6-May-21,Boyfriend,unknown,http://www.standardmedia.co.ke/national/article/2001412070/controversy-rages-on-over-death-of-a-mother-of-two
+Salome Kanini,Unknown,Kajiado County,5-Jan-18,Husband,unknown,https://www.the-star.co.ke/news/2018-01-11-rongai-woman-dies-after-husband-tortures-sets-her-ablaze/
+Beth Mwihaki,30,Nakuru County,9-Feb-21,Boyfriend,unknown,http://www.the-star.co.ke/counties/rift-valley/2021-04-19-naivasha-womans-murder-suspect-surrenders-to-police
+Beatrice Nthenya,19,Kitui County,12-Apr-21,Boyfriend,unknown,http://www.the-star.co.ke/counties/eastern/2021-04-13-kitui-kcse-candidate-stabbed-to-death-by-her-jilted-lover
+Mary Mwamtungu,Unknown,Taita Taveta County,12-Apr-21,Stranger/Unknown Relationship,unknown,http://www.the-star.co.ke/counties/coast/2021-04-13-wundanyi-woman-found-beheaded-body-parts-missing
+Catherine Nyokabi,25,Kiambu County,14-Apr-21,Boyfriend,unknown,http://www.the-star.co.ke/news/2021-04-17-man-arrested-over-the-killing-of-lover-in-githurai
+Unnamed,18,Nakuru County,4-Apr-21,Boyfriend,unknown,http://www.the-star.co.ke/news/2021-04-05-police-probe-murder-of-teenaged-girl-in-naivasha
+Pauline Wakasa,29,Kiambu County,6-Apr-21,husband,unknown,http://www.the-star.co.ke/news/2021-04-07-matiangi-bodyguard-shoots-wife-dead-before-turning-gun-on-himself
+Priscilla,24,Kiambu County,28-Mar-21,Boyfriend,unknown,http://www.the-star.co.ke/counties/central/2021-03-31-man-slits-girlfriends-throat-hangs-self-in-thika
+Diana Mumbi Mwangi,22,Nairobi County,29-Nov-17,Stranger/Unknown Relationship,unknown,https://nairobinews.nation.africa/family-final-moments-varsity-student-dead-knh/
+Celestine Nduku kioko,26,Isiolo County,21-Mar-21,Ex-husband,unknown,http://nation.africa/kenya/counties/isiolo/detectives-say-isiolo-woman-s-killer-raped-her-3342576
+Velvine Nungari,24,Nairobi County,9-Mar-21,Stranger/Unknown Relationship,unknown,http://www.the-star.co.ke/news/2021-03-21-velvine-murder-police-search-for-more-suspects
+EKN,Unknown,Machakos County,25-Dec-12,ex-husband,Over 8 year(s),http://www.the-star.co.ke/news/2021-02-20-court-acquits-man-accused-of-killing-ex-wife
+Susan Wanjiru Kihiu,22,Nakuru County,30-Jun-13,Friend/Known to victim,Over 7 year(s),http://nation.africa/kenya/news/law-student-s-life-snuffed-out-by-lover-s-wife-3329278
+Unnamed,Unknown,Machakos County,10-Feb-21,Boyfriend,unknown,http://www.the-star.co.ke/counties/eastern/2021-02-11-man-kills-lover-commits-suicide-in-athi-river
+Jennifer Wambua,Unknown,Kajiado County,13-Mar-21,Stranger/Unknown Relationship,unknown,http://nation.africa/kenya/news/police-retrace-jennifer-wambua-s-last-moments-3325256
+Charity Cheboi,34,Nairobi County,23-Feb-21,Boyfriend,unknown,http://nation.africa/kenya/counties/nairobi/murder-of-lovers-and-woman-s-8-year-old-son-3302018
+Caroline Wanjiku,38,Kajiado County,15-Feb-21,Stranger/Unknown Relationship,unknown,http://www.the-star.co.ke/news/2021-02-21-four-arrested-after-body-of-abducted-woman-found-in-mortuary-a-week-later
+Unnamed,Unknown,West Pokot County,9-Feb-21,husband,unknown,http://www.the-star.co.ke/counties/rift-valley/2021-02-10-wife-returns-late-battered-to-death-with-rungu
+Unnamed,28,Embu County,7-Feb-21,husband,unknown,http://www.the-star.co.ke/news/2021-02-07-man-kills-wife-two-children-in-mbeere
+Margaret Wanjiru,60,Nakuru County,30-Jan-21,Family Member,unknown,http://nation.africa/kenya/counties/nakuru/man-stabs-kills-mother-in-law-elburgon-3274788
+Esther Nyambusi,32,Kisii County,14-Jan-21,husband,unknown,http://nation.africa/kenya/counties/kisii/-former-pastor-hired-thugs-kill-wife-3258594
+Elizabeth Koki,Unknown,Machakos County,8-Jan-21,Stranger/Unknown Relationship,unknown,http://www.the-star.co.ke/news/2021-01-25-suspect-in-lawyer-elizabeth-kokis-murder-locked-up-for-7-more-days
+Unnamed,45,Kiambu County,3-Feb-21,Boyfriend,unknown,http://www.the-star.co.ke/counties/central/2021-02-04-woman-fatally-stabbed-for-not-cooking-ugali
+Sarah Nafula,37,Nakuru County,9-Dec-20,Boyfriend,unknown,http://www.the-star.co.ke/news/2021-02-01-body-parts-of-missing-woman-found-dumped-in-naivasha
+Esther Wangui,23,Trans Nzoia County,2-Dec-17,husband,unknown,https://www.standardmedia.co.ke/western/article/2001262833/two-die-in-separate-love-related-incidences-in-trans-nzoia
+Unnamed,22,Nakuru County,31-Dec-20,Boyfriend,unknown,http://www.the-star.co.ke/news/2020-12-31-varsity-pharmacist-kills-girlfriend-surrenders-to-police
+Mary Wnjiku,32,Kajiado County,8-Dec-20,husband,unknown,http://www.the-star.co.ke/news/2020-12-13-ngong-murder-suspect-escaped-during-court-session-say-police
+Unnamed,Unknown,Kiambu County,5-Jan-21,Stranger/Unknown Relationship,unknown,http://www.the-star.co.ke/counties/central/2021-01-07-woman-gang-raped-in-ruiru-private-parts-mutilated
+Millicent Wangeci Gitari,57,Kirinyaga County,12-Dec-20,Stranger/Unknown Relationship,unknown,http://nation.africa/kenya/counties/kirinyaga/shock-villagers-wake-up-murdered-woman-dumped-body-3227014
+Winnie Akimat,18,Turkana County,11-Dec-20,Boyfriend,unknown,http://nation.africa/kenya/counties/turkana/-police-man-suspected-strangling-teenage-girlfriend-3226232
+Joyce Wangari,Unknown,Kiambu County,Unknown,Ex-husband,unknown,http://www.the-star.co.ke/news/2020-12-06-crazed-wife-killer-gets-15-years-in-mental-asylum
+Abbisseneh Katungu,Unknown,Nairobi County,14-Nov-20,Family Member,unknown,http://www.the-star.co.ke/news/2020-11-20-dci-detain-woman-suspected-of-strangling-co-wife-to-death
+Valerie Apondi,23,Siaya County,9-Dec-17,Boyfriend,unknown,https://www.the-star.co.ke/news/2017-12-09-man-25-kills-university-girlfriend-accuses-her-of-infidelity/
+Lucy Atieno,Unknown,Kwale County,6-Dec-20,husband,unknown,http://www.the-star.co.ke/news/2020-12-06-top-cop-and-wife-found-dead-in-house
+Sumeya Sadik,20,N Airobi County,10-Oct-20,Stranger/Unknown Relationship,unknown,http://www.the-star.co.ke/news/2020-12-01-two-suspected-of-killing-woman-20-detained-for-14-days
+Eunice Akisa,Unknown,Busia County,12-Dec-19,husband,Less than a year,http://www.the-star.co.ke/news/2020-10-15-busia-man-who-killed-wife-over-missing-hen-convicted-of-manslaughter
+Unnamed,Unknown,Kiambu County,16-Oct-20,Stranger/Unknown Relationship,unknown,http://www.the-star.co.ke/news/2020-10-20-murder-rape-suspect-arrested-in-ruiru
+Elizabeth Kivuva,25,Kitui County,25-Apr-16,Boyfriend,unknown,https://www.standardmedia.co.ke/entertainment/county-nairobi/article/2000199957/kdf-soldier-shoots-girlfriend-kills-himself-in-love-triangle
+Unnamed,18,Nakuru County,6-Sep-20,Boyfriend,unknown,http://www.the-star.co.ke/news/2020-11-08-naivasha-police-hold-man-over-girlfriends-murder
+Beth Karimi,Unknown,Kirinyaga County,18-Nov-20,Ex-husband,unknown,http://www.the-star.co.ke/counties/central/2020-11-18-police-hunt-for-mwea-man-suspected-of-killing-ex-wife
+Mercy Njeri Mbatia,23,Nakuru County,13-Oct-20,husband,unknown,http://www.the-star.co.ke/news/2020-10-17-murder-suspect-on-the-run-nabbed-by-dci
+Emmy Chepkoech Mitei,34,Bomet County,7-Oct-20,husband,unknown,http://www.the-star.co.ke/news/2020-10-13-murder-suspect-who-set-ex-wife-ablaze-arrested-in-kericho
+Jane Waitherero,50,Nyandarua County,29-Jul-20,husband,unknown,http://www.nation.co.ke/kenya/counties/nyandarua/nyandarua-man-arrested-for-killing-his-wife--1908242
+Rabai Dumal Elema,58,Tana River County,10-Aug-20,Stranger/Unknown Relationship,unknown,http://www.nation.co.ke/kenya/counties/tana-river/beheaded-body-found-metres-away-from-police-station-in-tana-river-1917128
+Unnamed,Unknown,Nakuru County,28-Jul-20,husband,unknown,http://www.nation.co.ke/kenya/counties/nakuru/man-surrenders-to-police-after-stabbing-wife-to-death-1907650
+Felister Wariara,18,Kiambu County,26-Jul-20,Stranger/Unknown Relationship,unknown,http://www.the-star.co.ke/counties/central/2020-07-29-form-4-girl-raped-eyes-gouged-out-and-killed-in-kikuyu
+Carolyne Chanjirah,Unknown,Nairobi County,9-Mar-12,Boyfriend,Over 8 year(s),http://www.the-star.co.ke/news/2020-08-11-kawangware-pastor-who-killed-his-baby-mama-loses-appeal
+Sheila Njeri Murage,Unknown,Nairobi County,17-Jul-20,Friend/Known to victim,unknown,http://www.nation.co.ke/kenya/news/kilimani-murder-man-detained-for-dna-profiling--1905038
+Mary Wangui,23,Nyandarua County,16-Nov-17,husband,unknown,https://www.the-star.co.ke/news/2017-11-20-nyandarua-county-worker-arrested-over-wifes-murder/
+Unnamed,Unknown,Nakuru County,19-Jul-20,Stranger/Unknown Relationship,unknown,http://www.the-star.co.ke/news/2020-07-19-third-woman-raped-killed-in-naivasha
+Unnamed,Unknown,Nairobi County,31-May-20,Boyfriend,unknown,http://www.the-star.co.ke/news/2020-06-04-main-suspect-in-nairobi-womans-brutal-murder-arrested
+Tabitha Nkatha,Unknown,Meru County,23-Jul-20,Family Member,Less than a year,http://www.the-star.co.ke/news/2020-07-06-meru-man-convicted-for-murder-of-brothers-wife
+Teresa Muthoni,Unknown,Embu County,3-Jul-20,husband,unknown,http://www.nation.co.ke/kenya/counties/embu/man-stabs-kills-wife-in-embu-1556026
+Leah Nasuhu Terewa,Unknown,Nakuru County,11-Jun-20,husband,unknown,http://www.nation.co.ke/kenya/counties/nakuru/military-man-accused-of-killing-wife-freed-on-bond-780864
+Catherine Nyambura,Unknown,Nyeri County,25-May-20,husband,unknown,http://www.nation.co.ke/dailynation/counties/nyeri/nyeri-mca-questioned-over-wife-s-mysterious-death--310480
+Unnamed,Unknown,Machakos County,2-May-20,husband,unknown,http://www.the-star.co.ke/counties/eastern/2020-05-09-pregnant-woman-stabbed-to-death-in-machakos
+Janet Wambeti Njogu,58,Embu County,27-Apr-20,Stranger/Unknown Relationship,unknown,http://www.the-star.co.ke/counties/eastern/2020-04-27-raped-and-murdered-missing-embu-woman-found-dead
+Kwekwe Nyanje,Unknown,Kwale County,4-Oct-11,husband,Over 8 year(s),http://www.the-star.co.ke/news/2020-04-29-court-dismisses-appeal-of-man-jailed-for-killing-wife
+Unnamed,Unknown,Isiolo County,3-May-20,husband,unknown,http://www.nation.co.ke/counties/isiolo/Man-chops-off-wife-head-in-Isiolo/1183266-5542428-15d6t79z/index.html
+Margaret Wairimu,30,Nyandarua County,27-Apr-20,Boyfriend,unknown,http://www.the-star.co.ke/news/2020-04-27-nyandarua-woman-son-killed-and-burnt
+Unnamed,30,Kirinyaga County,11-Apr-20,husband,unknown,http://www.nation.co.ke/counties/kirinyaga/Kirinyaga-man-arrested-over-wife-murder/3444752-5528114-2m6yx0z/index.html
+Catherine Mwove,44,Nairobi County,12-Apr-20,Boyfriend,unknown,http://www.the-star.co.ke/news/2020-04-21-ex-olomide-backup-singer-held-over-lovers-death
+Eunice Ojuro,Unknown,Busia County,12-Sep-17,husband,Over 2 year(s),http://www.the-star.co.ke/news/2020-04-13-man-who-killed-wife-to-be-tried-for-manslaughter
+Unnamed,65,Kiambu County,4-Nov-17,Stranger/Unknown Relationship,unknown,https://www.standardmedia.co.ke/article/2001268772/muchatha-killings-puzzle-as-ruthless-gang-rape-kills-maims-at-will
+Janet Awuor,Unknown,Migory County,19-Sep-14,Boyfriend,Over 5 year(s),http://www.the-star.co.ke/news/2020-04-17-life-sentence-cut-to-25-years-for-man-that-murdered-fiancee
+Mercy Akinyi,29,Kisumu County,31-Mar-20,Friend/Known to victim,unknown,http://www.nation.co.ke/counties/siaya/Man-arrested-Siaya-over-killing-father-lover/1183322-5521062-xpgj9mz/index.html
+Edidah Wanjiku,Unknown,Nairobi County,14-Mar-20,Boyfriend,unknown,http://www.the-star.co.ke/news/2020-03-23-two-held-for-suspected-murder-of-woman-after-night-out
+Rose Ngina,33,Makueni County,12-Mar-20,husband,unknown,http://www.the-star.co.ke/counties/eastern/2020-03-13-man-kills-wife-as-daughter-watches-then-flees
+Pendo Karisa,20,Kilifi County,8-Mar-20,Boyfriend,unknown,http://www.the-star.co.ke/counties/coast/2020-03-13-womans-decomposing-body-pulled-from-septic-tank
+Joyce Kaswi,35,Machakos County,18-Mar-20,Ex-boyfriend,unknown,http://www.the-star.co.ke/counties/eastern/2020-03-19-machakos-police-probe-colleagues-and-lovers-deaths
+Unnamed,44,Embu County,4-Mar-20,Friend/Known to victim,unknown,http://www.nation.co.ke/counties/embu/Woman-found-raped-murdered/3370188-5480840-4ulm5e/index.html
+Fenny Bosibori,42,Trans Nzoia County,9-Mar-19,husband,unknown,http://www.nation.co.ke/counties/uasingishu/Officer-charged-with-wifes-murder-used-11-bullets/1183334-5481838-14vgkotz/index.html
+Priscila Cherono,Unknown,Nairobi County,5-Feb-20,husband,unknown,http://www.the-star.co.ke/counties/2020-02-11-2-more-suspects-in-nairobi-womans-murder
+Gabriela Maina,40,Nairobi County,19-Oct-17,Ex-husband,unknown,https://www.standardmedia.co.ke/article/2001258298/husband-to-slain-australian-teacher-held-in-connection-with-her-murder-in-karen
+Consolata Wambui,21,Nyandarua County,21-Jan-20,Ex-boyfriend,unknown,http://www.the-star.co.ke/counties/central/2020-01-22-estranged-lover-kills-girlfriend-with-her-mothers-kitchen-knife
+Shiphira Mukami,93,Laikipia County,14-Jan-20,Stranger/Unknown Relationship,unknown,http://www.the-star.co.ke/counties/rift-valley/2020-01-22-raped-murdered-laikipia-granny-died-of-blood-clot
+Daisy Mbaluka Mbathe,Unknown,Kitui County,6-Jan-20,husband,unknown,http://www.nation.co.ke/counties/kitui/New-details-emerge-in-death-of-Kitui-teacher/3444936-5413806-m63xuv/index.html
+Carol Mbote,Unknown,Kirinyaga County,19-Dec-19,husband,unknown,http://www.nation.co.ke/counties/kirinyaga/Policewoman-stabbed-to-death-Kianyaga/3444752-5392926-d9efsj/index.html
+Lucy Waithira,35,Nakuru County,29-Dec-19,husband,unknown,http://www.the-star.co.ke/counties/central/2020-01-01-molo-murder-suspect-arrested-at-his-uncles-home-in-limuru
+Unnamed,Unknown,Machakos County,2-Jan-20,Stranger/Unknown Relationship,unknown,http://www.the-star.co.ke/news/2020-01-02-woman-murdered-at-lodging-in-machakos
+Eunice Wangui,Unknown,Nakuru County,16-Nov-19,Ex-husband,unknown,http://www.nation.co.ke/counties/nakuru/Suspect-in-woman-murder-found-dead/1183314-5354872-1crih9z/index.html
+Grace Nyambura,Unknown,Nyeri County,11-Dec-19,Husband,unknown,http://www.nation.co.ke/counties/nyeri/Man-kills-wife-in-Nyeri-then-flees/1954190-5382552-l7wwehz/index.html
+Ann Nyambura,Unknown,Nakuru County,20-Nov-19,Boyfriend,unknown,http://www.the-star.co.ke/news/2019-11-25-body-of-missing-gilgil-woman-found-hand-chopped-off
+Susan Njeri Kinuthia,25,Nakuru County,26-Sep-17,Boyfriend,unknown,https://www.citizen.digital/news/police-commits-suicide-after-shooting-girlfriend-dead-176575
+Joyce Syombua,34,Laikipia County,26-Oct-19,Ex-husband,unknown,http://www.nation.co.ke/news/KDF-officer-arrested-over-murder-of-wife--children/1056-5351590-srp90j/index.html
+Eunice Adhiambo,Unknown,Nairobi County,12-Oct-19,Ex-husband,unknown,http://www.the-star.co.ke/news/2019-11-08-jilted-man-denies-killing-estranged-wife-over-mattress
+Susan Adhiambo Otieno,Unknown,Homa Bay County,11-Oct-19,Boyfriend,unknown,http://www.nation.co.ke/counties/homa-bay/Widow-killed-suspected-love-triangle-Homa-Bay/3444904-5307774-1cpol7z/index.html
+Unnamed,Unknown,Nakuru County,8-Oct-19,husband,unknown,http://www.the-star.co.ke/counties/rift-valley/2019-10-08-man-sought-over-murder-of-his-wife
+Emma Wanyota,26,Uasin Gishu County,30-Sep-19,Stranger/Unknown Relationship,unknown,http://www.the-star.co.ke/news/2019-11-05-drama-in-eldoret-court-as-murder-victims-mother-punches-suspect
+Lucy Nyira,Unknown,Nakuru County,28-Sep-19,husband,unknown,http://www.nation.co.ke/counties/nakuru/Man-who-burnt-wife-to-death-alcoholic--/1183314-5299308-xh9tl4/index.html
+Alice Wangu Kamau,Unknown,Trans Nzoia County,10-May-12,ex-boyfriend,Over 7 year(s),http://www.nation.co.ke/counties/trans-nzoia/Banker-who-killed-woman-over-child-support-jailed/3444800-5287034-tnqmui/index.html
+Elizabeth Wanjiku,Unknown,Nyandarua County,27-Sep-19,Stranger/Unknown Relationship,unknown,http://www.nation.co.ke/counties/nyandarua/Police-probe-murder-Ol-Kalou-couple/3444764-5289910-esq3rh/index.html
+Jedidah Wanjiru,80,Kirinyaga County,12-Aug-19,Stranger/Unknown Relationship,unknown,http://www.nation.co.ke/counties/kirinyaga/Woman-raped-and-killed-in-Kirinyaga/3444752-5232328-13agb1bz/index.html
+Anne Kathure,24,Meru County,12-Sep-19,Stranger/Unknown Relationship,unknown,http://www.nation.co.ke/counties/meru/Woman-killed-body-dumped-maize-farm-Meru/1183302-5274486-9cr4an/index.html
+Caren Chebet,Unknown,Trans Nzoia County,18-Aug-19,husband,unknown,http://www.nation.co.ke/counties/trans-nzoia/Man-hacks-wife-to-death-hangs-self/3444800-5239734-1foqn7/index.html
+Gloria Jepleiting Sangutei,27,Uasin Gishu County,4-Aug-19,Ex-husband,unknown,http://www.nation.co.ke/counties/uasingishu/Athlete-in-court-over-wife-killing/1183334-5226976-iy2h92/index.html
+Kobia Maina,26,Kericho County,11-Sep-17,husband,unknown,https://www.standardmedia.co.ke/entertainment/counties/article/2001255547/shock-as-kericho-man-kills-wife-over-flirty-text-message-from-lover
+Teresiah Wanjiru,Unknown,Nyandarua County,26-Aug-19,husband,unknown,http://www.the-star.co.ke/counties/central/2019-08-29-man-kills-wife-and-dumps-dismembered-body-in-pit-latrine
+Unnamed,Unknown,Vihiga County,29-Jul-19,husband,unknown,http://www.nation.co.ke/counties/vihiga/Vihiga-man-kills-wife--hangs-himself--/3444884-5214844-tmj5ywz/index.html
+Florence Okwach,32,Kajiado County,9-Jul-19,husband,unknown,http://www.mediamaxnetwork.co.ke/news/murder-most-foul-as-former-mca-kills-spouse-self-537278
+Damaris kibe,Unknown,Unknown,3-Nov-13,husband,Over 5 year(s),http://www.the-star.co.ke/news/2019-07-03-man-who-poisoned-wife-found-guilty-of-murder
+Lucy Njeri,Unknown,Nakuru County,29-Jun-19,Stranger/Unknown Relationship,unknown,http://www.nation.co.ke/counties/nakuru/Suspected-arrested-over-Nakuru-woman-murder/1183314-5185608-sld4k7/index.html
+Halima Mohamed,28,Mandera County,1-Jul-19,husband,unknown,http://www.the-star.co.ke/counties/north-eastern/2019-07-02-man-held-for-allegedly-stabbing-wife-to-death-in-mandera
+Unnamed,17,Meru County,20-Jun-19,Stranger/Unknown Relationship,unknown,http://www.nation.co.ke/counties/meru/Student-raped-strangled-Imenti-North/1183302-5165042-jnuqsv/index.html
+Metrine Naimiyu,29,Kakamega County,3-Jun-19,husband,unknown,http://www.nation.co.ke/counties/kakamega/Man-stabs-wife-to-death-then-hangs-self-Kakamega/3444890-5144322-7gs7he/index.html
+Virginia Wambui,Unknown,Kirinyaga County,2-Jun-19,husband,unknown,http://www.nation.co.ke/counties/kirinyaga/Kirinyaga-man-strangles-wife-to-death-over-food-/3444752-5142226-1qr8mhz/index.html
+Milca Mwangi,Unknown,Kiambu County,21-May-19,husband,unknown,http://www.nation.co.ke/counties/kiambu/Kiambu-man-kills-Jezebel-wife/1183274-5133246-14p4wim/index.html
+Scholastica Mmbihi,Unknown,Trans Nzoia County,7-Jul-11,Stranger/Unknown Relationship,Over 7 year(s),http://www.mediamaxnetwork.co.ke/news/pastor-to-serve-25-years-in-jail-for-defiling-killing-student-527203
+Unnamed,21,Isiolo County,24-Sep-17,Stranger/Unknown Relationship,unknown,https://www.standardmedia.co.ke/article/2001255585/woman-killed-after-spending-night-drinking-with-a-man
+Petrolina Mungayi,40,Kakamega County,7-May-19,Stranger/Unknown Relationship,unknown,http://www.standardmedia.co.ke/article/2001324281/man-witnessed-as-gang-killed-pregnant-wife-and-daughter
+Caroline Kirui,20,Bomet County,11-May-19,husband,unknown,http://www.nation.co.ke/counties/bomet/Man-hacks-wife-to-death-in-Bomet/3444846-5111792-9gcqyo/index.html
+Prisca Cheruto,51,Trans Nzoia County,6-May-19,husband,unknown,http://www.nation.co.ke/counties/trans-nzoia/Man-kills-wife-in-tomato-sales-row/3444800-5103618-d09hwcz/index.html
+Unnamed,24,Nyeri County,8-Apr-19,Ex-husband,unknown,http://www.nation.co.ke/counties/nyeri/Woman-killed-by-estranged-lover-Nyeri/1954190-5072060-4ve4xw/index.html
+Ciiru Murimi,18,Kitui County,7-May-19,husband,unknown,http://www.the-star.co.ke/counties/eastern/2019-05-09-man-kills-new-wife-18-in-kitui
+Ivy Wangechi,25,Uasin Gishu County,8-Apr-19,Boyfriend,Over 4 year(s),http://www.nation.co.ke/news/Colleagues-speak-about-Ivy-Wangechi-killer/1056-5066112-l8e417z/index.html
+Christine Maonga,Unknown,Kakamega County,23-Mar-19,Boyfriend,unknown,http://www.nation.co.ke/counties/kakamega/Teacher-shot-dead-by-AP-lover-buried/3444890-5038976-jxiny3z/index.html
+Eunice Atieno Olal,Unknown,Homa Bay County,7-Jun-15,husband,Over 3 year(s),http://www.the-star.co.ke/news/2019/02/27/homa-bay-man-jailed-12-years-for-killing-wife-over-sh8000_c1900899
+Fiona Kisuya,Unknown,Uasin Gishu County,26-Feb-19,Boyfriend,unknown,http://www.standardmedia.co.ke/article/2001314553/woman-is-chopped-up-and-stuffed-into-tank
+Anna Chepkwony,73,Kericho County,20-Feb-19,Stranger/Unknown Relationship,unknown,http://www.mediamaxnetwork.co.ke/508636/keter-condemns-killing-of-litein-grand-ma-73
+Fiona Kisuya,25,Uasin Gishu County,26-Feb-19,Boyfriend,unknown,http://www.the-star.co.ke/news/2019/02/27/eldoret-man-murders-fiancee-seeks-help-to-dump-her-body_c1900574
+Evelyn Musira,28,Migori County,23-Feb-19,husband,unknown,http://www.the-star.co.ke/news/2019/02/24/migori-woman-killed-by-husband-after-domestic-quarrel_c1899559
+Beryl Adhiambo Ouma,28,Nairobi County,21-Feb-19,husband,unknown,http://www.the-star.co.ke/news/2019/02/23/suspect-in-wifes-murder-to-be-remanded-10-days_c1899041
+Jacinta Nyambura,Unknown,Nakuru County,18-Sep-17,husband,unknown,https://www.standardmedia.co.ke/article/2001255041/man-kills-wife-commits-suicide-in-domestic-wrangles
+Peninah Njoki,95,Kiambu County,24-Feb-19,Stranger/Unknown Relationship,unknown,http://www.the-star.co.ke/news/2019/02/25/granny-raped-and-killed-but-no-culprit-arrested_c1898933
+Unnamed,21,Nandi County,17-Feb-19,Stranger/Unknown Relationship,unknown,http://www.the-star.co.ke/news/2019/02/19/1st-year-student-killed-for-refusing-love-affair_c1896430
+Damaris Njeri,22,Kirinyaga County,11-Feb-19,Boyfriend,unknown,http://www.nation.co.ke/counties/kirinyaga/Bizarree-murder-shocks-Kirinyaga-village/3444752-4986344-1220oq7z/index.html
+Grace Adhiambo,Unknown,Nairobi County,7-Feb-19,Ex-husband,unknown,http://www.the-star.co.ke/news/2019/02/12/man-detained-over-wifes-death-at-lodge_c1892960
+Lydia Chege,80,Muranga County,26-Jan-19,Family Member,unknown,http://www.the-star.co.ke/news/2019/01/30/granny-dies-after-being-dragged-into-farm-private-parts-mutilated_c1886079
+Unnamed,Unknown,Nakuru County,4-Feb-19,Boyfriend,unknown,http://www.the-star.co.ke/news/2019/02/04/police-pursue-lover-over-murder-of-woman-daughter_c1888810
+Beryl Atieno,18,Homa Bay County,2-Feb-19,Boyfriend,unknown,http://www.nation.co.ke/counties/homa-bay/Man-commits-suicide-after-killing-lover/3444904-4964136-uo0vmmz/index.html
+Mary Wambui Kamangara,39,Kiambu County,26-Jan-19,Friend/Known to victim,unknown,http://www.the-star.co.ke/news/2019/01/30/man-and-lover-to-be-held-for-14-days-over-wifes-murder_c1886099
+Unnamed,Unknown,Nakuru County,20-Jan-19,Stranger/Unknown Relationship,unknown,http://www.nation.co.ke/counties/nakuru/Mother-of-twins-raped-killed-on-her-way-to-work/1183314-4943094-lpu7ei/index.html
+Anne Wanjohi,23,Nairobi County,16-Sep-17,Boyfriend,unknown,https://www.standardmedia.co.ke/article/2001254844/policeman-shoots-dead-girlfriend-in-city-cyber-caf-attempts-suicide
+Damaris Mbugua,Unknown,Nakuru County,14-Jan-19,husband,unknown,http://www.the-star.co.ke/news/2019/01/15/naivasha-man-kills-wife-over-hairstyle-as-one-year-old-daughter_c1878204
+Maureen Monchari,Unknown,Kisii County,3-Jan-19,Ex-boyfriend,unknown,http://www.nation.co.ke/counties/kisii/Police-probe-Kisii-woman-s-mystery-death/1183286-4941818-bl1bmbz/index.html
+Edna Kurgat,Unknown,Nandi County,13-Jan-19,husband,unknown,http://www.the-star.co.ke/news/2019/01/14/nandi-man-hacks-wife-to-death-hangs-self-after-domestic-quarrel_c1877634
+Mary Njoki,75,Muranga County,20-Feb-23,Stranger/Unknown Relationship,unknown,https://nation.africa/kenya/counties/muranga/alarm-in-murang-a-as-2-grannies-lynched-on-witchcraft-claims-4132740
+Unnamed,Unknown,West Pokot County,26-Dec-18,husband,unknown,http://www.the-star.co.ke/news/2018/12/27/husband-stabs-wife-to-death-after-wearing-her-christmas-shoes_c1870100
+Unnamed,Unknown,Isiolo County,20-Dec-18,Boyfriend,unknown,http://www.nation.co.ke/counties/isiolo/Policeman-kills-girlfriend--commits-suicide/1183266-4904026-94is9uz/index.html
+Unnamed,44,Kitui County,20-Dec-18,husband,unknown,http://www.the-star.co.ke/news/2018/12/21/man-axes-wife-his-two-children-to-death-in-kitui_c1868965
+Unnamed,70,Nyandarua County,16-Dec-18,Stranger/Unknown Relationship,unknown,http://www.nation.co.ke/counties/laikipia/woman-found-raped--murdered-Nyahururu-Maina-slums/1183290-4897782-us46kmz/index.html
+Phoebe Kamire,38,Homa Bay County,8-Dec-18,husband,unknown,http://www.nation.co.ke/counties/homa-bay/Couple-found-dead-after-domestic-dispute-/3444904-4896626-vih9nq/index.html
+Jackline Mutindi,36,Makueni County,8-Dec-18,husband,unknown,http://www.the-star.co.ke/news/2018/12/08/makueni-man-stabs-wife-to-death-in-domestic-row_c1862952
+Lucy Wanjiku,16,Nyandarua County,11-Nov-18,Stranger/Unknown Relationship,unknown,http://www.nation.co.ke/counties/nyandarua/Police-probe-killing-of-Form-Two-girl-in-Nyandarua/3444764-4847766-3s3l48z/index.html
+Yvonne Njeri,21,Kiambu County,16-Sep-17,Boyfriend,unknown,https://www.standardmedia.co.ke/article/2001254838/21-year-old-pregnant-woman-raped-and-murdered-in-kiambu
+Wietar Kerubo,26,Nakuru County,21-Nov-18,husband,unknown,http://www.standardmedia.co.ke/article/2001303706/shock-as-man-stabs-wife-to-death-then-hangs-himself
+Mercy Muthethya Ngali,19,Nairobi County,27-Feb-12,Boyfriend,Over 6 year(s),http://www.nation.co.ke/news/James-Mulewa-guilty-of-murdering-Mercy-Ngali/1056-4875894-su2yr3/index.html
+Faith Chepngeno Kirui,Unknown,Kericho County,21-Mar-14,husband,Over 4 year(s),http://www.standardmedia.co.ke/article/2001304457/man-gets-life-imprisonment-for-killing-wife
+Jane Wambui,85,Muranga County,20-Feb-23,Stranger/Unknown Relationship,unknown,https://nation.africa/kenya/counties/muranga/alarm-in-murang-a-as-2-grannies-lynched-on-witchcraft-claims-4132740
+Irene Wambua,21,Machakos County.,27-Mar-22,Boyfriend,unknown,https://www.the-star.co.ke/news/2022-03-29-machakos-varsity-student-suspected-of-slitting-lovers-throat-held/
+Unnamed,36,Trans-Nzoia County,31-Oct-18,husband,unknown,http://www.standardmedia.co.ke/article/2001300984/man-arrested-while-fleeing-to-uganda-after-wife-s-killing
+Eunice Wambui,22,Nakuru County,5-Nov-18,husband,unknown,http://www.mediamaxnetwork.co.ke/483220/shock-as-nakuru-cop-shoots-wife-self-dead-in-family-row
+Sarah Chebet,Unknown,Bungoma County,27-Oct-18,Stranger/Unknown Relationship,unknown,http://www.standardmedia.co.ke/article/2001300833/woman-killed-after-receiving-strange-phone-call-at-night
+Selina Ikambi Anasi,79,Kakamega County,10-Feb-11,Family Member,Over 7 year(s),http://www.standardmedia.co.ke/article/2001300764/court-kakamega-man-guilty-of-raping-killing-his-grandmother
+Achieng,Unknown,Unknown,12-Sep-19,Boyfriend,unknown,https://www.standardmedia.co.ke/entertainment/news/article/2001341995/manhunt-launched-as-teachers-decomposing-body-found-next-to-crying-baby
+Joan Muthoni,Unknown,Nyeri County,24-Oct-18,Friend/Known to victim,unknown,http://www.nation.co.ke/news/Nyeri-activist-stabbed-to-death/1056-4821484-13qx1gw/index.html
+Beatrice Wambui,28,Unknown,5-Sep-19,Husband,unknown,https://www.the-star.co.ke/counties/coast/2019-09-13-dawn-fight-leaves-kisauni-woman-dead/
+Robina Moraa,Unknown,Unknown,12-Sep-19,Boyfriend,unknown,https://www.nation.co.ke/counties/uasingishu/Policewoman-found-dead-her-Eldoret-house/1183334-5270262-xo8o2z/index.html?fbclid=IwAR1tK54lRx1r0DnTWXBziccY6kMjEQHcQ-cbgFmEz-MBfCiEVA6zQDEC5pg
+Sarah Wambui,56,Unknown,9-Jun-19,Family Member,unknown,https://www.nation.co.ke/counties/muranga/Maragua-man-stones-mother-to-death/1183310-5151020-47caj4/index.html?fbclid=IwAR3NNZQEPU15mptINzyk9lghFeV0H2E2p5UEKNj_wM8L3u8DzCOSr6I6n50
+Helen Namalwa,42,Unknown,20-Aug-19,Boyfriend,unknown,https://citizentv.co.ke/news/widow-hacked-to-death-body-tied-to-bed-with-leso-270010/?fbclid=IwAR0mvZKulCO3hZruj5XZcD1E3XPyNRcui4isYGc3jtU0SbbZlBJimhugb7g
+Mercy Talam,28,Unknown,18-Jun-19,Husband,unknown,https://www.standardmedia.co.ke/article/2001330507/shock-as-man-kills-wife?fbclid=IwAR21EF6u4v33rIiOiHd8R8E0v6sGd42_uTen3tyQQgWvWwr8ImXiClbvwr4
+Caren Chepkurui,26,Nakuru County,20-Oct-18,Stranger/Unknown Relationship,unknown,http://www.standardmedia.co.ke/article/2001299806/man-commits-suicide-after-killing-neighbour
+Judy Wanjiru Gacheru,32,Muranga County,17-Oct-18,Boyfriend,unknown,http://www.standardmedia.co.ke/article/2001299431/man-kills-lover-after-beer-drinking-spree
+Hellen Kwamboka,Unknown,Unknown,25-May-19,Boyfriend,unknown,https://citizentv.co.ke/news/parliament-cop-hellen-kwamboka-found-killed-in-her-nairobi-house-249510/?fbclid=IwAR3afq1Qe-teD7-DrOSwcysnqw0AFucL9i8rz5Bf-R_XBFiIJYU3VIr9iAU
+Nancy Nyarangi,25,Nyamira County,13-Oct-18,husband,unknown,http://www.the-star.co.ke/news/2018/10/14/nyamira-man-arrested-over-wifes-murder-in-domestic-tiff_c1834517
+Irene Sifuna,Unknown,Bungoma County,13-Oct-18,Stranger/Unknown Relationship,unknown,http://www.the-star.co.ke/news/2018/10/14/bungoma-cops-hunt-for-farmhand-linked-to-teachers-wife-murder_c1834609
+Unnamed,Unknown,Unknown,26-Oct-17,husband,Less than a year,https://www.standardmedia.co.ke/entertainment/county-nairobi/article/2001253359/i-saw-daddy-cut-mums-neck-with-a-knife
+Aznath Kerubo,Unknown,Trans-Nzoia County,20-Mar-15,husband,unknown,http://www.standardmedia.co.ke/article/2001298741/murder-witness-reveals-how-suspect-killed-pregnant-wife-and-daughter
+Janet Nyaga,34,Lamu County,10-Oct-18,husband,unknown,http://www.nation.co.ke/counties/lamu/Man-arrested-over-wife-s-murder/3444912-4802880-hs9i18z/index.html
+Unnamed,Unknown,Nyamira County,10-Oct-15,husband,unknown,http://www.standardmedia.co.ke/article/2001297910/children-tell-court-how-father-beheaded-their-mother
+Veronica Wachuka,32,Unknown,18-May-19,Boyfriend,unknown,https://www.youtube.com/watch?v=8EFpTYS4Kns&fbclid=IwAR2V4D_Q5Gqk5XFZykzwirVQNTRlP3gCOKluCZYBolqo-RK7P5mhF2GxNts
+Priscillah Waithera,54,Nairobi County,27-Feb-16,Boyfriend,unknown,https://www.standardmedia.co.ke/entertainment/county-nairobi/article/2000193744/confessions-of-nanyuki-killer-lover-boy-who-has-a-soft-spot-for-elderly-women
+Anne Kanariu,Unknown,Unknown,6-May-19,Boyfriend,unknown,https://citizentv.co.ke/news/meru-chuka-university-student-kills-kemu-girlfriend-commits-suicide-244257/?fbclid=IwAR1BmjV73bm1uWCdzsOsIe15ay24651fKS6GmWr8nCStQnEAnJQG6Swt8R0
+Grace Mugure,29,Unknown,28-Apr-19,Husband,unknown,https://www.nation.co.ke/news/Man-in-court-after-lover-found-naked--dead-in-living-room/1056-5093476-od9pdyz/index.html?fbclid=IwAR3T40S1OU3Ijz_fqxn4g3jTpZPkXqRoQI4b7nRr700K9cPYF8B6kX1su3o
+Dorika Ntabuto,24,Unknown,30-Apr-19,Husband,unknown,https://www.youtube.com/watch?v=tOyCaAVadFw&fbclid=IwAR37u3je38Vh5_rM0ewZkhU8NFlM8miw1YiCpSfO2R8T8Lb3uxnZHl9Mvo8
+Viverline Jemutai,19,Unknown,20-Sep-18,Stranger/Unknown Relationship,unknown,http://www.standardmedia.co.ke/article/2001297642/mother-of-murdered-school-girl-goes-missing
+Amina Jere,Unknown,Nakuru County,26-Sep-18,Stranger/Unknown Relationship,unknown,http://www.standardmedia.co.ke/article/2001296960/woman-raped-murdered-in-gilgil
+Peninah Kaimenyi,25,Unknown,19-Apr-19,Boyfriend,unknown,https://www.standardmedia.co.ke/article/2001321669/deputy-ocs-kills-woman-before-committing-suicide-in-kilifi?fbclid=IwAR3DdLK2YkFcqI6XEbHIEPRT4WNFsygFizgVrzl5eCNLnrLyuQezyTeo3cg
+Rael Boke Mwita,Unknown,Migory County,21-Sep-18,husband,unknown,http://www.nation.co.ke/counties/migori/Pregnant-woman-stabbed-to-death--husband-flees/1183306-4770704-ie1klx/index.html
+Elvinah Moracha,17,Kisii County,23-Sep-18,ex-boyfriend,unknown,http://www.standardmedia.co.ke/article/2001296864/form-four-student-killed-and-body-dumped-in-pond
+Monica Nyawira Kimani,29,Nairobi County,20-Sep-18,Friend/Known to victim,unknown,http://www.standardmedia.co.ke/article/2001296416/woman-murdered-in-nairobi-s-kilimani-estate-body-dumped-in-bathtub
+Mary Wangui,24,Unknown,15-Apr-19,Husband,unknown,https://www.standardmedia.co.ke/article/2001321120/estranged-man-stalks-wife-kills-her-at-night?fbclid=IwAR3sYsxC-Wijr7lIJE-C31YLJPGy0Nsj76idHuS1UqYUQj6CfF0-eOEPXE0
+Shyleen Mokeira,Unknown,Unknown,14-Apr-19,Stranger/Unknown Relationship,unknown,https://www.standardmedia.co.ke/article/2001321134/class-eight-girl-murdered-body-dumped-in-thicket?fbclid=IwAR3pex8TIOLuPlk2JrAOi_5E_PT22C6GCIfE3jsM99cirBOj41TGwwqJLpI
+Sharon Otieno,26,Homa Bay County,3-Sep-18,Boyfriend,unknown,http://www.nation.co.ke/news/Postmortem-for-Sharon-Otieno-to-start-Friday-afternoon/1056-4748388-xy7ftk/index.html
+Unnamed,24,Bomet County,6-Sep-18,ex-boyfriend,unknown,http://www.standardmedia.co.ke/article/2001295132/bomet-man-kills-self-and-girl-friend
+Carol Chepchirchir,25,Unknown,10-Apr-19,Boyfriend,unknown,https://nation.africa/kenya/counties/nakuru/missing-prison-warder-carol-chepchirchir-found-dead-in-subukia-157028
+Mary Chesang,28,Uasin Gishu County,18-Aug-18,husband,unknown,http://www.standardmedia.co.ke/article/2001292445/man-kills-wife-over-romantic-text
+Khanali Mwonobe,Unknown,Unknown,10-Apr-19,Husband,unknown,https://citizentv.co.ke/news/man-stabs-wife-to-death-in-eldoret-240067/?fbclid=IwAR29OFIhWNcqE_CHzIxq3lKi2FX8mUAT0aI31UN6kO_JktmMyz4EARpVk8g
+Unnamed,Unknown,West Pokot County,16-Aug-18,husband,unknown,http://www.standardmedia.co.ke/article/2001292308/police-search-for-man-who-murdered-wife
+Rachel Rotich,40,Unknown,6-Apr-19,Husband,unknown,https://www.tuko.co.ke/302527-kericho-man-kills-wife-bed-lover-calls-chief-confess-crime.html#302527
+Linda Olero,Unknown,Homabay County,18-Jan-17,husband,Over 1 year(s),http://www.standardmedia.co.ke/article/2001290916/man-handed-20-years-in-prison-for-killing-pregnant-wife
+Jane Nduta,Unknown,Unknown,8-Mar-19,Husband,unknown,http://dailyactive.info/index.php/2019/03/09/man-lures-ex-wife-to-get-her-belongings-then-hits-her-to-death/?fbclid=IwAR2r0woIRNLyzoeBohiMgvKXD_TRGj5j2aWhY-BDU39N5vw2XReBeKH68QI
+Linda Wanjiku,27,Nairobi County,12-Dec-14,husband,Over 3 year(s),http://www.standardmedia.co.ke/article/2001289566/buru-buru-wife-murderer-convicted
+Fenny Bosibori,42,Unknown,11-Mar-19,Husband,unknown,https://www.standardmedia.co.ke/article/2001316074/police-officers-goes-berserk-kills-wife-in-soy
+Nancy Cherono,30,Nandi County,31-Jul-18,husband,unknown,http://www.standardmedia.co.ke/article/2001290443/man-beheads-wife-with-a-sickle
+Lydia Nyaboke Onano,26,Kajiado County,23-Jul-17,Boyfriend,unknown,https://www.standardmedia.co.ke/article/2001252124/26-year-old-woman-murdered-by-boyfriend-she-was-meeting-on-first-date
+Mercy Chepkurui,Unknown,Unknown,2-Mar-19,Boyfriend,unknown,https://nairobinews.nation.co.ke/life/shock-19-year-old-commits-suicide-killing-girlfriend?fbclid=IwAR1QBjgsdrCKD-5A9pINTVxRzgY14RHtb3Mw3cykwZ6tKtH3MmjGWjPLjCc
+Zerepiah Gathoni,Unknown,Nyeri County,23-Jul-18,husband,unknown,http://www.standardmedia.co.ke/article/2001289220/man-hangs-self-after-killing-wife
+Carolyne Anota Mukutu,Unknown,Unknown,2-Mar-19,Boyfriend,unknown,https://www.standardmedia.co.ke/article/2001317137/kakamega-man-accused-of-killing-skinning-and-slitting-girlfriend-s-throat
+Irene Jepchumba,27,Nakuru County,6-Jul-18,Friend/Known to victim,unknown,http://www.nation.co.ke/news/Agonising-hunt-for-answers-in--Irene-Jepchumba-s-killing/1056-4679794-k0t5f5z/index.html
+Unnamed,Unknown,Nyeri County,22-Jul-18,husband,unknown,http://www.mediamaxnetwork.co.ke/453491/nyeri-man-stabs-wife-kills-self-over-infidelity
+Faith Chepkurui,Unknown,Unknown,17-Feb-19,Boyfriend,unknown,https://www.standardmedia.co.ke/ureport/article/2001313564/first-year-student-stabbed-to-death-by-her-boyfriend?fbclid=IwAR1TEwjRWHwslt2Yswt9O0vtR5xgCRwsl-o1-o2sHoDUhS7uzQEVR8YMt-4
+Unnamed,33,Bungoma County,13-Jul-18,husband,unknown,http://www.the-star.co.ke/news/2018/07/14/bungoma-man-murders-buries-wife-in-shallow-grave-behind-their-house_c1786881
+Poly Kathambi,30,Meru County,15-Jul-18,husband,unknown,http://www.the-star.co.ke/news/2018/07/16/meru-man-hacks-wife-to-death-after-dispute_c1787992
+Riziki Hamisi,22,Unknown,18-Feb-19,Husband,unknown,https://www.the-star.co.ke/news/2019-02-20-mob-kills-man-for-stabbing-wife-to-death-over-cheating/
+Trizza Wanjiru,22,Nakuru County,8-Jul-18,Boyfriend,unknown,http://www.standardmedia.co.ke/article/2001287936/irate-youth-lynch-man-suspected-of-killing-girlfriend
+Susan Mirimo Musa,Unknown,Unknown,23-Jan-19,Husband,unknown,https://www.standardmedia.co.ke/entertainment/counties/article/2001311935/man-charged-with-killing-wife-after-she-came-home-drunk
+Daphine Maloba,37,Unknown,17-Feb-19,Husband,unknown,https://www.youtube.com/watch?v=xtZ7cPFDPEc
+Unnamed,28,Kericho County,6-Jul-18,husband,unknown,http://www.standardmedia.co.ke/article/2001286992/deranged-man-kills-three-in-kericho
+Unnamed,80,Trans-Nzoia County,7-Jul-18,Stranger/Unknown Relationship,unknown,http://www.standardmedia.co.ke/article/2001287088/80-year-old-woman-gang-raped-strangled-to-death
+Unnamed,Unknown,Mandera County,7-Jul-18,husband,unknown,http://www.nation.co.ke/counties/mandera/Court-detains-Mandera-man-as-police-probe-wife-s-death/1183298-4656264-hjo4c/index.html
+Naomi Tuitoek,27,Unknown,7-Dec-18,Husband,unknown,https://www.standardmedia.co.ke/article/2001308574/kin-want-man-arrested-over-the-death-of-wife
+yvonne Mwendwa,21,Nyeri County,30-Sep-16,Boyfriend,unknown,https://nairobinews.nation.africa/student-who-disappeared-with-boyfriend-on-mt-kenya-found-dead/
+Damaris Mbugua,23,Unknown,15-Jan-19,Husband,unknown,https://www.the-star.co.ke/news/2019-01-15-naivasha-man-kills-wife-over-hairstyle-as-one-year-old-daughter-watches/
+Maureen Aoko,30,Unknown,2-Jan-19,Husband,unknown,https://citizentv.co.ke/news/man-40-kills-wife-attempting-suicide-siaya-225504/?fbclid=IwAR3itNLMDUXVGYCXznF7gJTFkiUlQxYTAvK91crMvQGtson9tyu76IWXXqA
+Unnamed,Unknown,Nairobi,21-Nov-20,Boyfriend,unknown,https://www.standardmedia.co.ke/article/2001461344/man-stabs-lover-in-kasarani-then-surrenders-to-police
+Naneu Muthoni,31,Nairobi County,15-Nov-22,Boyfriend,unknown,https://www.standardmedia.co.ke/national/article/2001460736/man-goes-missing-after-girlfriends-murder
+Unnamed,56,Nakuru County,23-Jun-18,Boyfriend,unknown,http://www.standardmedia.co.ke/article/2001285352/56-year-old-woman-killed-in-lover-s-house
+Marion Cheruiyot,22,Elgeyo Marakwet County,24-Jun-18,husband,unknown,http://www.standardmedia.co.ke/article/2001285452/man-kills-pregnant-wife-and-son
+Alice Njeri,Unknown,Kiambu County,29-Oct-22,Husband,unknown,https://www.standardmedia.co.ke/evewoman/central/article/2001459344/lari-man-slashes-wife-to-death-harms-16-year-old-daughter
+Roseline Munala,Unknown,Meru County,23-Jun-18,Stranger/Unknown Relationship,unknown,http://www.the-star.co.ke/news/2018/06/30/clerics-want-killers-of-pastors-wife-to-be-arrested-and-charged_c1779637
+Jedida Wambui Muthengi,73,Muranga South,17-Jun-18,Stranger/Unknown Relationship,unknown,http://www.nation.co.ke/counties/muranga/Elderly-woman-raped-and-killed/1183310-4619244-ea4bir/index.html
+Naomi Warunji,93,Embu County,13-Jun-18,Stranger/Unknown Relationship,unknown,http://www.nation.co.ke/counties/embu/93-yr-old-woman-found-raped--murdered/3370188-4610658-fmuc53/index.html
+Careen Chepchumba,Unknown,Nairobi County,12-Feb-12,Boyfriend,unknown,http://www.nation.co.ke/news/Louis-Otieno-to-be-tested-afresh-in-murder-probe/1056-4575194-h0hrkf/index.html
+Lydia Nyaguthii,Unknown,Nyeri County,18-May-22,Husband,unknown,https://nation.africa/kenya/news/fatal-attraction-nyeri-nurse-fell-in-love-with-her-patient-then-he-killed-her-3825158
+Purity Wangechi,19,Kiambu County,13-May-22,Boyfriend,unknown,https://www.the-star.co.ke/news/2022-05-15-three-suspects-arrested-linked-to-kiambu-students-murder/
+Joyce Aluoch,Unknown,Migori County,11-May-20,Husband,unknown,https://www.standardmedia.co.ke/nyanza/article/2001480497/man-handed-20-years-in-prison-for-killing-wife-in-a-love-triangle
+Peris Jemaiyo,26,Elgeyo-Marakwet County,9-Jun-18,husband,unknown,http://www.the-star.co.ke/news/2018/06/11/man-stabs-wife-to-death-at-in-laws-home-in-marakwet_c1770745
+Monica Jepto,38,Unknown,Unknown,Husband,unknown,https://www.citizen.digital/news/man-stabs-spouse-to-death-following-altercation-in-iten-n297808
+Unnamed,Unknown,Muranga County,29-Aug-15,husband,unknown,http://www.standardmedia.co.ke/article/2001282241/man-charged-with-murdering-wife
+Mollyne Lubanga,34,Kakamega County,7-Jun-18,husband,unknown,http://www.standardmedia.co.ke/article/2001283324/former-chief-kills-wife-over-sh580-000-dowry-payment
+Ndaisi Wavinya,25,Machakos County,6-Apr-22,Ex-husband,unknown,https://www.the-star.co.ke/news/2022-04-08-man-hacks-ex-wife-to-death-in-machakos/
+Vinitah Nikesh,27,Nairobi,3-Apr-22,Husband,unknown,https://nation.africa/kenya/counties/nairobi/husband-arrested-as-detectives-probe-death-initially-ruled-a-suicide-3798176
+Rehema Auma,58,Kirinyaga County,3-Jun-18,Friend/Known to victim,unknown,http://www.standardmedia.co.ke/article/2001282726/man-stabs-lover-to-death-over-meal
+Grace Njeri,30,Kiambu County,27-May-17,husband,unknown,https://www.standardmedia.co.ke/article/2001242115/shock-as-man-kills-wife-children-then-commits-suicide
+Unnamed,30,Nairobi County,14-May-18,Boyfriend,unknown,http://www.the-star.co.ke/news/2018/05/15/cop-kills-girlfriend-in-ruai-attempts-suicide_c1758672
+Pauline Kagendo,Unknown,Embu County,10-Jun-17,ex-boyfriend,unknown,http://www.the-star.co.ke/news/2018/05/11/bones-found-at-cops-home-linked-to-missing-girl-baby_c1756639
+Rispa Jelimo,38,Unknown,6-Apr-22,Husband,unknown,https://nation.africa/kenya/counties/nandi/wife-caught-in-the-act-man-wipes-out-family-in-fit-of-rage-3774348
+Unnamed,Unknown,Nakuru County,14-May-18,husband,unknown,http://www.standardmedia.co.ke/article/2001280417/man-hacks-pregnant-wife-and-child-to-death-attempts-to-commit-suicide
+Faith Chepkoech,25,Bomet County,13-Mar-22,Husband,unknown,https://www.standardmedia.co.ke/rift-valley/article/2001440265/police-officer-attempts-suicide-after-killing-wife
+Esuron Phoebe,Unknown,Unknown,6-Mar-22,Boyfriend,unknown,https://www.standardmedia.co.ke/nairobi/article/2001439576/kdf-soldier-dead-two-arrested-in-a-suspected-love-triangle
+Ann Gathoni,35,Nairobi County,6-May-18,Boyfriend,unknown,http://www.the-star.co.ke/news/2018/05/08/heinous-woman-three-children-strangled-to-death-in-marurui_c1754967
+Faith Mueni Mutinga,35,Machakos County,24-Mar-22,Husband,unknown,https://www.k24tv.co.ke/news/machakos-man-kills-wife-in-cold-blood-leaves-her-lifeless-body-in-their-matrimonial-bed-60572/
+Unnamed,12,Muranga County,9-Apr-18,Stranger/Unknown Relationship,unknown,http://www.standardmedia.co.ke/article/2001276344/17-year-old-boy-accused-of-killing-neighbour-lynched
+Grace Njeri,12,Unknown,Unknown,Stranger/Unknown Relationship,unknown,https://www.the-star.co.ke/counties/rift-valley/2021-07-21-serial-killer-of-five-girls-to-be-arraigned-in-eldoret/
+Lucy Wanjiru,15,Unknown,Unknown,Stranger/Unknown Relationship,unknown,https://www.the-star.co.ke/counties/rift-valley/2021-07-21-serial-killer-of-five-girls-to-be-arraigned-in-eldoret/
+Mary Wanjiku Kanyi,Unknown,Laikipia County,11-Dec-15,husband,Over 2 year(s),http://www.the-star.co.ke/news/2018/04/12/man-to-spend-20-years-behind-bars-for-killing-his-wife_c1742294
+Linda Cherono,13,Unknown,15-Jun-21,Stranger/Unknown Relationship,unknown,https://www.the-star.co.ke/counties/rift-valley/2021-07-21-serial-killer-of-five-girls-to-be-arraigned-in-eldoret/
+Mary Eruza/Elusa,14,Unknown,16-Dec-21,Stranger/Unknown Relationship,unknown,https://www.the-star.co.ke/counties/rift-valley/2021-07-21-serial-killer-of-five-girls-to-be-arraigned-in-eldoret/
+Christine Ruguru,Unknown,Muranga County,4-Apr-18,husband,Less than a year,http://www.the-star.co.ke/news/2018/04/04/muranga-man-put-on-two-year-probation-in-wifes-murder-case_c1740604
+Unnamed,37,Kakamega County,30-Mar-18,husband,unknown,http://www.nation.co.ke/counties/kakamega/Manhunt-for-teacher-stabbed-wife-Kakamega/3444890-4366596-oynuwu/index.html
+Unnamed,Unknown,Nairobi County,5-Apr-18,husband,unknown,http://www.the-star.co.ke/news/2018/04/07/horror-man-kills-wife-and-child_c1739978
+Unnamed,21,Machakos County,26-Mar-22,Boyfriend,unknown,https://www.the-star.co.ke/news/2022-03-27-man-slits-lovers-throat-in-machakos/
+Elizabeth Wanjiru,36,Nakuru County,15-Mar-18,husband,unknown,http://www.the-star.co.ke/news/2018/03/22/i-burnt-her-as-she-screamed-my-name-husband-on-facebook_c1734049
+Staicy Achieng Nabiso,10,Uasin Gichu,1-Jan-20,Stranger/Unknown Relationship,unknown,https://www.the-star.co.ke/news/2022-02-07-suspected-serial-sex-killer-to-remain-in-remand/
+Felista Awino,Unknown,Kiambu County,21-Dec-13,husband,unknown,http://www.the-star.co.ke/news/2018/03/21/gsu-offi-cer-strangled-wife-to-death-hearing-told_c1733416
+Irene Kananu,Unknown,Kiambu County,31-Mar-17,Boyfriend,unknown,https://www.standardmedia.co.ke/article/2001235812/a-university-student-who-allegedly-killed-his-girlfriend-and-placed-some-of-her-body-parts-in-a-refrigerator-arrested
+Unnamed,10,Kakamega County,13-Mar-18,Stranger/Unknown Relationship,unknown,http://www.standardmedia.co.ke/article/2001272921/10-year-old-girl-killed-body-parts-chopped-off
+Everlyn Wanjiru,24,Unknown,1-Jan-22,Ex-boyfriend,unknown,https://www.citizen.digital/news/25-year-old-man-confesses-to-killing-his-girlfriend-in-kiambu-n289773
+Agata Wanjira Njeru,50,Kirinyaga County,4-Mar-18,Husband,unknown,http://www.standardmedia.co.ke/article/2001272190/woman-hacked-to-death-over-macadamia-nuts
+Jane Njoki,26,Nakuru County,27-Feb-18,Husband,unknown,http://www.the-star.co.ke/news/2018/03/01/cop-fires-10-bullets-kills-wife-and-five-year-old-daughter_c1722316
+Mercy Gichuhi,25,Machakos County,7-Dec-21,Husband,unknown,https://www.the-star.co.ke/news/2021-12-07-man-kills-wife-commits-suicide-in-machakos/
+Mary Wanja,47,Nairobi County,Unknown,Family Member,unknown,https://www.standardmedia.co.ke/article/2001426690/police-hunt-for-man-suspected-of-killing-mother-in-mwiki
+Unnamed,71,Taita Taveta County,26-Feb-18,Stranger/Unknown Relationship,unknown,http://www.standardmedia.co.ke/article/2001271159/elderly-woman-dies-after-being-raped-in-taita-taveta
+Agnes Chepkorir Kosgei,56,Trans Nzoia County,21-Nov-21,Family Member,unknown,https://www.standardmedia.co.ke/article/2001429980/trans-nzoia-man-drags-his-mother-from-bedroom-stabs-her-to-death
+Unnamed,Unknown,Makueni County,26-Feb-18,Husband,unknown,http://www.standardmedia.co.ke/article/2001271144/husband-stabs-wife-to-death-skins-a-dog-before-attempting-suicide
+Florence Jepkoech,35,Nandi County,16-Oct-21,boyfriend,unknown,https://www.standardmedia.co.ke/article/2001426597/police-pursue-man-linked-to-girlfriend-s-death-after-attack-over-love-triangle
+Unnamed,22,Nairobi County,10-Aug-21,boyfriend,unknown,https://www.standardmedia.co.ke/article/2001420696/nairobi-man-commits-suicide-after-killing-girlfriend
+Jane Wanjiru Murenga,45,Kirinyaga County,Unknown,Stranger/Unknown Relationship,unknown,https://www.standardmedia.co.ke/counties/article/2001232960/man-arrested-for-allegedly-raping-and-killing-a-teacher
+Esther Achieng,Unknown,Uasin Gishu County,23-Feb-18,Husband,unknown,http://www.the-star.co.ke/news/2018/02/23/eldoret-man-kills-wife-for-returning-home-pregnant-one-year-after_c1719949
+Unnamed,Unknown,Homabay County,17-Feb-18,Husband,unknown,http://www.standardmedia.co.ke/article/2001270677/kdf-official-arrested-for-killing-his-first-wife
+Mildred Wanyonyi,Unknown,Bungoma County,22-Feb-18,Boyfriend,unknown,http://www.standardmedia.co.ke/article/2001270872/student-stabs-lover-to-death
+Unnamed,65,Kiambu County,3-Feb-18,Stranger/Unknown Relationship,unknown,http://www.standardmedia.co.ke/article/2001268772/muchatha-killings-puzzle-as-ruthless-gang-rape-kills-maims-at-will
+Priscilla Wangeci,Unknown,Kajiado County,11-Feb-18,Husband,unknown,http://www.the-star.co.ke/news/2018/02/19/rongai-teacher-found-murdered-in-her-in-laws-home_c1717103
+Rachel Wanjiku,76,Kiambu County,19-Feb-18,Friend/Known to victim,unknown,http://www.the-star.co.ke/news/2018/02/21/granny-76-strangled-by-worker-at-home-kiambu-cops-launch-manhunt_c1717632
+Celestine Muthengei,19,Kiambu County,14-Jun-21,Ex-boyfriend,unknown,https://www.k24tv.co.ke/news/emotional-roommates-narrate-how-mku-student-was-attacked-stabbed-several-times-by-jilted-lover-37003/#google_vignette
+Emily Chepkemboi??Unknown,Unknown,Unknown,2021,4-Jul-21,Standard digital,#
+Zipporah Nkirote,Unknown,Homabay County,6-May-21,Husband,unknown,https://www.standardmedia.co.ke/counties/article/2001249676/eldoret-man-held-after-wife-daughter-killed-in-cold-blood
+Esther wanjiku,21,Nyeri County,31-Jan-18,Husband,unknown,http://www.nation.co.ke/counties/nyeri/Man-burns-self-wife-baby-Nyeri/1954190-4286258-sxgi5p/index.html
+Unnamed,80,Embu County,1-Apr-17,Stranger/Unknown Relationship,unknown,https://www.citizen.digital/news/embu-women-rep-castigates-rape-murder-of-80-year-old-granny-162535
+Esther Ayenee,Unknown,Muranga County,4-Feb-18,Husband,unknown,http://www.the-star.co.ke/news/2018/02/05/muranga-man-murders-his-wife-her-lover-after-catching-them-in-bed_c1709350
+Ann Njeri,33,Kajiado County,28-Jul-21,Husband,unknown,https://www.standardmedia.co.ke/rift-valley/article/2001419519/police-yet-to-arrest-suspect-who-killed-woman-hid-her-body
+Mary Achieng,16,Homabay County,3-Apr-21,Stranger/Unknown Relationship,unknown,https://www.standardmedia.co.ke/kenya/article/2001409691/duo-linked-to-rape-and-murder-of-homa-bay-teen-arrested
+Grace Wamnjiru,27,Kiambu County,27-Jan-18,Husband,unknown,http://www.nation.co.ke/counties/kiambu/Man-strangles-lover-Maguguni-Thika/1183274-4283802-15q3vm2/index.html
+Virginia Khavakali,35,Kakamega County,26-Apr-21,Husband,unknown,https://www.standardmedia.co.ke/counties/article/2001411032/man-kills-wife-locks-himself-with-body-inside-house-for-5-days
+Grace Njeri,30,Kiambu County,2-Jun-17,Husband,unknown,https://www.the-star.co.ke/news/2017-06-02-police-hunt-kabete-man-after-his-wife-two-kids-found-dead-in-their-house/
+Sara Nyanyama,37,Bungoma County,26-Jan-18,husband,unknown,http://www.the-star.co.ke/news/2018/01/28/bungoma-man-allegedly-kills-his-wife-hangs-body-in-cover-up_c1704902
+Cynthia Chesang Chepkuto.,33,Kajiado County,30-Apr-21,Husband,unknown,https://www.standardmedia.co.ke/rift-valley/article/2001411529/husband-kills-wife-in-bottle-attack
+Margaret Muchemi,34,Nairobi County,21-Jan-21,Ex-boyfriend,unknown,https://www.standardmedia.co.ke/nairobi/article/2001401461/man-suspected-of-killing-and-setting-ex-lover-ablaze-arrested
+Unnamed,Unknown,Kwale County,23-Jan-18,husband,unknown,http://www.nation.co.ke/counties/kwale/Man-in-Kwale-kills-wife-phone-quarrel/3444918-4267968-p7hh32/index.html
+Lucy Njambi,24,Kiambu County,26-Jan-18,husband,unknown,http://www.nation.co.ke/news/Woman-Dies-After-Acid-Attack/1056-4279846-1bnv1ez/index.html
+Beatrice Mutura,31,Nakuru County,4-Jan-18,Boyfriend,unknown,http://www.the-star.co.ke/news/2018/01/05/naivasha-cop-kills-his-lover-after-heated-argument_c1693528
+Unnamed,43,Nakuru County,9-Feb-21,Husband,unknown,https://www.standardmedia.co.ke/article/2001402928/man-shoots-wife-with-an-arrow-over-maize-quarrel
+Rosemary Kanini,31,Kiambu County,15-Jan-18,husband,unknown,http://www.standardmedia.co.ke/article/2001266203/quarryman-stabs-wife-and-children-then-torches-house
+Irine Nyakwara,Unknown,Kisii County,15-Jan-21,Husband,unknown,https://www.standardmedia.co.ke/nyanza/article/2001400211/pastor-kills-wife-transports-body-to-nearby-morgue
+Teckla Shighadi,37,Taita Tavet County,4-Jan-18,Boyfriend,unknown,http://www.the-star.co.ke/news/2018/01/05/man-lynched-after-stabbing-lover-to-death-in-voi_c1693461
+Unnamed,Unknown,Nairobi County,28-Dec-17,Husband,unknown,http://www.standardmedia.co.ke/article/2001264377/man-kills-wife-rapes-house-girl-in-nairobi
+Florence Nakonjio,44,Kakamega County,"13 Sep, 2020",Husband,unknown,https://www.k24tv.co.ke/news/kakamega-man-54-kills-44-year-old-wife-for-denying-him-conjugal-rights-26343/
+Faith Vicky Owuor,Unknown,Kiambu County,11-Jul-14,Boyfriend,Over 6 year(s),https://www.standardmedia.co.ke/article/2001394302/ex-jkuat-student-killed-his-girlfriend
+Emmy Chepkoech Mitey,45,Bomet County,October 7 2020,Boyfriend,unknown,https://nation.africa/kenya/news/teacher-emmy-was-set-on-fire-by-the-man-she-loved-2463156
+Maureen Akinyi,22,Homabay County,3-Jan-18,Stranger/Unknown Relationship,unknown,http://www.standardmedia.co.ke/article/2001264808/man-kills-former-wife-in-homabay
+Miriam Awino,20,Taita-Taveta County,26-Dec-17,Husband,unknown,http://www.nation.co.ke/counties/taita-taveta/Man-kills-his-wife-by-stabbing-her-21-times/1183326-4243456-mi6m6fz/index.html
+Jane Wambui,35,Muranga County,24-Mar-17,Friend/Known to victim,unknown,https://www.standardmedia.co.ke/entertainment/news/article/2001234265/shock-and-horror-as-gang-clobbers-lovers-to-death-in-muranga
+Anne Owuor,25,Siaya County,26-Dec-17,Stranger/Unknown Relationship,unknown,http://www.nation.co.ke/counties/siaya/Police-launch-probe-after-woman-raped-and-killed/1183322-4242418-5be6w9z/index.html
+Unnamed,Unknown,Kisumu County,4-Aug-20,Family Member,unknown,https://www.standardmedia.co.ke/nyanza/article/2001381119/man-kills-daughter-after-boyfriends-sleepover
+Beatrice Wangari Karanja,25,Njoro Constituency In Nakuru,"Friday, July 31 2020",Boyfriend,unknown,https://www.k24tv.co.ke/news/man-strangles-girlfriend-25-using-belt-24484/
+Unnamed,Unknown,Nairobi County,Unknown,Boyfriend,unknown,http://www.nation.co.ke/lifestyle/saturday/Eva-Wanjiku-mother-death/1216-4228558-12npug7/index.html
+Alice Kinya,32,Meru County,17-Dec-17,Husband,unknown,http://www.the-star.co.ke/news/2017/12/24/man-kills-wife-commits-suicide-in-igembe_c1689533
+Lucy Njambi,24,Kiambu County,January 26 2018,Ex-husband,unknown,https://www.standardmedia.co.ke/central/article/2001269130/former-riruta-mca-charged-with-killing-ex-wife
+Unnamed,Unknown,Nakuru County,9-Dec-17,Stranger/Unknown Relationship,unknown,http://www.standardmedia.co.ke/article/2001262834/mother-of-six-raped-killed-in-ol-rongai-village
+Grace Nduta Mwaura,22,Unknown,25-Jan-17,Family Member,Less than a year,https://www.standardmedia.co.ke/nairobi/article/2001228352/suspect-in-murder-of-jkuat-student-admitted-to-hospital-after-attempted-suicide
+Esther Wangui,23,Trans Nzoia County,10-Dec-17,Husband,unknown,http://www.standardmedia.co.ke/article/2001262833/two-die-in-separate-love-related-incidences-in-trans-nzoia
+Valerie Apondi,23,Siaya County,9-Dec-17,Boyfriend,unknown,http://www.the-star.co.ke/news/2017/12/09/man-25-kills-university-girlfriend-accuses-her-of-infidelity_c1682478
+Eunice Aoko,25,Gwassi East Location In Suba Sub-County,25-Jul-20,Stranger/Unknown Relationship,unknown,https://www.standardmedia.co.ke/nyanza/article/2000136612/woman-raped-killed-and-dumped-in-bush
+Nelius Nduku,40,Unknown,29-Jul-14,Husband,unknown,https://nation.africa/kenya/counties/kiambu/constable-and-wife-found-dead-1010112
+Unknown,Unknown,West Pokot,2-Jul-20,Husband,unknown,https://www.standardmedia.co.ke/rift-valley/article/2001377320/man-set-house-ablaze-kills-wife-and-two-children
+Mary Wangui,23,Nyandarua County,16-Nov-17,Husband,unknown,http://www.the-star.co.ke/news/2017/11/20/nyandarua-man-held-over-wifes-killing_c1671529
+Unknown,Unknown,Unknown,19-Jun-20,Boyfriend,unknown,https://www.standardmedia.co.ke/article/2001375858/kajiado-man-kills-lover-goes-missing
+Stella Makaa Makuthu,23,Ktui County,14-Nov-13,Ex-boyfriend,Over 6 year(s),https://www.standardmedia.co.ke/eastern/article/2000097781/man-kills-his-girlfriend-a-college-girl-in-kitui
+Ann Wanjohi,Unknown,Nairobi County,16-Sep-17,Boyfriend,unknown,http://www.standardmedia.co.ke/article/2001254844/presidential-escort-officer-kills-girlfriend-in-nairobi
+Jacinta Nyambura,Unknown,Nakuru County,20-Sep-17,Husband,unknown,http://www.standardmedia.co.ke/article/2001255041/man-kills-wife-commits-suicide-in-domestic-row
+Christine Nyananga,24,Kisii County,15-Jun-17,Family Member,unknown,http://www.standardmedia.co.ke/article/2001243549/man-stabs-lover-to-death-before-turning-knife-on-himself
+Yvonne Njeri,21,Kiambu County,16-Sep-17,Stranger/Unknown Relationship,unknown,http://www.standardmedia.co.ke/article/2001254838/21-year-old-pregnant-kenyan-woman-raped-and-murdered
+Martha,25,Mombasa County,25-Mar-17,Stranger/Unknown Relationship,unknown,https://www.the-star.co.ke/news/2017-03-26-fury-after-sex-worker-found-murdered-at-mombasas-casablanca-club/
+Margaret Auma,15,Unknown,1-Mar-20,Ex-boyfriend,unknown,https://www.standardmedia.co.ke/nyanza/article/2001352795/siaya-man-kills-girl-he-was-refused-to-marry
+Veronica Achieng',14,Kisumu County,10-Jun-17,Family Member,unknown,http://www.standardmedia.co.ke/article/2001243012/painful-death-for-girl-defiled-by-her-father
+Leah Oloo,26,Nakuru,June 12 2020,Husband,unknown,"https://www.citizen.digital/news/kdf-officer-arrested-for-allegedly-strangling-wife-to-death-in-nakuru-335909#:~:text=An%20autopsy%20conducted%20on%20the,seen%20on%20the%20lower%20neck."
+Agnes Kwamboka Nyagwachi,60,Nyamira South,26-Jan-20,Stranger/Unknown Relationship,unknown,https://www.standardmedia.co.ke/nyanza/article/2001358005/elderly-nyamira-woman-killed-over-witchcraft
+Ruth Mavete Mutiso,Unknown,Mombasa,18-Jan-20,Husband,unknown,https://www.standardmedia.co.ke/entertainment/news/article/2001357314/husband-slits-wifes-throat-for-cheating-with-richer-man-kills-self
+Achieng Ochieng,Unknown,Nairobi County,14-May-17,husband,unknown,http://www.the-star.co.ke/news/2017/06/08/womans-boyfriend-among-men-held-in-connection-with-murder_c1575900
+Peris Agumbi,22,Nairobi County,22-Nov-14,Boyfriend,unknown,http://www.the-star.co.ke/news/2017/06/08/briton-carl-singleton-cleared-in-murder-of-his-uon-girlfriend_c1576664
+Grace Njeri,30,Nairobi County,2-Jun-17,Husband,unknown,http://www.the-star.co.ke/news/2017/06/04/kabete-dad-who-killed-wife-children-commits-suicide-in-lodging_c1573785
+Unnamed,Unknown,Nairobi County,2-Jun-17,Husband,unknown,http://www.the-star.co.ke/news/2017/06/05/man-killed-his-wife-2-kids-over-text-cash-from-spouses-lover_c1573941
+Lucy Awuor,36,Siaya County,2-Jan-20,Husband,unknown,https://www.standardmedia.co.ke/nyanza/article/2001355300/police-arrest-a-man-for-hacking-wife-to-death
+Linda Wanjiku,27,Nairobi County,11-Dec-14,Boyfriend,Over 3 year(s),https://www.the-star.co.ke/news/2020-04-28-businessman-who-killed-wife-to-continue-serving-20-years-in-jail/
+Unnamed,Unknown,Makueni County,2-Jun-17,husband,unknown,http://www.the-star.co.ke/news/2017/06/03/makueni-man-hacks-wife-to-death-after-domestic-row_c1573463
+Vennah Kemunto,22,Kisii County,25-May-17,Boyfriend,unknown,http://www.standardmedia.co.ke/article/2001241191/boda-boda-murders-university-girlfriend-in-love-triangle
+Ann Mughoi,Unknown,Mombasa County,4-Jan-20,Husband,unknown,https://www.the-star.co.ke/news/2020-01-05-pastor-stabs-wife-kills-self-on-pulpit-in-mombasa/
+Mary Nanjala Indimuli,Unknown,Nairobi County,3-Dec-23,Stranger/Unknown Relationship,unknown,https://nation.africa/kenya/counties/nairobi/boda-boda-rider-stabs-woman-to-death-after-she-declines-lift-4455650
+Wambui Kabiru,Unknown,Nairobi County,1-May-11,Husband,Over 7 year(s),http://www.standardmedia.co.ke/article/2001241021/my-wife-died-from-fall-in-fight-over-volume-of-radio
+Consolata Masitsa,38,Kakamega County,Unknown,Husband,unknown,https://www.standardmedia.co.ke/health/western/article/2001486759/kakamega-man-kills-wife-hangs-himself-over-domestic-row
+Unnamed,Unknown,Bomet County,Unknown,Husband,unknown,https://www.citizen.digital/news/bomet-man-kills-wife-with-a-claw-hammer-in-domestic-wrangle-n332331
+Viola Awuor,23,Nairobi County,18-May-17,Husband,unknown,http://www.standardmedia.co.ke/article/2001240169/man-stabs-wife-to-death-over-ugali-as-children-watch
+Beatrice Muthoni,33,Muranga County,21-Apr-17,Husband,unknown,http://www.standardmedia.co.ke/article/2001237450/man-kills-wife-over-love-affair-with-boda-boda-rider
+Esther Mwongela,Unknown,Machakos County,19-Apr-17,Stranger/Unknown Relationship,unknown,http://www.the-star.co.ke/news/2017/04/21/mandazi-seller-raped-killed-in-mlolongo-town_c1546634
+Jane Wanjiru Murenga,45,Tharaka Nithi County,12-Mar-17,Stranger/Unknown Relationship,unknown,https://www.standardmedia.co.ke/mobile/article/2001232651/shock-grips-village-as-school-head-is-raped-and-murdered-in-kirinyaga
+Magdalene Wangechi,68,Muranga,25-Nov-23,Family Member,unknown,https://nation.africa/kenya/counties/muranga/man-lynched-after-beheading-his-mother-over-plate-of-ugali-4445696
+Abigail Wafula,16,Bungoma County,19-Mar-17,Family Member,unknown,http://www.the-star.co.ke/news/2017/04/21/man-sister-quarrel-over-pregnancy-he-kicks-her-stomach-and-kills-her_c1546829
+Lucy Boke,23,Kisii County,9-Nov-23,Boyfriend,unknown,https://www.the-star.co.ke/news/realtime/2023-11-13-family-reveals-why-suspect-killed-alleged-girlfriend-in-kisii/
+Feophe Ekas,28,Bungoma County,13-Apr-17,Husband,unknown,http://www.the-star.co.ke/news/2017/04/14/for-sh150-man-kills-wife-mob-lynches-him-and-his-brother-too_c1543062
+Viona Achieng,23,Baba Ndogo Nairobi,22-Oct-23,Ex-husband,unknown,https://nation.africa/kenya/news/woman-stabbed-eight-times-husband-goes-into-hiding-4420580
+Milkah Muthoni,16,Muranga County,28-Mar-17,Friend/Known to victim,unknown,http://www.the-star.co.ke/news/2017/03/31/girl-16-found-raped-strangled-300-metres-from-grannys-home_c1534863
+Unnamed,Unknown,Kisumu County,6-Apr-17,Boyfriend,unknown,http://www.the-star.co.ke/news/2017/04/06/kisumu-man-accused-of-murdering-his-form-two-girlfriend_c1539287
+Mercy Chebet,Unknown,Unknown,28-Nov-23,Husband,unknown,https://nairobinews.nation.africa/police-officer-kills-wife-leaves-body-in-the-house-and-goes-to-work/
+Vivian Atieno,Unknown,Kericho County,26-Nov-23,Husband,unknown,https://nairobinews.nation.africa/kericho-horror-man-drinks-in-bar-with-wifes-lifeless-body-in-parked-car/
+Jane Wanjiru,45,Tharaka-Nithi County,12-Mar-17,Stranger/Unknown Relationship,unknown,http://www.standardmedia.co.ke/article/2001232651/shock-grips-village-as-school-head-is-raped-and-murdered-in-kirinyaga
+Michel Awuor,23,Homabay County,7-Oct-23,Husband,unknown,https://www.standardmedia.co.ke/nyanza/article/2001482958/man-murders-wife-son-two-weeks-after-marriage
+Salina,Unknown,Kisumu County,5-Mar-17,Husband,unknown,http://www.the-star.co.ke/news/2017/03/07/man-on-the-run-after-he-beheaded-wife-seized-by-lynch-mob-rescued-by_c1519215
+Alice Wangechi,22,Kiambu County,22-Oct-23,Ex-boyfriend,unknown,https://www.tuko.co.ke/kenya/525514-kiambu-female-student-stabbed-death-by-boyfriend-asked-meet-police-station/
+Safo Wako,70,Marsabit County,16-Oct-23,Family Member,unknown,https://www.the-star.co.ke/news/realtime/2023-10-17-womans-throat-slit-by-son-in-domestic-quarrel-in-marsabit/
+Edda Kanana,Unknown,Kiambu County,26-Feb-17,boyfriend,unknown,http://www.standardmedia.co.ke/article/2001230873/policeman-shoots-dead-girlfriend-survives-suicide-attempt
+Michele Awuoro,Unknown,Unknown,6-Oct-23,Husband,unknown,https://www.the-star.co.ke/counties/nyanza/2023-10-06-man-flees-after-allegedly-killing-wife-child-in-kabondo-kasipul/
+Unnamed,75,Nakuru County,13-Feb-17,Stranger/Unknown Relationship,unknown,http://www.standardmedia.co.ke/article/2001229181/granny-raped-and-murdered-in-mai-mahiu
+Margret Khayere,Unknown,Kakamega County,21-Jan-17,Friend/Known to victim,unknown,http://www.standardmedia.co.ke/article/2000230761/woman-brutally-murdered-by-lover-s-two-sons-in-kakamega
+Faith Kinya,40,Imenti North,26-Sep-23,Husband,unknown,https://nation.africa/kenya/counties/meru/retired-policeman-arrested-on-suspicion-of-killing-his-lover-4383142
+Joyce Wambui,58,Muranga County,27-Feb-17,Stranger/Unknown Relationship,unknown,https://www.the-star.co.ke/news/2017-02-28-thika-businesswoman-murdered-in-cold-blood-nothing-stolen/
+Cynthia Mayaka,12,Kisii County,17-Dec-16,Stranger/Unknown Relationship,unknown,http://www.standardmedia.co.ke/article/2000227265/12-year-old-girl-killed-in-kisii-after-suspected-rape-ordeal
+Linnet Onyango,Unknown,Siaya County,14-Nov-16,Boyfriend,unknown,http://www.standardmedia.co.ke/article/2000226877/shock-as-siaya-priest-kills-lover-before-killing-himself
+Mercy Mugure,66,Kiambu County,19-Sep-23,Family Member,unknown,https://nation.africa/kenya/counties/kiambu/woman-and-son-found-dead-in-family-well-4374514
+Caroline Jerotich,36,Nandi County,3-Sep-23,Husband,unknown,https://www.pd.co.ke/news/amateur-runner-detained-over-wifes-murder-200183/
+Rose Owuor,Unknown,Nakuru County,22-Nov-16,Ex-boyfriend,unknown,http://www.standardmedia.co.ke/article/2000226122/nakuru-woman-brutally-killed-for-turning-down-marriage-proposal
+Diana Mkandoe Maganga,70,Taita Taveta County,22-Nov-16,Stranger/Unknown Relationship,unknown,http://www.standardmedia.co.ke/article/2000224621/leaders-say-elderly-woman-s-rape-and-murder-was-ritual-killing
+Peris Nyaguthii,19,Unknown,5-Sep-23,Stranger/Unknown Relationship,unknown,https://nation.africa/kenya/counties/nyeri/nyeri-student-killed-4358656
+Grace Wangeci,43,Nairobi County,4-Jun-16,Boyfriend,unknown,http://www.the-star.co.ke/news/2016/11/22/family-of-woman-murdered-by-briton-wants-case-dropped_c1460519
+Diana Chemutai (Chelele),Unknown,Bomet County,7-Jan-16,Ex-husband,Over 3 year(s),http://www.the-star.co.ke/news/2016/11/17/singer-chelele-murder-case-moved-to-kisumu_c1457038
+Unnamed,Unknown,Kajiado,6-Aug-23,Stranger/Unknown Relationship,unknown,https://www.the-star.co.ke/news/realtime/2023-08-08-woman-found-murdered-after-suspected-rape-in-kajiado/
+Everline Achai,Unknown,Em??utsa Sub-Location In Vihiga County,12-Aug-23,Boyfriend,unknown,https://www.citizen.digital/news/man-on-the-run-after-allegedly-stabbing-girlfriend-to-death-in-vihiga-n325516
+Jackline Asiko,31,Nairobi County,10-Nov-16,husband,unknown,http://www.the-star.co.ke/news/2016/11/10/kibera-man-stabs-wife-to-death-turns-knife-on-self_c1453490
+Jasmine Njoki,11,Gilgil Sub County,19-Sep-23,Stranger/Unknown Relationship,unknown,https://www.standardmedia.co.ke/article/2001482431/murdered-jasmine-njoki11-laid-to-rest-as-family-leaders-call-for-justice
+Sheila Cherop,26,West Pokot,21-Aug-23,Boyfriend,unknown,https://www.standardmedia.co.ke/rift-valley/article/2001479905/west-pokot-police-investigating-suspected-murder-suicide-incident
+Teresia Wambui Ndirangu,22,Muranga County,25-Oct-16,husband,unknown,http://www.standardmedia.co.ke/article/2000221035/shock-as-murang-a-man-slays-wife-children-and-hangs-himself
+Unnamed,76,Unknown,18-Jul-23,Stranger/Unknown Relationship,unknown,https://www.the-star.co.ke/counties/western/2023-08-25-suspects-in-a-rob-rape-and-kill-case-arrested-in-vihiga/
+Unnamed,Unknown,Taita Taveta County,23-Oct-16,Family Member,unknown,http://www.standardmedia.co.ke/article/2000220947/taita-man-detained-as-daughter-defiled-and-murdered
+Caroline Omollo,29,Kisumu County,16-Oct-16,Husband,unknown,http://www.the-star.co.ke/news/2016/10/18/kisumu-man-strangles-wife-to-death-after-quarrel_c1440171
+Unnamed,27,Kericho County.,20-Aug-23,Stranger/Unknown Relationship,unknown,https://www.the-star.co.ke/news/realtime/2023-08-23-woman-found-murdered-after-suspected-rape-in-kericho/
+Mercy Keino,Unknown,Nairobi County,17-Jun-11,Stranger/Unknown Relationship,Over 5 year(s),http://www.nation.co.ke/news/Kabogo-cleared-Mercy-Keino-murder-inquest/1056-3408370-1p17r1z/index.html
+Dorcas Kaguri,Unknown,Meru County,12-May-05,Husband,Over 11 year(s),http://www.standardmedia.co.ke/article/2000218467/meru-man-who-killed-drunk-wife-sentenced-to-hang
+Mary Nzambi,Unknown,Unknown,16-Aug-23,Boyfriend,unknown,https://www.the-star.co.ke/counties/eastern/2023-08-18-man-who-killed-girlfriend-over-sh11500-lynched-in-kitui/
+Grace Wamaitha,22,Laikipia County,3-Oct-16,Boyfriend,unknown,http://www.nation.co.ke/counties/Laikipia/Laikipia-Woman-headless-body-found/1183290-3404412-ixl1d4/index.html
+Catherin Wambui,33,Nyeri County,12-Feb-17,Boyfriend,unknown,https://nairobinews.nation.africa/boyfriend-sought-woman-raped-murdered/
+Gladys Muthoni,70,"Kariua village, Kirinyaga County",1-Jan-24,x,unknown,https://nation.africa/kenya/counties/kirinyaga/70-year-old-woman-brutally-murdered-on-new-year-s-day-4480000
+Starlet Wahu,26,"South B, Nairobi County",3-Jan-24,x,unknown,https://www.citizen.digital/news/socialite-starlet-wahu-found-murdered-in-nairobi-airbnb-n334274
+Maureen Achieng,21,"Nango Centre, Siaya county",3-Jan-24,boyfriend,unknown,https://www.the-star.co.ke/counties/nyanza/2024-01-12-grief-as-two-men-allegedly-kill-their-lovers-in-bondo/
+Harriet Moraa,19,"Katoloni estate, Machakos County",9-Jan-24,boyfriend,unknown,https://www.the-star.co.ke/counties/eastern/2024-01-09-female-university-student-found-dead-in-boyfriends-house/
+Unnamed,26,"Suneka, Kisii county.",8-Jan-24,boyfriend,unknown,https://www.the-star.co.ke/news/realtime/2024-01-10-man-stabs-girlfriend-to-death-in-suspected-love-triangle-in-kisii/
+Malkia,25,"Kwa Ndomo area in Magarini, Kilifi County",14-Jan-24,boyfriend,unknown,https://www.citizen.digital/news/woman-found-dead-in-her-house-lover-on-the-run-n334752
+Stella Adongo,21,"Uhanya village, bondo, Homabay County",12-Jan-24,Husband,unknown,https://www.the-star.co.ke/counties/eastern/2024-01-09-female-university-student-found-dead-in-boyfriends-house/
+Rita Waeni,20,"Green House Apartment, Kasarani, Nairobi County",14-Jan-24,x,unknown,https://www.citizen.digital/news/probe-as-dismembered-body-of-woman-discovered-in-roysambu-airbnb-n334758
+Nelvin Museti,28,"Langata, Nairobi county",14-Jan-24,lover,unknown,https://www.the-star.co.ke/news/realtime/2024-01-20-twist-as-gsu-officer-arrested-over-death-of-woman-in-langata/
+Rebecca Muthoni,49,Kiburuti village in Laikipia County,16-Jan-24,brother,unknown,https://ntvkenya.co.ke/news/family-murder-that-shocked-laikipia-village/
+Unidentified,unknown,"Gwa-Kairu area in Juja, Kiambu County",17-Jan-24,x,unknown,https://www.citizen.digital/news/woman-killed-naked-body-found-dumped-by-the-roadside-in-juja-n334960
+Christine Auma,25,"Kamwala village in Boya sublocation, Ndhiwa constituency, Homabay County",17-Jan-24,x,unknown,https://www.the-star.co.ke/counties/nyanza/2024-01-18-woman-killed-head-chopped-while-cooking-ugali-in-homa-bay/
+Unnamed,unknown,,18-Jan-24,x,unknown,https://www.citizen.digital/news/man-stabs-ex-lover-and-her-boyfriend-in-kiambu-n335030
+Asumpta Wanjiru Murunga,30,"village in Engineer, Nyandarua County.",18-Jan-24,Husband,Murder-Suicide,https://www.the-star.co.ke/news/realtime/2024-01-19-tragedy-strikes-as-man-kills-wife-takes-own-life-in-nyandarua/
+Grace Wangari,24,"Githurai 44, Kiambu county",20-Jan-24,husband,unknown,https://www.tuko.co.ke/kenya/535540-kiambu-woman-succumbs-injuries-moments-fight-boyfriend/
+Bridgit Amondi Ochieng',35,"Oboch location, kisumu county",22-Jan-24,lover,unknown,https://www.citizen.digital/news/kisumu-woman-found-dead-angry-mob-beats-her-lover-to-death-n335861
+Serah Ndunge Musyoki,20,"Biafra slums, Nairobi County",28-Jan-24,lover,unknown,https://www.the-star.co.ke/news/realtime/2024-01-29-woman-20-stabbed-to-death-by-alleged-boyfriend-in-biafra-slums/
+Nancy Muthoni,36,"Kiharu village, Nyeri County",23-Jan-24,x,unknown,https://nation.africa/kenya/counties/muranga/nancy-muthoni-murder-pay-debt-chama-money--4505896#story
+Esther Kamanze,33,"Kiamunyi, Nakuru county",3-Feb-24,Husband,unknown,https://nation.africa/kenya/counties/nakuru/-cook-for-me-githeri-woman-s-last-words-to-her-mother-before-her-mysterious-death-in-nakuru-4526000
+Unnamed,unknown,"Naivasha Kariuki Chotara road, Nakuru County",11-Feb-24,x,unknown,https://www.the-star.co.ke/news/2024-02-12-femicide-womans-throat-slit-in-shabby-naivasha-lodging/
+Carren Chebet,23,"Manjilil village, Bomet county",27-Feb-24,Husband,unknown,https://www.citizen.digital/wananchi-reporting/husband-detained-for-allegedly-stabbing-young-wife-to-death-n337525
+Unnamed,unknown,"Juja Miramaini, Kiambu county",17-Feb-24,Husband,unknown,https://www.the-star.co.ke/news/realtime/2024-02-19-man-stabs-estranged-wife-to-death-in-juja-as-mob-watches/
+Sharon Chelangat,17,"Silibwet, Bomet county",18-Feb-24,Gang,unknown,https://nation.africa/kenya/counties/bomet/-who-raped-and-killed-sharon-chelangat--4548626
+Stacy Njoki,43,"Kikuyu, Kiambu county",5-Mar-24,Boyfriend,unknown,https://www.citizen.digital/news/kiambu-family-calls-for-justice-after-kin-found-dead-boyfriend-missing-n338587
+Joan Nzomo,19,"Kasarani, Nairobi county",2-Mar-24,Boyfriend,unknown,https://www.standardmedia.co.ke/nairobi/article/2001490810/woman-killed-man-in-hospital-after-night-out
+Maragaret Kavisa,48,"Kasavini village, Kitui county",4-Mar-24,Cousin,Suspect killed by mob,https://www.the-star.co.ke/news/2024-03-04-kitui-womans-missing-head-recovered-suspected-killer-lynched
+unnamed,46,"Thunguma village, Nyeri county",7-Mar-24,Boyfriend,unknown,https://www.citizen.digital/news/73-year-old-man-accused-of-beating-girlfriend-to-death-detained-n339764
+Jackline Jerop Kimaiyo,29,"Mathira, Nyeri county",6-Mar-24,Husband,Comitted suicide,https://www.citizen.digital/news/evans-kosgei-man-killed-wife-after-online-threats-then-took-his-own-life-n338306
+Rose Nkatha,18,"Imenti Central, Meru county",10-Mar-24,Rider,unknown,https://nation.africa/kenya/counties/meru/boda-rider-flees-after-alleged-rape-and-murder-of-meru-woman--4553712
+Lorna Kinya,20,"Kiarui hill,Meru county",8-Mar-24,Husband,Suspect Committed suicide,https://nation.africa/kenya/counties/meru/murder-suicide-meru-man-kills-wife-hangs-self-on-a-hill--4555356
+Unnamed,9,"Kayole, Nairobi County",24-Mar-24,,unknown,https://www.kenyans.co.ke/news/98954-9-year-old-goes-missing-hours-found-dead-apartment-rooftop?fbclid=IwY2xjawGK66NleHRuA2FlbQIxMAABHXVvh6eJy1eBj7V4LJolwi4eE6IIoWV9kvvUrxAUvyPz28AuLL3XH4pFbA_aem_bzpAVMYDD2HJeKZ8S33NFw
+unnamed,50,"Mutithi-Kandongu-Kagio road, Kirinyaga county",14-Mar-24,x,unknown,https://www.citizen.digital/news/kirinyaga-woman-found-murdered-body-dumped-near-rice-farm-in-mwea-n338480
+Mildred Nekesa,19,"Mowlem, Trans Nzoia county",28-Mar-24,Boyfriend,unknown,https://www.radiobaraza.org/femicide-threatens-gender-equality-efforts/
+Unnamed,28,"Kiminini, Transzoia county",22-Mar-24,lover,unknown,https://www.citizen.digital/wananchi-reporting/trans-nzoia-man-follows-lover-to-her-work-place-stabs-her-repeatedly-n338984
+unnamed,unknown,"Kipsamoi village, Kericho county",4-Apr-24,Gang,unknown,https://www.citizen.digital/news/two-arrested-for-allegedly-gang-raping-killing-woman-in-kericho-n339858
+Tiffany Wanyonyi,30,"Kibisi village, Bungoma county",29-Mar-24,Husband,unknown,https://www.the-star.co.ke/news/realtime/2024-03-30-female-police-officer-allegedly-murdered-by-husband-in-bungoma/
+Winnie Auma,30,"Mwirendia village, Homabay county",17-Apr-24,Ex-husband,unknown,https://www.the-star.co.ke/news/2024-04-19-homa-bay-man-hacks-wife-to-death-over-custody-of-children-surrenders-to-police/
+Jane Njoki,33,"Kithiriti village, Kirinyaga county",6-Apr-24,enstranged husband,Comitted suicide,https://www.citizen.digital/wananchi-reporting/man-accused-of-beheading-wife-during-a-fight-found-dead-n339979
+Unnamed,55,"Kilibwoni, Nandi County",25-Apr-24,Husband,unknown,https://citizen.digital/news/man-attacks-wife-then-kills-self-over-suspected-domestic-feud-n341018?fbclid=IwY2xjawGK6oRleHRuA2FlbQIxMQABHUtBx-Bv0rqucz7s_gXzGTTeHS9GdRfuE6HAhVIsGGgyl6g9EULraT9qGA_aem_sFQs5Pm-lDdQHHQLyR1McA
+Miriam Melly,unknown,Kericho County,20-May-24,Husband,unknown,https://www.tuko.co.ke/people/family/549109-kericho-newly-employed-nurse-dead-house-husband-calls-parents-confess/?fbclid=IwY2xjawGK3W5leHRuA2FlbQIxMQABHcQ_4VABmzBwiDRkI-yCaSLMRbI4M3ZTojaien1sIJfez5D5CdVTvr1PkQ_aem_DL4DNxijC-fl8gJFQ2jHYQ
+unnamed,unknown,"Mathare, Nairobi County",5-May-24,Boyfriend,unknown,https://www.the-star.co.ke/news/realtime/2024-05-06-man-stabbed-killed-in-uda-grassroots-polls-in-kayole?fbclid=IwY2xjawGK5hRleHRuA2FlbQIxMAABHTfkQTyvq5L4B0b5taNfuSCVGbNwcW0m1tzwrmDKJtEP9asUoZT70SvbjA_aem_LeODPbbvVodXhLFttCARWA
+Judy Nyaboke,38,"Moitunya sublocation within Eratiri village, Nyamira County",15-May-24,x,unknown,https://www.the-star.co.ke/news/realtime/2024-05-17-38-year-old-woman-found-murdered-in-eratiri-nyamira?fbclid=IwY2xjawGK3a1leHRuA2FlbQIxMQABHRDB3SQLsfx3w6knoMwM2oCYyra8zoFN__IUkK-cBpY6TsbdC1--hxYBqQ_aem_cm2rJcs593Ta7rCoFhVlhg
+Faith Musembi,19,"Pilot estate Thika, Kiambu County",8-May-24,Boyfriend,unknown,https://www.citizen.digital/news/25-year-old-university-student-arrested-over-murder-of-faith-musembi-in-thika-n342094
+Unnamed,unknown,"Naivasha, Nakuru County",12-May-24,Husband,unknown,https://www.the-star.co.ke/counties/rift-valley/2024-05-13-man-kills-wife-by-stabbing-her-over-ten-times-in-naivasha/
+Unnamed,16,"Bondo, Siaya County",8-May-24,x,unknown,https://nation.africa/kenya/counties/siaya/siaya-teacher-out-on-bond-suspected-of-killing-minor-he-is-accused-of-defiling-4616892?fbclid=IwY2xjawGK7OhleHRuA2FlbQIxMQABHX11-qe7Ayux8S-3eWqUC6euEloPolTDR3_sZpB2xSmzSPiP2KoaEVMXDQ_aem_ciVT_KkgJjUQ8Ip8Fd9Njw
+Sheila Odoyo,38,"Athi River, Machakos county",9-May-24,Husband,unknown,https://www.the-star.co.ke/news/realtime/2024-05-13-surrender-police-tell-husband-on-the-run-after-wifes-murder/
+Lilian Nkatha,35,"Riangiri village, Embu county",19-May-24,Casual labourer,unknown,https://nation.africa/kenya/counties/embu/shock-as-missing-woman-found-raped-murdered-4633220
+Jenifer Chemtai,25,"Kapenguria, West Pokot county",20-May-24,Husband,unknown,https://nairobinews.nation.africa/landlords-suggestive-text-messages-led-to-womans-murder/
+Elizabeth Anyango,42,"Chamgiwadu village, Migori County",12-May-24,x,unknown,https://www.the-star.co.ke/news/realtime/2024-05-13-woman-found-dead-in-her-house-in-chamgiwadu-migori/
+Beth Wambui,17,"Kenol town, Murang'a county",25-May-24,x,unknown,https://nation.africa/kenya/counties/muranga/birthday-party-war-words-death-sad-story-of-beth-wambui-4653010#related
+Vince Juma,22,"Lolwe Estate, Kisumu county",28-May-24,"ex-boyfriend, girlfriend",unknown,https://nation.africa/kenya/counties/kisumu/man-girlfriend-woman-dies-in-suspected-love-triangle-in-kisumu-4640888
+Ann Njeri Wanjiku,50,"Juja, Kiambu County",31-May-24,Husband,unknown,https://www.the-star.co.ke/news/2024-06-01-50-year-old-woman-found-murdered-in-her-juja-home/
+Helen Murugi Njoki,40,"Thika town, Kiambu County",31-May-24,Husband,unknown,https://www.standardmedia.co.ke/national/article/2001497131/burial-of-woman-in-spousal-attack-stirs-memories-of-mothers-fate
+Serah,40,"Kethyani location, Kitui county",2-Jun-24,lover,unknown,https://www.citizen.digital/news/24-year-old-man-confesses-to-killing-40-year-old-partner-in-suspected-love-triangle-n343223
+Veronica Kerubo Morande,30,"Glassmart sho, Kisii County",7-Jun-24,Boyfriend,Comitted suicide,https://nation.africa/kenya/counties/kisii/murder-suicide-kisii-man-shoots-girlfriend-kills-self-4673550
+Sarah Achieng,45,"Kanyanjwa village, Homabay County",6-Jun-24,casual labourers,unknown,https://www.the-star.co.ke/counties/nyanza/2024-06-11-two-suspects-arrested-over-murder-of-their-female-boss-in-homa-bay/
+Beauty Njoki,16,"Kabatini village, Nakuru county",4-Jun-24,x,unknown,https://nation.africa/kenya/counties/nakuru/nakuru-family-in-pain-after-teen-is-defiled-and-brutally-killed-4659728
+Rael Biwott,44,"Shauri Estate, Uasin Gishu county",22-Jun-24,Husband,unknown,https://www.standardmedia.co.ke/article/2001500023/businessman-charged-with-brutal-murder-of-his-wife
+Rebecca Kemunto Kebaso,35,"Manga Trading centre, Nyamira county",21-Jun-24,Husband,Comitted suicide,https://www.the-star.co.ke/news/2024-06-22-police-probe-murder-suicide-incident-of-nyamira-couple/
+Unnamed,7,"Dera village, Kilifi County",22-Jun-24,step father,unknown,https://nation.africa/kenya/counties/kilifi/man-held-over-defilement-murder-of-seven-year-old-step-daughter-4677978?fbclid=IwY2xjawGK18dleHRuA2FlbQIxMQABHWuOOhwtW6h6UIsaIT-gh8uDC5KT0Dq0k0tSzqEYVF8PdC_qlgHwCC_bhA_aem_NRpHsmwQ4TUqiwkaqBpopw
+Beatrice Nyandigo,52,"KCC area, Nyahururu, Laikipia County",12-Jun-24,Lover,unknown,https://www.citizen.digital/news/man-stabs-lover-to-death-seriously-injures-her-grandson-in-nyahururu-n343853?fbclid=IwY2xjawGK2ElleHRuA2FlbQIxMQABHYw7veDVsbqWbhGoqmJASckDYKg-zOkAcH7RyDVSfKPtS46MivsSMTKxlA_aem_NsGvZtFrMyUK8GvBBRHVLw
+Roselyn Akoth,24,"Quarry slum, Nairobi county",28-Jun-24,x,unknown,https://nation.africa/kenya/counties/nairobi/roselyn-akoth-killed-and-dumped-in-kware-three-months-on-arrival-in-city--4693806
+Martha Njeri,22,"Enabelbel village, Narok County",4-Jul-24,Husband,unknown,https://x.com/citizentvkenya/status/1809216527930990650?lang=ta
+Jane Otieno,unknown,"Kasagam area, Kisumu county",1-Jul-24,Husband,unknown,https://www.the-star.co.ke/counties/nairobi/2024-07-03-body-of-woman-found-floating-on-nairobi-river-in-bahati-area/
+Unnamed,unknown,"Bahati, Makadara, Nairobi County",2-Jul-24,x,unknown,https://eastleighvoice.co.ke/eastleigh/55403/womans-body-found-in-nairobi-river-in-makadara
+Lilian Atieno,24,"Rodi Kopany, Homa Bay county",1-Jul-24,Boyfriend,unknown,https://www.standardmedia.co.ke/nyanza/article/2001499040/family-demands-justice-for-woman-found-dead-in-guesthouse
+Pamela Anyango,55,"Nyalula village,Siaya county",7-Jul-24,Husband,killed by mob,https://www.citizen.digital/news/man-stabs-wife-to-death-in-dispute-over-ksh30-church-offering-mob-kills-him-n345412
+Kezia Kigei,28,"Kosovo, Mathare, Nairobi County",8-Jul-24,X,unknown,https://www.the-star.co.ke/news/realtime/2024-07-09-bar-attendant-found-dead-in-mathare-police-seek-motive?fbclid=IwY2xjawGK1qZleHRuA2FlbQIxMQABHYN_bhNfEEbqrxIMD1lDy_LxobocDBp1gcQu9DCNhPSFWxkkaiqYnGgMBw_aem_Q_qfTG_tGVw6bUzdyaVIzA
+Eunice Atieno,45,"Nyamasaria estate, Kisumu County",10-Jul-24,Lover,unknown,https://nation.africa/kenya/counties/kisumu/-kisumu-woman-her-three-children-burned-to-death-their-house-4687962?fbclid=IwY2xjawGK1pZleHRuA2FlbQIxMQABHU_H_0cgL1-rGcKTdXNQKBCsMOwZXJrTV9xr-OhIgsrKsfIgwNU5TK8gzA_aem_2F_4IkRAGId98HydV7_IWw
+Patricia Manza,29,"Kayole, Nairobi County",30-Jul-24,Boyfriend,unknown,https://www.the-star.co.ke/news/realtime/2024-07-31-salonist-29-found-dead-in-her-house-in-kayole?fbclid=IwY2xjawGK1WRleHRuA2FlbQIxMQABHWB794GN9pv-DVqUuLRLjzslikqDgAo9WqfL_jO4rH7EEuOJDUgowXvMRQ_aem_n0Bb8BCCNyltAnmXSVKWZQ
+Joyce Wairimu,32,"Bondeni, Nakuru County",25-Jul-24,Husband,unknown,https://www.the-star.co.ke/news/realtime/2024-07-26-tragedy-as-9-month-old-boy-dies-at-daycare-centre-in-kiambiu-slums-nairobi?fbclid=IwY2xjawGK1d1leHRuA2FlbQIxMQABHVRei-eqHmXgnrqfy8uypSO2GQS6T_ZF4CTsOUClfIKyyHeaF27_zHVRFw_aem_Jw-G03hyf_CYvWel1UJgRg
+Mlongo Mriphe Munga,30,"Kilimagodo, Kwale county",14-Jul-24,Ex-husband,unknown,https://www.the-star.co.ke/counties/coast/2024-07-15-tragedy-as-kwale-man-hacks-ex-wife-to-death/
+Sarah Chepkemoi,unknown,"Chemanel village, Nakuru county",15-Jul-24,Husband,Comitted suicide,https://nation.africa/kenya/counties/nakuru/retired-police-chief-kills-wife-then-takes-own-life-4691664
+Eileen Cherotich,22,Nakuru county,14-Jul-24,Boyfriend,unknown,https://nation.africa/kenya/counties/nakuru/who-killed-nakuru-student-eileen-cherotich-last-moments-4691696
+Alice Ayuma Blessing,5,"Mwangaza area, Nakuru County",14-Jul-24,x,unknown,https://www.dci.go.ke/end-road-elusive-serial-killer?fbclid=IwY2xjawGK1QlleHRuA2FlbQIxMAABHXVvh6eJy1eBj7V4LJolwi4eE6IIoWV9kvvUrxAUvyPz28AuLL3XH4pFbA_aem_bzpAVMYDD2HJeKZ8S33NFw
+Felvin Akoth Onyango,19,"Kadika village, Migori county",25-Jul-24,Husband,unknown,https://www.the-star.co.ke/news/2024-07-27-migori-man-kills-wife-calls-brother-in-law-to-break-news/
+Rebecca Cheptegei,33,"Trans Nzoia, County",5-Sep-24,ex-boyfirend,Comitted suicide,https://www.bbc.com/news/articles/c3vx0kq2xr2o
+Mueni Mwalimu,34,Nakuru county,6-Aug-24,x,unknown,https://nation.africa/kenya/counties/nakuru/florence-mueni-murder-nakuru-bank-manager-husband-record-statements-with-dci-4724192
+Jecinta Atieno,26,"Manyatta Estate, Kisumu county",29-Jul-24,Husband,Comitted suicide,https://www.the-star.co.ke/counties/nyanza/2024-07-29-man-in-kisumu-stabs-wife-to-death-before-hanging-himself/
+Moraa Mugambi,28,"Kiamunyi, Nakuru County",8-Aug-24,x,unknown,https://www.dci.go.ke/end-road-elusive-serial-killer?fbclid=IwY2xjawGK1QlleHRuA2FlbQIxMAABHXVvh6eJy1eBj7V4LJolwi4eE6IIoWV9kvvUrxAUvyPz28AuLL3XH4pFbA_aem_bzpAVMYDD2HJeKZ8S33NFw
+Daisy Nyakeru,24,"Ngong town, Kajiado county",31-Jul-24,x,unknown,https://www.citizen.digital/news/kajiado-family-seeks-justice-after-mysterious-death-of-daughter-n347532
+Mueni Mwalimu,34,"Kalyet, Nakuru County",7-Aug-24,x,unknown,https://www.dci.go.ke/end-road-elusive-serial-killer?fbclid=IwY2xjawGK1QlleHRuA2FlbQIxMAABHXVvh6eJy1eBj7V4LJolwi4eE6IIoWV9kvvUrxAUvyPz28AuLL3XH4pFbA_aem_bzpAVMYDD2HJeKZ8S33NFw
+Joy Kinya,16,"Mukuru slums, Nairobi county",11-Aug-24,step father,unknown,https://www.citizen.digital/news/man-arrested-for-raping-stabbing-his-16-year-old-stepdaughter-in-embakasi-n347701
+Ivyine Cheptoo,unknown,"Mosoriot, Nandi county",8-Aug-24,Husband,Comitted suicide,https://www.the-star.co.ke/news/2024-08-10-tragedy-as-man-kills-wife-dies-by-suicide-in-nandi-village/
+Wilkister Odanga,68,"Nyagidha village, Homa bay county",12-Aug-24,criminal,unknown,https://www.citizen.digital/news/68-year-old-deaf-woman-raped-killed-by-unknown-persons-in-homa-bay-n347707
+Maria Anami,25,"Mukuru slums, Nairobi county",12-Aug-24,Husband,unknown,https://www.the-star.co.ke/news/2024-08-13-embakasi-man-on-run-after-allegedly-killing-wife-over-love-triangle-saga/
+Eunice Chepkaitany Koima,unknown,"Subukia, Nakuru county",8-Aug-24,Husband,unknown,https://nation.africa/kenya/counties/nakuru/in-nakuru-love-betrayal-and-a-murder-4725400#story
+Irene Jelimo,30,"Siele village, Nandi county",15-Aug-24,Husband,unknown,https://www.the-star.co.ke/news/realtime/2024-08-18-nandi-man-arrested-after-clobbering-wife-to-death/
+unnamed,22,"Ndiwa market, Kericho county",23-Aug-24,Husband,unknown,https://www.the-star.co.ke/news/2024-08-24-kericho-man-kills-wife-over-suspected-love-affair-with-neighbour/
+Jackline Pili,31,"Ogwedi market, Migori county",18-Aug-24,Husband,unknown,https://www.the-star.co.ke/news/2024-08-23-migori-man-wanted-after-wifes-decomposing-body-was-found-in-her-house/
+unnamed,45,"Soy, Uasin Gishu county",26-Aug-24,Wife to victim's lover,unknown,https://www.capitalfm.co.ke/news/2024/08/woman-dies-after-being-stabbed-by-lovers-wife-in-uasin-gishu/
+Milicent Akinyi,unknown,"Pakawa Gilgil, Nakuru county",18-Aug-24,Boyfriend,unknown,https://www.the-star.co.ke/news/2024-08-19-husband-wanted-as-23-year-old-bungoma-woman-found-dead/
+Belinda Wanjala,23,"Kimilili, Bungoma county",17-Aug-24,Husband,unknown,https://www.the-star.co.ke/news/2024-08-19-husband-wanted-as-23-year-old-bungoma-woman-found-dead/
+Eunice Akinyi,18,"Kolongolo area, Transzoia county",1-Sep-24,x,unknown,https://www.the-star.co.ke/counties/rift-valley/2024-09-01-girl-18-raped-and-body-dumped-in-maize-plantation-in-trans-nzoia/
+Dainah Khamati Alelah,29,"Luanda township, Vihiga county",9-Sep-24,x,unknown,https://www.the-star.co.ke/news/realtime/2024-09-10-woman-attacked-hacked-to-death-in-luanda-vihiga-county/
+Unnamed,30,"Loitoktok, Kajiado County",7-Sep-24,Unknown,unknown,https://web.archive.org/web/20240919044840/https://www.the-star.co.ke/news/2024-09-09-pwani-university-fourth-year-student-found-dead-in-kilifi/
+Regina,unknown,"Mukuru slums, Nairobi County",10-Sep-24,Boyfriend,unknown,https://kahawatungu.com/woman-fatally-stabbed-in-domestic-fight-in-mukuru-slums/?utm_source=rss&utm_medium=rss&utm_campaign=woman-fatally-stabbed-in-domestic-fight-in-mukuru-slums&fbclid=IwY2xjawGKzkJleHRuA2FlbQIxMAABHSA0dF4_Olsgi_zyC0KMpip6WW_QT8VI3JGidA8-v4jpfX-FBbsXan_Z5Q_aem_qGxQhBNyhMW_kP_oFgPipQ
+Alice Chemutai,unknown,"Kitale, Transzoia county",10-Sep-24,one of the is a lover,unknown,https://www.the-star.co.ke/news/2024-09-10-body-of-woman-exhumed-from-trans-nzoia-shallow-grave-identified/
+unnamed,14,"Likia area, Njoro, Nakuru County",21-Sep-24,x,unknown,https://www.the-star.co.ke/news/realtime/2024-09-24-14-year-old-girl-grade-6-pupil-defiled-murdered-in-njoro
+Naropil Moijoi,30,"Mulot, Narok County",25-Sep-24,Husband,unknown,https://www.the-star.co.ke/counties/rift-valley/2024-09-24-police-in-narok-arrest-three-murder-suspects
+Unnamed,unknown,"Muumoni village in Muthwani, Matungulu Machakos County",14-Sep-24,Husband,unknown,https://web.archive.org/web/20240918021618/https://www.the-star.co.ke/counties/eastern/2024-09-17-man-arrested-in-connection-to-wifes-murder-in-machakos/
+Molly Achieng',32,"Moraa village, Kisii county",11-Sep-24,x,unknown,https://www.the-star.co.ke/counties/nyanza/2024-09-12-woman-32-murdered-at-daraja-mbili-market-in-kisii/
+Jane Mwende Kilonzi,44,"Mugari village in Kiambere Ward, Embu County",25-Sep-24,lover,unknown,https://www.the-star.co.ke/counties/eastern/2024-09-25-woman-murdered-in-embu-body-dumped-in-river
+Lucy Wambui Mathenge,unknown,"Kitengela, Kajiado County",30-Sep-24,Husband,unknown,https://www.tv47.digital/man-stabs-his-lover-to-death-in-front-of-their-7-year-old-daughter-in-kitengela-72486/?fbclid=IwY2xjawGKxiRleHRuA2FlbQIxMAABHca26_h4VLYY1pr3kJ__vcLHexkdQlPhtIEYXjN4HinNlxrNCTZFP7cG1g_aem_mXG9jAY8_SqtnaWXqRRS4A
+Mercy Kwamboka,20,"Mwiki area, Nairobi County",28-Sep-24,x,unknown,https://www.the-star.co.ke/news/2024-10-10-uon-student-found-murdered-hands-doused-with-acid
+Chepkirui,31,"Sekenani, Narok",25-Sep-24,Boyfriend,unknown,https://www.the-star.co.ke/counties/rift-valley/2024-09-24-police-in-narok-arrest-three-murder-suspects
+Sharon Chepkirui,22,"Londiani, Kipkelion East, Kericho County",23-Aug-24,Husband,unknown,https://nation.africa/kenya/counties/kericho/man-killing-wife-poisoning-child-as-suicide-bid-aborts-4737304?fbclid=IwY2xjawGK0zNleHRuA2FlbQIxMQABHT9FMpIc5-PmulDBA4kzHZ-p7ic32HBVszDG6fSs9M9KmGUF74IwWT8KKA_aem_q_PlZeY1yjzZ17RM6JaMxQ
+Victoria Mumbua Muloki,35,"Lari area, Kiambu County",29-Sep-24,x,unknown,https://www.the-star.co.ke/news/2024-10-10-taxi-driver-victoria-muloki-was-battered-strangled-to-death
+Unnamed,47,Mwingi West sub-county in Kitui county.,17-Oct-24,x,Murder-Suicide,https://www.the-star.co.ke/africa/2024-10-18-prison-warder-dies-by-suicide-after-killing-wife-in-kitui
+Dahabo Daud Said,38,"Khyumbi, Machakos county",22-Oct-24,Unknown,unknown,https://www.the-star.co.ke/news/2024-10-25-eastleigh-murders-abductors-killed-victims-after-being-identified-police
+Seth Nyakio Njeri,23,"Biafra area, Thika, Kiambu County.",13-Oct-24,x,unknown,https://www.the-star.co.ke/news/2024-10-22-23-year-old-female-student-found-dead-in-thika-house
+Amina Abdirashid Dahir,22,"6th Avenue Parklands, Nairobi County",22-Oct-24,,unknown,https://www.the-star.co.ke/news/2024-10-25-eastleigh-murders-abductors-killed-victims-after-being-identified-police
+Nusayba Abdi Mohammed,13,"Bahati in Makadara, Nairobi County",22-Oct-24,,unknown,https://www.the-star.co.ke/news/2024-10-25-eastleigh-murders-abductors-killed-victims-after-being-identified-police

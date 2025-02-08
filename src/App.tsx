@@ -1,8 +1,10 @@
 import "./App.css";
 import { Scrollama, Step } from "react-scrollama";
 import { ReactNode, useState } from "react";
-import BarChart from "./components/BarChart";
+import BarChart from "./components/charts/BarChart";
 import DataIntroduction from "./components/DataIntroduction";
+import HeaderIntro from "./components/HeaderIntro";
+import BubbleChart from "./components/charts/BubbleChart";
 
 type TOnStepCallback = {
   element: ReactNode; // The DOM node of the step that was triggered
@@ -11,71 +13,118 @@ type TOnStepCallback = {
   entry: IntersectionObserverEntry; // The IntersectionObserverEntry for the step
 };
 
-const components: { component: ReactNode }[] = [
-  {
-    component: <DataIntroduction />,
-  },
-  {
-    component: <BarChart />,
-  },
-  {
-    component: <DataIntroduction />,
-  },
-];
 function App() {
   const [currentStepIndex, setCurrentStepIndex] = useState<number | null>(null);
-
+  const [currentGraphStepIndex, setCurrentGraphStepIndex] = useState<
+    number | null
+  >(null);
+  const [hightlightYear, setHightlightYear] = useState<null | number>(null);
   const updateStepIndex = ({ data }: TOnStepCallback) => {
     console.log({ data });
     setCurrentStepIndex(data as number);
   };
 
-  const updateStepExit = ({ data, direction }: TOnStepCallback) => {
+  const updateGraphStepIndex = ({ data }: TOnStepCallback) => {
     console.log({ data });
-    if (data === 1 && direction == "up") setCurrentStepIndex(null);
+    setCurrentGraphStepIndex(data as number);
+    if (data === 1) {
+      setHightlightYear(2024);
+    }
+    if (data === 2) {
+      setHightlightYear(2020);
+    }
+    if (data === 3) {
+      setHightlightYear(2019);
+    }
   };
+
+  // const updateStepExit = ({ data, direction }: TOnStepCallback) => {
+  //   console.log({ data });
+  //   if (data === 0 && direction == "up") {
+  //     setCurrentStepIndex(null);
+  //   }
+  // };
+
+  const components: { component: ReactNode }[] = [
+    { component: <HeaderIntro /> },
+    {
+      component: <DataIntroduction />,
+    },
+  ];
   return (
-    <div className="relative">
-      <div className="sticky h-screen top-0 bg-femicide flex justify-center items-center  bg-cover bg-center text-white bg-black bg-opacity-85 bg-blend-darken">
+    <>
+      <div className="min-h-screen relative">
         <div
-          className={`bg-white p-16 text-black text-center w-3/4 m-auto md:w-[60%] rounded transition-opacity duration-500 ease-out  ${
-            currentStepIndex === null
-              ? "relative opacity-100 z-50"
-              : "opacity-0"
-          }`}
+          className={`sticky h-screen top-0 bg-femicide flex justify-center items-center  bg-cover bg-center text-white bg-black bg-opacity-85 bg-blend-darken`}
+        ></div>
+        <Scrollama
+          onStepEnter={updateStepIndex}
+          // onStepExit={updateStepExit}
+          offset={0.5}
+          key={1}
         >
-          <h1 className="text-xl md:text-5xl font-bold mb-4">
-            <span className="text-red-700 font-extrabold">FEMICIDE</span> IN
-            KENYA
-          </h1>
-          <p className="text-lg text-center">
-            A data story tracking and humanizing Kenyan femicide cases through
-            the years{" "}
-          </p>
-        </div>
-      </div>
-      <Scrollama
-        onStepEnter={updateStepIndex}
-        onStepExit={updateStepExit}
-        offset={0.5}
-      >
-        {[1, 2, 3].map((step) => (
-          <Step data={step} key={step}>
-            <div className={`min-h-screen flex justify-center items-center`}>
+          {components.map((step, index) => (
+            <Step data={index} key={index}>
               <div
-                className={`bg-white p-16 text-black  w-3/4 m-auto md:w-[60%] rounded  ${
-                  currentStepIndex === step
+                className={`w-3/4 m-auto md:w-[60%] min-h-screen rounded ${
+                  currentStepIndex === index
                     ? "relative opacity-100 z-50"
                     : "opacity-20"
                 }`}
               >
-                {components[step - 1].component}
+                {step.component}
               </div>
-            </div>
-          </Step>
-        ))}
-      </Scrollama>
-    </div>
+            </Step>
+          ))}
+        </Scrollama>
+      </div>
+
+      {/* the bubble chart section */}
+      <div className="min-h-screen relative">
+        <div
+          className={`sticky h-screen top-0 flex justify-center items-center  bg-cover bg-center text-white  bg-opacity-85 bg-blend-darken`}
+        >
+          <BubbleChart />
+        </div>
+        <Scrollama
+          onStepEnter={updateStepIndex}
+          // onStepExit={updateStepExit}
+          offset={0.5}
+          key={3}
+        >
+          {[1, 2, 3, 4].map((step) => (
+            <Step data={step} key={step}>
+              <div className="min-h-screen p-6 flex justify-start items-center">
+                hey {step}
+              </div>
+            </Step>
+          ))}
+        </Scrollama>
+      </div>
+
+      <div className="relative grid grid-cols-2 min-h-screen">
+        <div>
+          <Scrollama key={2} onStepEnter={updateGraphStepIndex} offset={0.5}>
+            {[1, 2, 3, 4].map((step) => (
+              <Step data={step} key={step}>
+                <div className="min-h-screen p-6 flex justify-start items-center">
+                  hey {step}
+                </div>
+              </Step>
+            ))}
+          </Scrollama>
+        </div>
+
+        <div className={`sticky top-0 h-screen bg-white`}>
+          {" "}
+          <div className={`min-h-screen flex justify-center items-center`}>
+            <BarChart highlightYear={hightlightYear} />
+
+            {/* <BubbleChart /> */}
+          </div>
+        </div>
+      </div>
+    </>
   );
 }
 

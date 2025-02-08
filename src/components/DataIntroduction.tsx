@@ -2,18 +2,21 @@ import React from "react";
 
 export default function DataIntroduction() {
   return (
-    <div>
+    <div className={`bg-white p-16 text-black   rounded `}>
       <p className="text-lg">
-        Beth Muthoni, a 41 year old woman, was found brutally murdered on
-        January 18 2025 at Thiririka Shrine in Gatundu South, Kiambu. She had
-        visited the facility for prayers.
+        Femicide is the specific act of men killing women because they are
+        women. At least <b>97 women across Kenya were killed in femicides </b>
+        between August and October of last year, according to police figures.
         <br />
         <br />
         Beth Muthoni, a 41 year old woman, was found brutally murdered on
-        January 18 2025 at Thiririka Shrine in Gatundu South, Kiambu. She had
-        visited the facility for prayers. Beth Muthoni, a 41 year old woman, was
-        found brutally murdered on January 18 2024 at Thiririka Shrine in
-        Gatundu South, Kiambu. She had visited the facility for prayers.
+        January 18, 2025 at Thiririka Shrine in Gatundu South, Kiambu for
+        prayers and fasting. <br />
+        <br />
+        Her body was discovered with her head stuck between rocks, her jaw hurt,
+        and there were signs of blunt force injuries. Nearby, empty bottles
+        containing unknown liquids were found, indicating she might have been
+        drugged before her death.
         <br />
         <br />
         -Daily Nation (Link)
