@@ -19,6 +19,9 @@ function App() {
     number | null
   >(null);
   const [hightlightYear, setHightlightYear] = useState<null | number>(null);
+  const [sortBasedOnMurder, setSortBasedOnMurder] = useState<boolean>(false);
+  const [renderBubbleChart, setRenderBubbleChart] = useState<boolean>(false);
+
   const updateStepIndex = ({ data }: TOnStepCallback) => {
     console.log({ data });
     setCurrentStepIndex(data as number);
@@ -35,6 +38,16 @@ function App() {
     }
     if (data === 3) {
       setHightlightYear(2019);
+    }
+  };
+
+  const updateBubbleStepIndex = ({ data }: TOnStepCallback) => {
+    setCurrentGraphStepIndex(data as number);
+    if (data === 1) {
+      setRenderBubbleChart(true);
+    }
+    if (data === 2) {
+      setSortBasedOnMurder(true);
     }
   };
 
@@ -84,15 +97,17 @@ function App() {
         <div
           className={`sticky h-screen top-0 flex justify-center items-center  bg-cover bg-center text-white  bg-opacity-85 bg-blend-darken`}
         >
-          <BubbleChart />
+          {renderBubbleChart && (
+            <BubbleChart sortBasedOnMurder={sortBasedOnMurder} />
+          )}
         </div>
         <Scrollama
-          onStepEnter={updateStepIndex}
+          onStepEnter={updateBubbleStepIndex}
           // onStepExit={updateStepExit}
           offset={0.5}
           key={3}
         >
-          {[1, 2, 3, 4].map((step) => (
+          {[1, 2].map((step) => (
             <Step data={step} key={step}>
               <div className="min-h-screen p-6 flex justify-start items-center">
                 hey {step}

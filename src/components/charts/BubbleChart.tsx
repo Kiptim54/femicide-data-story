@@ -16,7 +16,11 @@ type TChartData = {
   category: string;
 };
 
-export default function BubbleChart() {
+export default function BubbleChart({
+  sortBasedOnMurder,
+}: {
+  sortBasedOnMurder: boolean;
+}) {
   const svgRef = useRef<SVGSVGElement | null>(null);
   const wrapperRef = useRef<HTMLDivElement | null>(null);
   const [chartData, setChartData] = useState<TChartData[] | []>([]);
@@ -37,6 +41,8 @@ export default function BubbleChart() {
     window.addEventListener("resize", updateDimensions);
     return () => window.removeEventListener("resize", updateDimensions);
   }, []);
+
+  const margin = { top: 20, right: 20, bottom: 20, left: 20 };
 
   useEffect(() => {
     const cleanAge = (age: string | number) => {
@@ -68,8 +74,12 @@ export default function BubbleChart() {
             relationship: d["Suspect Relationship"],
             verdictTime: d["Time to Verdict"],
             source: d.source,
-            x: Math.random() * dimensions.width || dimensions.width / 2,
-            y: Math.random() * dimensions.height || dimensions.height / 2,
+            x:
+              Math.random() * dimensions.width - (margin.left + margin.right) ||
+              dimensions.width / 2,
+            y:
+              Math.random() * dimensions.height -
+                (margin.top + margin.bottom) || dimensions.height / 2,
             category, // Add category to each data point
           };
         }
@@ -80,24 +90,30 @@ export default function BubbleChart() {
     }
 
     fetchData();
-  }, []);
+  }, [
+    dimensions.height,
+    dimensions.width,
+    margin.bottom,
+    margin.left,
+    margin.right,
+    margin.top,
+  ]);
 
   useEffect(() => {
     if (!svgRef.current) return;
 
     const legendData = [
-      { label: "Young (0-18)", color: "pink", radius: 5 },
+      { label: "Young (0-18)", color: "pink", radius: 10 },
       { label: "Adult (19-40)", color: "red", radius: 10 },
-      { label: "Middle-aged (41-60)", color: "indigo", radius: 15 },
-      { label: "Senior (61+)", color: "purple", radius: 20 },
-      { label: "Unknown Age", color: "gray", radius: 8 }, // For unknowns
+      { label: "Middle-aged (41-60)", color: "indigo", radius: 10 },
+      { label: "Senior (61+)", color: "purple", radius: 10 },
+      { label: "Unknown Age", color: "gray", radius: 10 }, // For unknowns
     ];
 
     const svg = d3.select(svgRef.current);
     svg.selectAll("*").remove(); // Clear previous drawings
 
     const { width, height } = dimensions;
-    const margin = { top: 20, right: 20, bottom: 20, left: 20 };
 
     const [minAge, maxAge] = d3.extent(chartData, (d) => d.age);
     console.log(minAge, maxAge);
@@ -106,40 +122,101 @@ export default function BubbleChart() {
     const radiusScale = d3
       .scaleSqrt()
       .domain([minAge || 0, maxAge || 95])
-      .range([5, 25]);
+      .range([10, 25]);
 
     const colorScale = d3
       .scaleOrdinal()
       .domain(["young", "adult", "middle-aged", "senior", "unknown"])
       .range(["pink", "red", "indigo", "purple", "gray"]);
 
-    // Create force simulation
     const simulation = d3
       .forceSimulation(chartData)
-      .force("charge", d3.forceManyBody().strength(2))
-      .force("center", d3.forceCenter(width / 2, height / 2))
-      .force(
-        "collision",
-        d3.forceCollide((d) => radiusScale(d.age) + 2)
-      )
-      .force(
-        "x",
-        d3.forceX((d) =>
-          Math.max(
-            radiusScale(d.age),
-            Math.min(width - radiusScale(d.age), d.x || width / 2)
+      .force("charge", d3.forceManyBody().strength(2));
+
+    if (sortBasedOnMurder) {
+      const categoryPositions: Record<string, { x: number; y: number }> = {
+        young: { x: width * 0.25, y: height * 0.25 }, // Top-left
+        unknown: { x: width * 0.75, y: height * 0.25 }, // Top-right
+        "middle-aged": { x: width * 0.25, y: height * 0.75 }, // Bottom-left
+        senior: { x: width * 0.75, y: height * 0.75 }, // Bottom-right
+        adult: { x: width * 0.5, y: height * 0.5 }, // Center
+      };
+
+      const categories = Array.from(new Set(chartData.map((d) => d.category)));
+      console.log({ categories });
+
+      simulation
+        .force(
+          "collision",
+          d3.forceCollide((d) => radiusScale(d.age) + 2)
+        )
+        .force(
+          "x",
+          d3
+            .forceX(
+              (d: TChartData) => categoryPositions[d.category].x as number
+            )
+            .strength(0.5)
+        )
+        .force(
+          "y",
+          d3
+            .forceY((d: TChartData) => categoryPositions[d.category].y)
+            .strength(0.5)
+        );
+
+      // Positioning with force simulation
+      simulation.on("tick", () => {
+        bubbles
+          .attr("cx", (d) => {
+            if (isNaN(d.x)) console.error("NaN detected in d.x:", d);
+            return d.x ?? width / 2;
+          })
+          .attr("cy", (d) => {
+            if (isNaN(d.y)) console.error("NaN detected in d.y:", d);
+            return d.y ?? height / 2;
+          });
+      });
+    } else {
+      // Create force simulation
+      simulation
+        .force("center", d3.forceCenter(width / 2, height / 2))
+        .force(
+          "collision",
+          d3.forceCollide((d) => radiusScale(d.age) + 2)
+        )
+        .force(
+          "x",
+          d3.forceX((d) =>
+            Math.max(
+              radiusScale(d.age),
+              Math.min(width - radiusScale(d.age), d.x || width / 2)
+            )
           )
         )
-      )
-      .force(
-        "y",
-        d3.forceY((d) =>
-          Math.max(
-            radiusScale(d.age),
-            Math.min(height - radiusScale(d.age), d.y || height / 2)
+        .force(
+          "y",
+          d3.forceY((d) =>
+            Math.max(
+              radiusScale(d.age),
+              Math.min(height - radiusScale(d.age), d.y || height / 2)
+            )
           )
-        )
-      );
+        );
+
+      // Positioning with force simulation
+      simulation.on("tick", () => {
+        bubbles
+          .attr("cx", (d) => {
+            if (isNaN(d.x)) console.error("NaN detected in d.x:", d);
+            return d.x ?? width / 2;
+          })
+          .attr("cy", (d) => {
+            if (isNaN(d.y)) console.error("NaN detected in d.y:", d);
+            return d.y ?? height / 2;
+          });
+      });
+    }
 
     svg
       .attr("width", width)
@@ -189,6 +266,20 @@ export default function BubbleChart() {
       .attr("transform", `translate(${width - 150}, 50)`); // Adjust position
 
     legend
+      .append("rect")
+      .attr("x", -10)
+      .attr("y", -10)
+      .attr("width", 200)
+      .attr("height", 150)
+      .attr("fill", "white")
+      .attr("stroke", "black")
+      .attr("stroke-width", 0)
+      .attr("rx", 10)
+      .attr("ry", 10)
+      // add padding of 10px
+      .attr("transform", `translate(-10, -10)`);
+
+    legend
       .selectAll("legend-dots")
       .data(legendData)
       .enter()
@@ -209,25 +300,13 @@ export default function BubbleChart() {
       .attr("font-size", "12px")
       .attr("fill", "#333")
       .style("alignment-baseline", "middle");
-
-    // Positioning with force simulation
-    simulation.on("tick", () => {
-      bubbles
-        .attr("cx", (d) => {
-          if (isNaN(d.x)) console.error("NaN detected in d.x:", d);
-          return d.x ?? width / 2;
-        })
-        .attr("cy", (d) => {
-          if (isNaN(d.y)) console.error("NaN detected in d.y:", d);
-          return d.y ?? height / 2;
-        });
-    });
-  }, [chartData, dimensions]);
+    // add background to legend
+  }, [chartData, dimensions, sortBasedOnMurder]);
 
   return (
     <div
       ref={wrapperRef}
-      className="h-screen w-screen"
+      className="h-screen w-full"
       style={{
         width: "100%",
         overflowX: "auto",
