@@ -15,9 +15,7 @@ type TOnStepCallback = {
 
 function App() {
   const [currentStepIndex, setCurrentStepIndex] = useState<number | null>(null);
-  const [currentGraphStepIndex, setCurrentGraphStepIndex] = useState<
-    number | null
-  >(null);
+  const [, setCurrentGraphStepIndex] = useState<number | null>(null);
   const [hightlightYear, setHightlightYear] = useState<null | number>(null);
   const [sortBasedOnMurder, setSortBasedOnMurder] = useState<boolean>(false);
   const [renderBubbleChart, setRenderBubbleChart] = useState<boolean>(false);

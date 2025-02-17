@@ -1,5 +1,3 @@
-import React from "react";
-
 export default function DataIntroduction() {
   return (
     <div className={`bg-femicide-white p-16 text-black   rounded `}>
@@ -10,8 +8,8 @@ export default function DataIntroduction() {
         <br />
         <br />
         Beth Muthoni, a 41 year old woman, was found brutally murdered on
-        January 18, 2025 at Thiririka Shrine in Gatundu South, Kiambu for
-        prayers and fasting. <br />
+        January 18,2025 at Thiririka Shrine in Gatundu South, Kiambu for prayers
+        and fasting. <br />
         <br />
         Her body was discovered with her head stuck between rocks, her jaw hurt,
         and there were signs of blunt force injuries. Nearby, empty bottles

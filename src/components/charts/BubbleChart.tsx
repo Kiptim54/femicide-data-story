@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useRef } from "react";
+import { useState, useEffect, useRef } from "react";
 import * as d3 from "d3";
 
 import { TData } from "../../types";
@@ -52,7 +52,7 @@ export default function BubbleChart({
 
     async function fetchData() {
       const data: TChartData[] = await d3.csv(
-        "femicide_kenya.csv",
+        "/femicide_kenya.csv",
         (d: TData) => {
           const age = cleanAge(d.Age);
 
@@ -145,7 +145,7 @@ export default function BubbleChart({
     };
 
     if (sortBasedOnMurder) {
-      const categories = Array.from(new Set(chartData.map((d) => d.category)));
+      // const categories = Array.from(new Set(chartData.map((d) => d.category)));
 
       simulation
         .force(
@@ -324,7 +324,7 @@ export default function BubbleChart({
       .enter()
       .append("circle")
       .attr("cx", 0)
-      .attr("cy", (d, i) => i * 25) // Spacing between items
+      .attr("cy", (_d, i) => i * 25) // Spacing between items
       .attr("r", (d) => d.radius / 2) // Adjust size
       .attr("fill", (d) => d.color);
 
@@ -334,7 +334,7 @@ export default function BubbleChart({
       .enter()
       .append("text")
       .attr("x", 15) // Shift right of circle
-      .attr("y", (d, i) => i * 25 + 5) // Align with circles
+      .attr("y", (_d, i) => i * 25 + 5) // Align with circles
       .text((d) => d.label)
       .attr("font-size", "12px")
       .attr("fill", "#333")

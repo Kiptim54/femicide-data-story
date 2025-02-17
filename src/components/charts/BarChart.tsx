@@ -1,4 +1,4 @@
-import React, { useEffect, useRef, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import * as d3 from "d3";
 
 import { TData } from "../../types";
@@ -42,7 +42,7 @@ const D3Chart = (props: TD3ChartProps) => {
   // Fetch & process CSV data
   useEffect(() => {
     async function fetchData() {
-      const femicide_data: TData[] = await d3.csv("femicide_kenya.csv");
+      const femicide_data: TData[] = await d3.csv("/femicide_kenya.csv");
 
       const sortData = d3.rollup(
         femicide_data,

@@ -4,7 +4,7 @@ export default {
   theme: {
     extend: {
       backgroundImage: {
-        femicide: "url(src/assets/femicide-kenya.jpg)",
+        femicide: "url(/assets/femicide-kenya.jpg)",
       },
       colors: {
         "femicide-black": "#0a0a0a",
