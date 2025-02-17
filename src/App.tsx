@@ -45,6 +45,7 @@ function App() {
     setCurrentGraphStepIndex(data as number);
     if (data === 1) {
       setRenderBubbleChart(true);
+      setSortBasedOnMurder(false);
     }
     if (data === 2) {
       setSortBasedOnMurder(true);
@@ -65,7 +66,7 @@ function App() {
     },
   ];
   return (
-    <>
+    <div className="bg-femicide-white">
       <div className="min-h-screen relative">
         <div
           className={`sticky h-screen top-0 bg-femicide flex justify-center items-center  bg-cover bg-center text-white bg-black bg-opacity-85 bg-blend-darken`}
@@ -109,8 +110,10 @@ function App() {
         >
           {[1, 2].map((step) => (
             <Step data={step} key={step}>
-              <div className="min-h-screen p-6 flex justify-start items-center">
-                hey {step}
+              <div className="p-6 flex justify-start items-center h-screen">
+                <h1 className="bg-white p-4 rounded-md min-h-32 text-black mx-auto flex justify-center items-center  z-50">
+                  Hover on the bubbles to see details of the victim
+                </h1>
               </div>
             </Step>
           ))}
@@ -130,7 +133,7 @@ function App() {
           </Scrollama>
         </div>
 
-        <div className={`sticky top-0 h-screen bg-white`}>
+        <div className={`sticky top-0 h-screen`}>
           {" "}
           <div className={`min-h-screen flex justify-center items-center`}>
             <BarChart highlightYear={hightlightYear} />
@@ -139,7 +142,7 @@ function App() {
           </div>
         </div>
       </div>
-    </>
+    </div>
   );
 }
 

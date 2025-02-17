@@ -80,12 +80,16 @@ export default function BubbleChart({
             y:
               Math.random() * dimensions.height -
                 (margin.top + margin.bottom) || dimensions.height / 2,
+            // x: dimensions.width / 2,
+            // // (Math.random() - 0.5) * dimensions.width * 0.5,
+            // y: dimensions.height / 2,
+            // // (Math.random() - 0.5) * dimensions.height * 0.5,
+
             category, // Add category to each data point
           };
         }
       );
 
-      console.log({ data });
       setChartData(data);
     }
 
@@ -116,13 +120,12 @@ export default function BubbleChart({
     const { width, height } = dimensions;
 
     const [minAge, maxAge] = d3.extent(chartData, (d) => d.age);
-    console.log(minAge, maxAge);
 
     // create radius scale based on the age
     const radiusScale = d3
       .scaleSqrt()
       .domain([minAge || 0, maxAge || 95])
-      .range([10, 25]);
+      .range([10, 20]);
 
     const colorScale = d3
       .scaleOrdinal()
@@ -133,17 +136,16 @@ export default function BubbleChart({
       .forceSimulation(chartData)
       .force("charge", d3.forceManyBody().strength(2));
 
-    if (sortBasedOnMurder) {
-      const categoryPositions: Record<string, { x: number; y: number }> = {
-        young: { x: width * 0.25, y: height * 0.25 }, // Top-left
-        unknown: { x: width * 0.75, y: height * 0.25 }, // Top-right
-        "middle-aged": { x: width * 0.25, y: height * 0.75 }, // Bottom-left
-        senior: { x: width * 0.75, y: height * 0.75 }, // Bottom-right
-        adult: { x: width * 0.5, y: height * 0.5 }, // Center
-      };
+    const categoryPositions: Record<string, { x: number; y: number }> = {
+      young: { x: width * 0.25, y: height * 0.25 }, // Top-left
+      unknown: { x: width * 0.75, y: height * 0.25 }, // Top-right
+      "middle-aged": { x: width * 0.25, y: height * 0.75 }, // Bottom-left
+      senior: { x: width * 0.75, y: height * 0.75 }, // Bottom-right
+      adult: { x: width * 0.5, y: height * 0.5 }, // Center
+    };
 
+    if (sortBasedOnMurder) {
       const categories = Array.from(new Set(chartData.map((d) => d.category)));
-      console.log({ categories });
 
       simulation
         .force(
@@ -223,6 +225,7 @@ export default function BubbleChart({
       .attr("height", height)
       .attr("viewBox", `0 0 ${width} ${height}`)
       .attr("preserveAspectRatio", "xMidYMid meet");
+    // .attr("transform", `translate(${width / 2}, ${height / 2})`);
 
     const bubbles = svg
       .selectAll("circle")
@@ -244,9 +247,11 @@ export default function BubbleChart({
           tooltipRef.current.style.visibility = "visible";
           tooltipRef.current.style.background = "white";
           tooltipRef.current.style.color = `black`;
-          tooltipRef.current.style.border = "1px solid black";
+          tooltipRef.current.style.border = "0px solid black";
           tooltipRef.current.style.padding = "16px";
           tooltipRef.current.style.fontSize = "16px";
+          // make the current bubble highlighted
+          d3.select(event.currentTarget).attr("fill", "orange");
         }
       })
       // .on("mousemove", (event) => {
@@ -257,9 +262,43 @@ export default function BubbleChart({
       // })
       .on("mouseleave", () => {
         if (tooltipRef.current) {
-          tooltipRef.current.style.visibility = "hidden";
+          // return bubble to original color
+          bubbles.attr("fill", (d) => colorScale(d.category) as string);
+          // tooltipRef.current.style.visibility = "hidden";
+          tooltipRef.current.innerHTML =
+            "<strong>Hover on the bubbles to see the details of the victims</strong> <br/>";
         }
       });
+
+    const categoryCenters = d3
+      .groups(chartData, (d) => d.category)
+      .map(([key, values]) => {
+        return {
+          category: key,
+          x: d3.mean(values, (d) => d.x) as number,
+          y: d3.mean(values, (d) => d.y) as number,
+        };
+      });
+    if (sortBasedOnMurder) {
+      svg
+        .selectAll(".category-label")
+        .data(categoryCenters)
+        .enter()
+        .append("text")
+        .attr("class", "category-label")
+        .attr("x", (d) => categoryPositions[d.category].x)
+        .attr("y", (d) => categoryPositions[d.category].y)
+        .style("background", "white")
+        .style("color", "white")
+        .attr("text-anchor", "middle")
+        .attr("dy", "-1.5em") // Move label slightly above the cluster
+        .style("font-size", "16px")
+        .style("fill", "#555")
+        .style("font-weight", "bolder")
+        .text((d) => d.category);
+    }
+
+    //
 
     const legend = svg
       .append("g")
@@ -306,10 +345,10 @@ export default function BubbleChart({
   return (
     <div
       ref={wrapperRef}
-      className="h-screen w-full"
+      className="h-screen w-full overflow-hidden"
       style={{
         width: "100%",
-        overflowX: "auto",
+        // overflowX: "auto",
         position: "relative",
       }}
     >
@@ -323,9 +362,11 @@ export default function BubbleChart({
           borderRadius: "5px",
           fontSize: "12px",
           pointerEvents: "none",
-          visibility: "hidden",
+          // visibility: "hidden",
         }}
-      ></div>
+      >
+        <strong>Hover on the bubbles to see the details of the victims</strong>
+      </div>
 
       <svg ref={svgRef} />
     </div>

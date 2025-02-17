@@ -6,6 +6,11 @@ export default {
       backgroundImage: {
         femicide: "url(src/assets/femicide-kenya.jpg)",
       },
+      colors: {
+        "femicide-black": "#0a0a0a",
+        "femicide-red": "#C11B1B",
+        "femicide-white": "#EADFDF",
+      },
     },
   },
   plugins: [],

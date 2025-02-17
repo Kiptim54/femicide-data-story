@@ -2,7 +2,7 @@ import React from "react";
 
 export default function DataIntroduction() {
   return (
-    <div className={`bg-white p-16 text-black   rounded `}>
+    <div className={`bg-femicide-white p-16 text-black   rounded `}>
       <p className="text-lg">
         Femicide is the specific act of men killing women because they are
         women. At least <b>97 women across Kenya were killed in femicides </b>
