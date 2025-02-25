@@ -177,18 +177,6 @@ const D3Chart = (props: TD3ChartProps) => {
       .nice()
       .range([height - margin.bottom, margin.top]);
 
-    const victimColorScale = d3
-      .scaleOrdinal()
-      .domain([
-        "Husband/Ex-Husband",
-        "Stranger/Unknown to Victim",
-        "Friend/Known to Victim",
-        "Family Member",
-        "Boyfriend/Ex-Boyfriend",
-        "Other",
-      ])
-      .range(["pink", "gray", "indigo", "purple", "red", "black"]);
-
     svg
       .attr("width", width)
       .attr("height", height)
