@@ -1,29 +1,50 @@
-import { useEffect, useRef, useState } from "react";
+import { useEffect, useRef, useState, useCallback } from "react";
 import * as d3 from "d3";
 
 import { TData } from "../../types";
 
 type TChartData = {
-  year: number | null;
+  year?: number | null;
+  suspectRelationship?:
+    | "Husband/Ex-Husband"
+    | "Boyfriend/Ex-Boyfriend"
+    | "Friend/Known to Victim"
+    | "Family Member"
+    | "Stranger/Unknown to Victim"
+    | "Other";
   count: number;
 };
 
 type TD3ChartProps = {
-  highlightYear: number | null;
+  highlightYear: null | number[];
+  sortBasedOnMurder: boolean;
 };
+
+const base =
+  import.meta.env.MODE === "production"
+    ? "https://kiptim54.github.io/femicide-data-story/"
+    : "/";
+
+const csvUrl = `${base}femicide_kenya.csv`;
 
 // Show the number of women killed through the years
 const D3Chart = (props: TD3ChartProps) => {
-  const { highlightYear } = props;
+  const { highlightYear, sortBasedOnMurder } = props;
   const [data, setData] = useState<TChartData[]>([]);
 
   const svgRef = useRef<SVGSVGElement | null>(null);
   const wrapperRef = useRef<HTMLDivElement | null>(null);
   const tooltipRef = useRef<HTMLDivElement | null>(null);
-  const [dimensions, setDimensions] = useState({ width: 600, height: 400 });
+  const [dimensions, setDimensions] = useState({ width: 600, height: 600 });
 
-  const yAccessor = (d: TChartData) => d.count;
-  const xAccessor = (d: TChartData) => d.year?.toString() ?? "";
+  const yAccessor = useCallback((d: TChartData) => d.count, []);
+  const xAccessor = useCallback(
+    (d: TChartData) =>
+      sortBasedOnMurder
+        ? d.suspectRelationship?.toString() ?? ""
+        : d.year?.toString() ?? "",
+    [sortBasedOnMurder]
+  );
 
   // Update dimensions on resize
   useEffect(() => {
@@ -37,12 +58,12 @@ const D3Chart = (props: TD3ChartProps) => {
     updateDimensions();
     window.addEventListener("resize", updateDimensions);
     return () => window.removeEventListener("resize", updateDimensions);
-  }, []);
+  }, [sortBasedOnMurder]);
 
   // Fetch & process CSV data
   useEffect(() => {
     async function fetchData() {
-      const femicide_data: TData[] = await d3.csv("/femicide_kenya.csv");
+      const femicide_data: TData[] = await d3.csv(csvUrl);
 
       const sortData = d3.rollup(
         femicide_data,
@@ -63,8 +84,70 @@ const D3Chart = (props: TD3ChartProps) => {
 
       setData(sortedData);
     }
-    fetchData();
-  }, []);
+
+    async function fetchMurderData() {
+      const femicideData: TData[] = await d3.csv(csvUrl);
+
+      // Process the data to determine the suspect relationship
+      const processedData = femicideData.map((d) => {
+        let suspectRelationship:
+          | "Husband/Ex-Husband"
+          | "Boyfriend/Ex-Boyfriend"
+          | "Friend/Known to Victim"
+          | "Family Member"
+          | "Stranger/Unknown to Victim"
+          | "Other" = "Other";
+
+        // Check if suspect relationship includes certain key words
+        if (/husband|ex-husband/i.test(d["Suspect Relationship"])) {
+          suspectRelationship = "Husband/Ex-Husband";
+        } else if (
+          /boyfriend|ex-boyfriend|lover/i.test(d["Suspect Relationship"])
+        ) {
+          suspectRelationship = "Boyfriend/Ex-Boyfriend";
+        } else if (/friend|known to victim/i.test(d["Suspect Relationship"])) {
+          suspectRelationship = "Friend/Known to Victim";
+        } else if (/unknown/i.test(d["Suspect Relationship"])) {
+          suspectRelationship = "Stranger/Unknown to Victim";
+        } else if (
+          /family|cousin|brother|step father/i.test(d["Suspect Relationship"])
+        ) {
+          suspectRelationship = "Family Member";
+        } else if (/stranger/i.test(d["Suspect Relationship"])) {
+          suspectRelationship = "Stranger/Unknown to Victim";
+        }
+
+        return {
+          suspectRelationship,
+        };
+      });
+
+      // Aggregate the data by suspect relationship
+      const sortData = d3.rollup(
+        processedData,
+        (v) => v.length,
+        (d) => d.suspectRelationship
+      );
+
+      const sortedData = Array.from(
+        sortData,
+        ([suspectRelationship, count]) => ({
+          suspectRelationship,
+          count,
+        })
+      );
+
+      setData(sortedData);
+    }
+
+    if (sortBasedOnMurder) {
+      fetchMurderData();
+    } else {
+      fetchData();
+    }
+  }, [sortBasedOnMurder]);
+
+  console.log({ data }, sortBasedOnMurder);
 
   // Render D3 chart
   useEffect(() => {
@@ -75,7 +158,12 @@ const D3Chart = (props: TD3ChartProps) => {
 
     const tooltip = d3.select(tooltipRef.current);
     const { width, height } = dimensions;
-    const margin = { top: 20, right: 50, bottom: 50, left: 50 };
+    const margin = {
+      top: 40,
+      right: 50,
+      bottom: sortBasedOnMurder ? 70 : 30,
+      left: 50,
+    };
 
     const xScale = d3
       .scaleBand()
@@ -89,6 +177,18 @@ const D3Chart = (props: TD3ChartProps) => {
       .nice()
       .range([height - margin.bottom, margin.top]);
 
+    const victimColorScale = d3
+      .scaleOrdinal()
+      .domain([
+        "Husband/Ex-Husband",
+        "Stranger/Unknown to Victim",
+        "Friend/Known to Victim",
+        "Family Member",
+        "Boyfriend/Ex-Boyfriend",
+        "Other",
+      ])
+      .range(["pink", "gray", "indigo", "purple", "red", "black"]);
+
     svg
       .attr("width", width)
       .attr("height", height)
@@ -98,13 +198,45 @@ const D3Chart = (props: TD3ChartProps) => {
     const bars = svg
       .selectAll("rect")
       .data(data)
-      .join("rect")
-      .attr("x", (d) => xScale(xAccessor(d)) ?? 0)
-      .attr("y", (d) => yScale(d.count))
-      .attr("width", xScale.bandwidth())
-      .attr("height", (d) => height - yScale(d.count) - margin.bottom)
-      .attr("fill", "gray")
+      .join(
+        (enter) =>
+          enter
+            .append("rect")
+            .attr("x", (d) => xScale(xAccessor(d)) ?? 0)
+            .attr("y", height - margin.bottom)
+            .attr("width", xScale.bandwidth())
+            .attr("height", 0)
+            .attr("fill", "gray")
+            .call((enter) =>
+              enter
+                .transition()
+                .duration(500)
+                .attr("y", (d) => yScale(d.count))
+                .attr("height", (d) => height - yScale(d.count) - margin.bottom)
+            ),
+        (update) =>
+          update.call((update) =>
+            update
+              .transition()
+              .duration(500)
+              .attr("x", (d) => xScale(xAccessor(d)) ?? 0)
+              .attr("y", (d) => yScale(d.count))
+              .attr("width", xScale.bandwidth())
+              .attr("height", (d) => height - yScale(d.count) - margin.bottom)
+              .attr("fill", (d) => (d.year === highlightYear ? "red" : "gray"))
+          ),
+        (exit) =>
+          exit.call((exit) =>
+            exit
+              .transition()
+              .duration(500)
+              .attr("y", height - margin.bottom)
+              .attr("height", 0)
+              .remove()
+          )
+      );
 
+    bars
       .on("mouseover", (event, d) => {
         const x = xScale(xAccessor(d)) ?? 0;
         const y = yScale(d.count); // Get the bar's height position
@@ -121,11 +253,20 @@ const D3Chart = (props: TD3ChartProps) => {
         tooltip.style("visibility", "hidden");
         d3.select(event.target).attr("fill", "gray");
       });
-
     bars
       .transition()
       .duration(500)
-      .attr("fill", (d) => (d.year === highlightYear ? "red" : "gray"));
+      .attr("x", (d) => xScale(xAccessor(d)) ?? 0)
+      .attr("y", (d) => yScale(d.count))
+      .attr("width", xScale.bandwidth())
+      .attr("height", (d) => height - yScale(d.count) - margin.bottom)
+      .attr("fill", (d) =>
+        d.year !== null &&
+        d.year !== undefined &&
+        highlightYear?.includes(d.year)
+          ? "red"
+          : "gray"
+      );
 
     // X-Axis
     svg
@@ -133,25 +274,27 @@ const D3Chart = (props: TD3ChartProps) => {
       .attr("transform", `translate(0,${height - margin.bottom})`)
       .call(d3.axisBottom(xScale).tickSizeOuter(0))
       .selectAll("text")
-      .attr("transform", "rotate(-30)")
+      .attr("transform", "rotate(-20)")
       .style("text-anchor", "end");
 
     // Y-Axis
     svg
       .append("g")
       .attr("transform", `translate(${margin.left},0)`)
+      .transition()
+      .duration(500)
       .call(d3.axisLeft(yScale));
 
     // X-Axis Label
     svg
       .append("text")
       .attr("x", width / 2) // Centered along X-axis
-      .attr("y", height - margin.bottom + 50) // Positioned below the axis
+      .attr("y", height - margin.bottom + 60) // Positioned below the axis
       .attr("text-anchor", "middle")
       .style("font-size", "14px")
       .style("font-weight", "bold")
       .style("fill", "#333")
-      .text("Year");
+      .text(`${sortBasedOnMurder ? `` : `Year`}`);
 
     // Y-Axis Label
     svg
@@ -163,8 +306,15 @@ const D3Chart = (props: TD3ChartProps) => {
       .style("font-size", "14px")
       .style("font-weight", "bold")
       .style("fill", "#333")
-      .text("No. of Femicide Cases");
-  }, [data, dimensions, highlightYear]);
+      .text(`No. of Femicide Cases`);
+  }, [
+    data,
+    dimensions,
+    highlightYear,
+    sortBasedOnMurder,
+    xAccessor,
+    yAccessor,
+  ]);
 
   return (
     <div

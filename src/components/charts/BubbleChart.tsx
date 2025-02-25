@@ -2,6 +2,7 @@ import { useState, useEffect, useRef } from "react";
 import * as d3 from "d3";
 
 import { TData } from "../../types";
+import AfroSVG from "/assets/noun-woman-6692966.svg";
 
 type TChartData = {
   name: string;
@@ -16,6 +17,13 @@ type TChartData = {
   category: string;
   suspectRelationship: string;
 };
+
+const base =
+  import.meta.env.MODE === "production"
+    ? "https://kiptim54.github.io/femicide-data-story/"
+    : "/";
+
+const csvUrl = `${base}femicide_kenya.csv`;
 
 export default function BubbleChart({
   sortBasedOnMurder,
@@ -54,69 +62,64 @@ export default function BubbleChart({
     };
 
     async function fetchData() {
-      const data: TChartData[] = await d3.csv(
-        "/femicide_kenya.csv",
-        (d: TData) => {
-          const age = cleanAge(d.Age);
+      const data: TChartData[] = await d3.csv(csvUrl, (d: TData) => {
+        const age = cleanAge(d.Age);
 
-          let category = "unknown";
-          let suspectRelationship = "stranger";
+        let category = "unknown";
+        let suspectRelationship = "stranger";
 
-          if (!isNaN(age)) {
-            if (age == 0) category = "unknown";
-            else if (age < 18) category = "Below 18";
-            else if (age <= 35) category = "18-35";
-            else if (age <= 50) category = "36-50";
-            else category = "Over 50";
-          }
-
-          // check if suspect relationship includes certain key words
-          if (/husband|ex-husband/i.test(d["Suspect Relationship"])) {
-            suspectRelationship = "Husband/Ex-Husband";
-          } else if (
-            /boyfriend|ex-boyfriend|lover/i.test(d["Suspect Relationship"])
-          ) {
-            suspectRelationship = "Boyfriend/Ex-Boyfriend";
-          } else if (
-            /friend|known to victim/i.test(d["Suspect Relationship"])
-          ) {
-            suspectRelationship = "Friend/Known to Victim";
-          } else if (/unknown/i.test(d["Suspect Relationship"])) {
-            suspectRelationship = "Stranger/Unknown to Victim";
-          } else if (
-            /family|cousin|brother|step father/i.test(d["Suspect Relationship"])
-          ) {
-            suspectRelationship = "Family Member";
-          } else if (/stranger/i.test(d["Suspect Relationship"])) {
-            suspectRelationship = "Stranger/Unknown to Victim";
-          } else {
-            suspectRelationship = "Other";
-          }
-
-          return {
-            name: d.name,
-            age: age || 0, // Ensure it's always a number
-            date: d["Date of Murder"],
-            location: d.Location,
-            relationship: suspectRelationship,
-            suspectRelationship: d["Suspect Relationship"],
-            verdictTime: d["Time to Verdict"],
-            source: d.source,
-            x:
-              Math.random() * dimensions.width - (margin.left + margin.right) ||
-              dimensions.width / 2,
-            y:
-              Math.random() * dimensions.height -
-                (margin.top + margin.bottom) || dimensions.height / 2,
-            // x: dimensions.width / 2,
-            // // (Math.random() - 0.5) * dimensions.width * 0.5,
-            // y: dimensions.height / 2,
-            // // (Math.random() - 0.5) * dimensions.height * 0.5,
-
-            category, // Add category to each data point
-          };
+        if (!isNaN(age)) {
+          if (age == 0) category = "unknown";
+          else if (age < 18) category = "Below 18";
+          else if (age <= 35) category = "18-35";
+          else if (age <= 50) category = "36-50";
+          else category = "Over 50";
         }
-      );
+
+        // check if suspect relationship includes certain key words
+        if (/husband|ex-husband/i.test(d["Suspect Relationship"])) {
+          suspectRelationship = "Husband/Ex-Husband";
+        } else if (
+          /boyfriend|ex-boyfriend|lover/i.test(d["Suspect Relationship"])
+        ) {
+          suspectRelationship = "Boyfriend/Ex-Boyfriend";
+        } else if (/friend|known to victim/i.test(d["Suspect Relationship"])) {
+          suspectRelationship = "Friend/Known to Victim";
+        } else if (/unknown/i.test(d["Suspect Relationship"])) {
+          suspectRelationship = "Stranger/Unknown to Victim";
+        } else if (
+          /family|cousin|brother|step father/i.test(d["Suspect Relationship"])
+        ) {
+          suspectRelationship = "Family Member";
+        } else if (/stranger/i.test(d["Suspect Relationship"])) {
+          suspectRelationship = "Stranger/Unknown to Victim";
+        } else {
+          suspectRelationship = "Other";
+        }
+
+        return {
+          name: d.name,
+          age: age || 0, // Ensure it's always a number
+          date: d["Date of Murder"],
+          location: d.Location,
+          relationship: suspectRelationship,
+          suspectRelationship: d["Suspect Relationship"],
+          verdictTime: d["Time to Verdict"],
+          source: d.source,
+          x:
+            Math.random() * dimensions.width - (margin.left + margin.right) ||
+            dimensions.width / 2,
+          y:
+            Math.random() * dimensions.height - (margin.top + margin.bottom) ||
+            dimensions.height / 2,
+          // x: dimensions.width / 2,
+          // // (Math.random() - 0.5) * dimensions.width * 0.5,
+          // y: dimensions.height / 2,
+          // // (Math.random() - 0.5) * dimensions.height * 0.5,
+
+          category, // Add category to each data point
+        };
+      });
 
       setChartData(data);
     }
@@ -218,7 +221,6 @@ export default function BubbleChart({
 
     if (sortBasedOnAge) {
       // const categories = Array.from(new Set(chartData.map((d) => d.category)));
-
       simulation
         .force(
           "collision",
@@ -238,8 +240,7 @@ export default function BubbleChart({
             .forceY((d: TChartData) => categoryPositions[d.category].y)
             .strength(0.5)
         );
-
-      // Positioning with force simulation
+      // // Positioning with force simulation
       simulation.on("tick", () => {
         bubbles
           .attr("cx", (d) => {
@@ -250,6 +251,9 @@ export default function BubbleChart({
             if (isNaN(d.y)) console.error("NaN detected in d.y:", d);
             return d.y ?? height / 2;
           });
+        // imagebubbles
+        //   .attr("x", (d) => (d.x ?? width / 2) - radiusScale(d.age))
+        //   .attr("y", (d) => (d.y ?? height / 2) - radiusScale(d.age));
       });
     } else if (sortBasedOnMurder) {
       simulation
@@ -274,7 +278,6 @@ export default function BubbleChart({
             )
             .strength(0.5)
         );
-
       // Positioning with force simulation
       simulation.on("tick", () => {
         bubbles
@@ -286,6 +289,9 @@ export default function BubbleChart({
             if (isNaN(d.y)) console.error("NaN detected in d.y:", d);
             return d.y ?? height / 2;
           });
+        // imagebubbles
+        //   .attr("x", (d) => (d.x ?? width / 2) - radiusScale(d.age))
+        //   .attr("y", (d) => (d.y ?? height / 2) - radiusScale(d.age));
       });
     } else {
       // Create force simulation
@@ -313,7 +319,6 @@ export default function BubbleChart({
             )
           )
         );
-
       // Positioning with force simulation
       simulation.on("tick", () => {
         bubbles
@@ -325,6 +330,9 @@ export default function BubbleChart({
             if (isNaN(d.y)) console.error("NaN detected in d.y:", d);
             return d.y ?? height / 2;
           });
+        // imagebubbles
+        //   .attr("x", (d) => (d.x ?? width / 2) - radiusScale(d.age))
+        //   .attr("y", (d) => (d.y ?? height / 2) - radiusScale(d.age));
       });
     }
 
@@ -389,6 +397,18 @@ export default function BubbleChart({
         }
       });
 
+    // const imagebubbles = svg
+    //   .selectAll("image")
+    //   .data(chartData)
+    //   .enter()
+    //   .append("image")
+    //   .attr("xlink:href", AfroSVG)
+    //   .attr("width", (d) => radiusScale(d.age) * 1.5)
+    //   .attr("height", (d) => radiusScale(d.age) * 1.5)
+    //   .attr("x", (d) => (d.x ?? width / 2) - radiusScale(d.age))
+    //   .attr("y", (d) => (d.y ?? height / 2) - radiusScale(d.age))
+    //   .attr("opacity", 1);
+
     const categoryCenters = d3
       .groups(chartData, (d) => d.category)
       .map(([key, values]) => {
@@ -443,12 +463,12 @@ export default function BubbleChart({
     if (sortBasedOnMurder) {
       const legend = svg
         .append("g")
-        .attr("transform", `translate(${width - 150}, 50)`); // Adjust position
+        .attr("transform", `translate(${width - 200}, 50)`); // Adjust position
       legend
         .append("rect")
         .attr("x", -10)
         .attr("y", -10)
-        .attr("width", 200)
+        .attr("width", 250)
         .attr("height", 180)
         .attr("fill", "white")
         .attr("stroke", "black")
@@ -535,6 +555,7 @@ export default function BubbleChart({
     >
       <div
         ref={tooltipRef}
+        className="hidden md:block"
         style={{
           position: "absolute",
           backgroundColor: "white",
@@ -546,7 +567,9 @@ export default function BubbleChart({
           // visibility: "hidden",
         }}
       >
-        <strong>Hover on the bubbles to see the details of the victims</strong>
+        <strong>
+          Hover on the bubbles to see the details of the victims d
+        </strong>
       </div>
 
       <svg ref={svgRef} />

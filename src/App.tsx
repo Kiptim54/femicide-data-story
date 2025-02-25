@@ -16,7 +16,7 @@ type TOnStepCallback = {
 function App() {
   const [currentStepIndex, setCurrentStepIndex] = useState<number | null>(null);
   const [, setCurrentGraphStepIndex] = useState<number | null>(null);
-  const [hightlightYear, setHightlightYear] = useState<null | number>(null);
+  const [hightlightYear, setHightlightYear] = useState<null | number[]>(null);
   const [sortBasedOnMurder, setSortBasedOnMurder] = useState<boolean>(false);
   const [sortBasedOnAge, setSortBasedOnAge] = useState<boolean>(false);
   const [renderBubbleChart, setRenderBubbleChart] = useState<boolean>(false);
@@ -30,13 +30,11 @@ function App() {
     console.log({ data });
     setCurrentGraphStepIndex(data as number);
     if (data === 1) {
-      setHightlightYear(2024);
+      setHightlightYear([2018, 2024]);
+      setSortBasedOnMurder(false);
     }
     if (data === 2) {
-      setHightlightYear(2020);
-    }
-    if (data === 3) {
-      setHightlightYear(2019);
+      setSortBasedOnMurder(true);
     }
   };
 
@@ -55,7 +53,7 @@ function App() {
       setRenderBubbleChart(true);
 
       setSortBasedOnAge(false);
-      setSortBasedOnMurder(true);
+      setSortBasedOnMurder(false);
     }
   };
 
@@ -81,6 +79,49 @@ function App() {
     `<p>Alberta Wambua, director of the Gender Violence Recovery Centre, said economic hardship fuelled such violence as men frustrated by their financial struggles lashed out at women.
     <br/> <br/>
     Kenyan police routinely fail to respond to complaints of gender-based violence, often considering them private matters, Betty Kabari, an activist with End Femicide Kenya, told Reuters.</p>`,
+  ];
+
+  const barGraphNotes: string[] = [
+    `  
+                    2024 proved to be the worst year for femicide with a total
+                    of <b>113 cases</b> despite the amplified coverage and
+                    campaigns against it. This tops 2018 which was the previous high. <br/><br/> (After final data collection by Odip
+                    Dev, the number of cases rose to <b>171 cases</b>). <br />
+                    <br />
+                    <br />
+                    <p className="italic">
+                      
+                      Note: We are yet to take into account the latest data.
+                      Find the latest database with the latest numbers
+                      <a
+                        href="https://femicide.africauncensored.online/"
+                        class="cursor-pointer text-femicide-red"
+                        target="_blank"
+                      >
+                        
+                        here.
+                      </a>
+                    </p>
+                  </p>`,
+    `<b>Getting married gets women killed</b>. Husbands still lead as perpetrators, and there’s an almost 75% percent chance that a woman will be killed by someone that she knows; a family member, friend or intimate partner.
+    <br/> <br/>
+
+    Alberta Wambua, director of the <b>Gender Violence Recovery Centre</b>, said economic hardship fuelled such violence as men frustrated by their financial struggles lashed out at women.
+
+    <br/><br/>
+
+   
+
+    `,
+    ` Kenyan police routinely fail to respond to complaints of gender-based violence, often considering them private matters, Betty Kabari, an activist with End Femicide Kenya, told Reuters.
+"We have a lot of cases of domestic violence where it's not that the perpetrator is not known," she said. "They are known, but the police have no interest in following up". <br/> <br/>
+The professional runner  <a
+                        href="https://www.olympics.com/en/news/ugandan-olympic-marathoner-rebecca-cheptegei-dies-after-fire-attack"
+                        class="cursor-pointer text-femicide-red"
+                        target="_blank"
+                      >
+                         Rebecca Cheptegei </a>, whose ex-boyfriend killed her in September by dousing her in petrol and setting her alight, had <b>gone to the police at least three times last year to report threats and physical abuse by him </b>, her family said`,
+    `Femicide in Kenya is more than a series of tragic events; it is <b>a systemic issue deeply rooted in misogynistic norms and societal structures that perpetuate violence against women as a method of control and discipline. </b> <br/> <br/>“The problem is the normalization of gender-based violence and the rhetoric that, yes, women are disposable,” said <b>Njeri wa Migwi, co-founder of Usikimye</b>`,
   ];
   return (
     <div className="bg-femicide-white">
@@ -151,7 +192,12 @@ function App() {
             {[1, 2, 3, 4].map((step) => (
               <Step data={step} key={step}>
                 <div className="min-h-screen p-6 flex justify-start items-center">
-                  hey {step}
+                  <p
+                    className="bg-white p-6 rounded-md text-black"
+                    dangerouslySetInnerHTML={{
+                      __html: barGraphNotes[step - 1],
+                    }}
+                  ></p>
                 </div>
               </Step>
             ))}
@@ -161,10 +207,45 @@ function App() {
         <div className={`sticky top-0 h-screen`}>
           {" "}
           <div className={`min-h-screen flex justify-center items-center`}>
-            <BarChart highlightYear={hightlightYear} />
+            <BarChart
+              highlightYear={hightlightYear}
+              sortBasedOnMurder={sortBasedOnMurder}
+            />
 
             {/* <BubbleChart /> */}
           </div>
+        </div>
+      </div>
+      <div
+        className="bg-femicide-red p-16 bg-opacity-95 text-white  rounded "
+        style={{ clipPath: "polygon(0 0, 80% 0, 99% 100%, 0% 100%" }}
+      >
+        <div className="w-80%">
+          <h3 className="text-xl font-bold mb-4">Data Sources/References:</h3>
+          <ul className="text-sm">
+            <li>
+              Odipo Dev:{" "}
+              <a
+                href="https://femicide.africaunc  
+ensored.online/"
+              >
+                Femicide Database
+              </a>
+            </li>
+            <li>
+              Equal Measures 2030:{" "}
+              <a href="https://equalmeasures2030.org/blogs/kenyas-urgent-battle-against-femicide/">
+                https://equalmeasures2030.org/blogs/kenyas-urgent-battle-against-femicide/
+              </a>
+            </li>
+            <li>
+              Africa Uncensored:{" "}
+              https://africauncensored.online/blog/2025/01/24/femicide-in-kenya-2024-was-the-worst-year-on-record/
+            </li>
+            <li>
+              Africa Data Hub: https://www.africadatahub.org/femicide-kenya
+            </li>
+          </ul>
         </div>
       </div>
     </div>
