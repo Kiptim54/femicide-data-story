@@ -20,6 +20,7 @@ export default function DataIntroduction() {
         <a
           className="text-femicide-red  italic cursor-pointer"
           href="https://nation.africa/kenya/counties/kiambu/woman-s-pilgrimage-to-thiririka-shrine-ends-in-gruesome-murder--4897192#story"
+          target="_blank"
         >
           - Daily Nation Link
         </a>
