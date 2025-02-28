@@ -5,6 +5,7 @@ import BarChart from "./components/charts/BarChart";
 import DataIntroduction from "./components/DataIntroduction";
 import HeaderIntro from "./components/HeaderIntro";
 import BubbleChart from "./components/charts/BubbleChart";
+import { Analytics } from "@vercel/analytics/react";
 
 type TOnStepCallback = {
   element: ReactNode; // The DOM node of the step that was triggered
@@ -125,6 +126,7 @@ The professional runner  <a
   ];
   return (
     <div className="bg-femicide-white">
+      <Analytics />
       <div className="min-h-screen relative">
         <div
           className={`sticky h-screen top-0 bg-femicide flex justify-center items-center  bg-cover bg-center text-white bg-black bg-opacity-85 bg-blend-darken`}
