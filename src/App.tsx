@@ -188,12 +188,23 @@ The professional runner  <a
         </Scrollama>
       </div>
 
-      <div className="relative grid grid-cols-2 min-h-screen">
-        <div>
+      <div className="relative md:grid md:grid-cols-2 min-h-screen">
+        <div className={`sticky md:hidden top-0 h-screen z-40`}>
+          {" "}
+          <div className={`min-h-screen flex justify-center items-center p-2`}>
+            <BarChart
+              highlightYear={hightlightYear}
+              sortBasedOnMurder={sortBasedOnMurder}
+            />
+
+            {/* <BubbleChart /> */}
+          </div>
+        </div>
+        <div className="z-50">
           <Scrollama key={2} onStepEnter={updateGraphStepIndex} offset={0.5}>
             {[1, 2, 3, 4].map((step) => (
               <Step data={step} key={step}>
-                <div className="min-h-screen p-6 flex justify-start items-center">
+                <div className="min-h-[200vh] md:min-h-screen p-6 flex justify-start items-center">
                   <p
                     className="bg-white p-6 rounded-md text-black"
                     dangerouslySetInnerHTML={{
@@ -205,8 +216,7 @@ The professional runner  <a
             ))}
           </Scrollama>
         </div>
-
-        <div className={`sticky top-0 h-screen`}>
+        <div className={`hidden md:block sticky top-0 h-screen `}>
           {" "}
           <div className={`min-h-screen flex justify-center items-center`}>
             <BarChart
@@ -218,34 +228,46 @@ The professional runner  <a
           </div>
         </div>
       </div>
-      <div
-        className="bg-femicide-red p-16 bg-opacity-95 text-white  rounded "
-        style={{ clipPath: "polygon(0 0, 80% 0, 99% 100%, 0% 100%" }}
-      >
+      <div className="bg-femicide-red p-16 bg-opacity-95 text-white  rounded text-balance  clip-path overflow-hidden">
         <div className="w-80%">
           <h3 className="text-xl font-bold mb-4">Data Sources/References:</h3>
-          <ul className="text-sm">
+          <ul className="text-sm ">
             <li>
               Odipo Dev:{" "}
               <a
                 href="https://femicide.africaunc  
 ensored.online/"
+                target="_blank"
               >
                 Femicide Database
               </a>
             </li>
             <li>
               Equal Measures 2030:{" "}
-              <a href="https://equalmeasures2030.org/blogs/kenyas-urgent-battle-against-femicide/">
-                https://equalmeasures2030.org/blogs/kenyas-urgent-battle-against-femicide/
+              <a
+                href="https://equalmeasures2030.org/blogs/kenyas-urgent-battle-against-femicide/"
+                target="_blank"
+              >
+                Link
               </a>
             </li>
             <li>
               Africa Uncensored:{" "}
-              https://africauncensored.online/blog/2025/01/24/femicide-in-kenya-2024-was-the-worst-year-on-record/
+              <a
+                href=" https://africauncensored.online/blog/2025/01/24/femicide-in-kenya-2024-was-the-worst-year-on-record/"
+                target="_blank"
+              >
+                Link
+              </a>
             </li>
             <li>
-              Africa Data Hub: https://www.africadatahub.org/femicide-kenya
+              Africa Data Hub:
+              <a
+                href="https://www.africadatahub.org/femicide-kenya"
+                target="_blank"
+              >
+                Link
+              </a>
             </li>
           </ul>
         </div>

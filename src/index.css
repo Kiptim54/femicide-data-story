@@ -7,3 +7,13 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+.clip-path {
+    clip-path: polygon(0 0, 80% 0, 99% 100%, 0% 100%);
+  }
+  
+  @media (max-width: 768px) {
+    .clip-path {
+      clip-path: none;
+    }
+  }
