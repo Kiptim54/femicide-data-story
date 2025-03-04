@@ -3,21 +3,25 @@ import * as d3 from "d3";
 
 import { TData } from "../../types";
 
+export type TRelationship =
+  | "Husband/Ex-Husband"
+  | "Boyfriend/Ex-Boyfriend"
+  | "Friend/Known to Victim"
+  | "Family Member"
+  | "Stranger/Unknown to Victim"
+  | "Other";
+
 type TChartData = {
   year?: number | null;
-  suspectRelationship?:
-    | "Husband/Ex-Husband"
-    | "Boyfriend/Ex-Boyfriend"
-    | "Friend/Known to Victim"
-    | "Family Member"
-    | "Stranger/Unknown to Victim"
-    | "Other";
+  suspectRelationship?: TRelationship;
+
   count: number;
 };
 
 type TD3ChartProps = {
   highlightYear: null | number[];
   sortBasedOnMurder: boolean;
+  highlightRelationship: TRelationship |null;
 };
 
 const base =
@@ -29,7 +33,7 @@ const csvUrl = `${base}femicide_kenya.csv`;
 
 // Show the number of women killed through the years
 const D3Chart = (props: TD3ChartProps) => {
-  const { highlightYear, sortBasedOnMurder } = props;
+  const { highlightYear, sortBasedOnMurder, highlightRelationship } = props;
   const [data, setData] = useState<TChartData[]>([]);
 
   const svgRef = useRef<SVGSVGElement | null>(null);
@@ -90,13 +94,7 @@ const D3Chart = (props: TD3ChartProps) => {
 
       // Process the data to determine the suspect relationship
       const processedData = femicideData.map((d) => {
-        let suspectRelationship:
-          | "Husband/Ex-Husband"
-          | "Boyfriend/Ex-Boyfriend"
-          | "Friend/Known to Victim"
-          | "Family Member"
-          | "Stranger/Unknown to Victim"
-          | "Other" = "Other";
+        let suspectRelationship: TRelationship = "Other";
 
         // Check if suspect relationship includes certain key words
         if (/husband|ex-husband/i.test(d["Suspect Relationship"])) {
@@ -211,7 +209,19 @@ const D3Chart = (props: TD3ChartProps) => {
               .attr("y", (d) => yScale(d.count))
               .attr("width", xScale.bandwidth())
               .attr("height", (d) => height - yScale(d.count) - margin.bottom)
-              .attr("fill", (d) => (d.year === highlightYear ? "red" : "gray"))
+              .attr("fill", (d) => {
+                if(sortBasedOnMurder){
+                  console.log(d.suspectRelationship, highlightRelationship)
+                  return highlightRelationship && d.suspectRelationship?.includes(highlightRelationship) ? "red"
+                  : "gray"
+                }else{
+                  return d.year !== null &&
+                  d.year !== undefined &&
+                  highlightYear?.includes(d.year)
+                    ? "red"
+                    : "gray"
+                }
+              })
           ),
         (exit) =>
           exit.call((exit) =>
@@ -248,12 +258,21 @@ const D3Chart = (props: TD3ChartProps) => {
       .attr("y", (d) => yScale(d.count))
       .attr("width", xScale.bandwidth())
       .attr("height", (d) => height - yScale(d.count) - margin.bottom)
-      .attr("fill", (d) =>
-        d.year !== null &&
-        d.year !== undefined &&
-        highlightYear?.includes(d.year)
-          ? "red"
+      .attr("fill", (d) =>{
+
+        if(sortBasedOnMurder){
+          console.log(d.suspectRelationship, highlightRelationship)
+          return highlightRelationship && d.suspectRelationship?.includes(highlightRelationship) ? "red"
           : "gray"
+        }else{
+          return d.year !== null &&
+          d.year !== undefined &&
+          highlightYear?.includes(d.year)
+            ? "red"
+            : "gray"
+        }
+      }
+        
       );
 
     // X-Axis
@@ -302,6 +321,7 @@ const D3Chart = (props: TD3ChartProps) => {
     sortBasedOnMurder,
     xAccessor,
     yAccessor,
+    highlightRelationship
   ]);
 
   return (

@@ -1,11 +1,12 @@
 import "./App.css";
 import { Scrollama, Step } from "react-scrollama";
 import { ReactNode, useState } from "react";
-import BarChart from "./components/charts/BarChart";
+import BarChart, { TRelationship } from "./components/charts/BarChart";
 import DataIntroduction from "./components/DataIntroduction";
 import HeaderIntro from "./components/HeaderIntro";
 import BubbleChart from "./components/charts/BubbleChart";
 import { Analytics } from "@vercel/analytics/react";
+
 
 type TOnStepCallback = {
   element: ReactNode; // The DOM node of the step that was triggered
@@ -21,6 +22,7 @@ function App() {
   const [sortBasedOnMurder, setSortBasedOnMurder] = useState<boolean>(false);
   const [sortBasedOnAge, setSortBasedOnAge] = useState<boolean>(false);
   const [renderBubbleChart, setRenderBubbleChart] = useState<boolean>(false);
+  const [highlightRelationship, setHighlightRelationship] = useState<TRelationship|null>(null)
 
   const updateStepIndex = ({ data }: TOnStepCallback) => {
     console.log({ data });
@@ -36,6 +38,8 @@ function App() {
     }
     if (data === 2) {
       setSortBasedOnMurder(true);
+      setHighlightRelationship("Husband/Ex-Husband")
+
     }
   };
 
@@ -195,12 +199,14 @@ The professional runner  <a
             <BarChart
               highlightYear={hightlightYear}
               sortBasedOnMurder={sortBasedOnMurder}
+              highlightRelationship={highlightRelationship}
+              
             />
 
             {/* <BubbleChart /> */}
           </div>
         </div>
-        <div className="z-50">
+        <div className="z-50 relative">
           <Scrollama key={2} onStepEnter={updateGraphStepIndex} offset={0.5}>
             {[1, 2, 3, 4].map((step) => (
               <Step data={step} key={step}>
@@ -222,6 +228,7 @@ The professional runner  <a
             <BarChart
               highlightYear={hightlightYear}
               sortBasedOnMurder={sortBasedOnMurder}
+              highlightRelationship={highlightRelationship}
             />
 
             {/* <BubbleChart /> */}
