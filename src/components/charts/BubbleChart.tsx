@@ -2,8 +2,9 @@ import { useState, useEffect, useRef } from "react";
 import * as d3 from "d3";
 
 import { TData } from "../../types";
+import { DetailsDialog } from "../DetailsDialog";
 
-type TChartData = {
+export type TChartData = {
   name: string;
   age: number;
   date: string;
@@ -36,6 +37,9 @@ export default function BubbleChart({
   const [chartData, setChartData] = useState<TChartData[] | []>([]);
   const [dimensions, setDimensions] = useState({ width: 600, height: 400 });
   const tooltipRef = useRef<HTMLDivElement | null>(null);
+  const [currentVictimDetails, setCurrentVictimDetails] =
+    useState<TChartData>();
+  const [isOpenDialog, setIsOpenDialog] = useState<boolean>(false);
 
   //   Update dimensions on resize
   useEffect(() => {
@@ -356,6 +360,23 @@ export default function BubbleChart({
             : colorScale(d.category)) as string
       ) // Use color scale
       .attr("opacity", 0.5)
+      .on("click", (event, d) => {
+        setCurrentVictimDetails({
+          name: d.name,
+          age: d.age,
+          date: d.date,
+          location: d.location,
+          relationship: d.location,
+          verdictTime: d.verdictTime,
+          source: d.source,
+          x: d.x,
+          y: d.y,
+          category: d.category,
+          suspectRelationship: d.suspectRelationship,
+        });
+        setIsOpenDialog(true);
+      })
+
       .on("mouseover", (event, d) => {
         if (tooltipRef.current) {
           tooltipRef.current.innerHTML = `
@@ -392,7 +413,7 @@ export default function BubbleChart({
 
           // tooltipRef.current.style.visibility = "hidden";
           tooltipRef.current.innerHTML =
-            "<strong>Hover on the bubbles to see the details of the victims</strong> <br/>";
+            "<strong>Hover or click on the bubbles to see the details of the victims</strong> <br/>";
         }
       });
 
@@ -567,11 +588,17 @@ export default function BubbleChart({
         }}
       >
         <strong>
-          Hover on the bubbles to see the details of the victims d
+          Hover or click on the bubbles to see the details of the victims d
         </strong>
       </div>
 
       <svg ref={svgRef} />
+
+      <DetailsDialog
+        victimDetails={currentVictimDetails}
+        open={isOpenDialog}
+        setIsOpen={setIsOpenDialog}
+      />
     </div>
   );
 }
