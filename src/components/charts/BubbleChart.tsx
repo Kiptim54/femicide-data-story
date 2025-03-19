@@ -360,7 +360,7 @@ export default function BubbleChart({
             : colorScale(d.category)) as string
       ) // Use color scale
       .attr("opacity", 0.5)
-      .on("click", (event, d) => {
+      .on("click", (_event, d) => {
         setCurrentVictimDetails({
           name: d.name,
           age: d.age,

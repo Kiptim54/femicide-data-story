@@ -4,7 +4,6 @@ import {
   DialogDescription,
   DialogHeader,
   DialogTitle,
-  DialogTrigger,
 } from "./ui/dialog";
 import { Dispatch, SetStateAction } from "react";
 import { TChartData } from "./charts/BubbleChart";
